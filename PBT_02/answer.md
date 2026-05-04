@@ -53,3 +53,5 @@ Không submit được vì pattern yêu cầu nhập đủ 10 kí tự và kí t
 ```
 Không submit được vì yêu cầu tối thiểu 8 kí tự
 ![TH5](./screenshots/inputTH5.png)
+
+file OBS:
