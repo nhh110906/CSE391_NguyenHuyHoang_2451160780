@@ -5,7 +5,7 @@
 
 .skills-section h2 {
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 .skills-grid {
@@ -34,7 +34,7 @@
 
 
 .skill-progress {
-    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary)); /* Gradient theo Specs */
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary)); 
     height: 100%;
     transition: width 1s ease-out; 
 }
