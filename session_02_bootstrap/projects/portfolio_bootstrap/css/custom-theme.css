@@ -1,7 +1,80 @@
+/* ==========================================================================
+   Custom Bootstrap Theme — Hoang Portfolio (Session 2.4)
+   Color palette:
+   - Teal 500  #14b8a6 — primary buttons, links
+   - Teal 600  #0d9488 — primary hover
+   - Teal 100  #ccfbf1 — light accents
+   - Slate 900 #0f172a — headers, dark text
+   - Slate 700 #334155 — body text
+   - Slate 500 #64748b — secondary text
+   - Slate 200 #e2e8f0 — borders, dividers
+   - Slate 50  #f8fafc — light backgrounds
+   ========================================================================== */
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
 :root {
   --bs-primary: #14b8a6;
   --bs-primary-rgb: 20, 184, 166;
+  --bs-secondary: #64748b;
+  --bs-secondary-rgb: 100, 116, 139;
+  --bs-body-font-family: "Inter", system-ui, -apple-system, sans-serif;
+  --bs-body-color: #334155;
+  --bs-body-bg: #ffffff;
+  --bs-border-radius: 0.5rem;
+  --bs-border-radius-lg: 1rem;
   --custom-primary-hover: #0d9488;
+  --custom-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  --custom-shadow-sm: 0 2px 15px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  font-family: var(--bs-body-font-family);
+  color: var(--bs-body-color);
+  background-color: #ffffff;
+}
+
+/* Section spacing */
+.py-section {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+/* Typography — Squarespace-inspired display */
+.display-hero {
+  font-size: clamp(2.75rem, 8vw, 5.5rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.05;
+  color: #0f172a;
+}
+
+.section-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #14b8a6;
+}
+
+.section-title {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #0f172a;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
 
 .btn-primary {
@@ -15,12 +88,148 @@
   border-color: var(--custom-primary-hover);
 }
 
-
-.py-section {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.btn-outline-dark:hover {
+  background-color: #0f172a;
+  border-color: #0f172a;
 }
 
-section[id] {
-  scroll-margin-top: 5rem;
+/* Cards */
+.card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: var(--custom-shadow);
+}
+
+.card-img-top {
+  border-radius: 16px 16px 0 0;
+}
+
+/* Forms */
+.form-control,
+.form-select {
+  border-radius: 10px;
+  border-color: #e2e8f0;
+}
+
+.form-control:focus {
+  border-color: var(--bs-primary);
+  box-shadow: 0 0 0 0.2rem rgba(20, 184, 166, 0.2);
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: var(--custom-shadow-sm);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #0f172a !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #334155 !important;
+}
+
+.nav-link:hover {
+  color: var(--bs-primary) !important;
+}
+
+/* Progress bars */
+.progress {
+  height: 12px;
+  border-radius: 999px;
+  background-color: #e2e8f0;
+}
+
+.progress-bar {
+  border-radius: 999px;
+}
+
+/* Stats row */
+.stat-number {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.02em;
+}
+
+.stat-label {
+  font-size: 0.875rem;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+/* Portfolio cards */
+.portfolio-card {
+  overflow: hidden;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.portfolio-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-card .card-img-top {
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+/* How I work steps */
+.work-step {
+  border-top: 2px solid #0f172a;
+  padding-top: 1.5rem;
+}
+
+.work-step-number {
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  color: #64748b;
+}
+
+/* Hero */
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #64748b;
+  max-width: 32rem;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #0f172a;
+  color: #94a3b8;
+}
+
+.site-footer a {
+  color: #e2e8f0;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  color: #14b8a6;
+}
+
+/* Utilities */
+.bg-slate-50 {
+  background-color: #f8fafc;
+}
+
+.text-slate-900 {
+  color: #0f172a;
+}
+
+.border-slate {
+  border-color: #e2e8f0 !important;
 }
