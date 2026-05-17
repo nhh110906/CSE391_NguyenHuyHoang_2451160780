@@ -1,0 +1,16 @@
+:root {
+  --bs-primary: #14b8a6;
+  --bs-primary-rgb: 20, 184, 166;
+  --custom-primary-hover: #0d9488;
+}
+
+.btn-primary {
+  background-color: var(--bs-primary);
+  border-color: var(--bs-primary);
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--custom-primary-hover);
+  border-color: var(--custom-primary-hover);
+}
