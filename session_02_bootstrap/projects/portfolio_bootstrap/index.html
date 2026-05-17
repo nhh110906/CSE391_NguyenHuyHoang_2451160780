@@ -19,9 +19,12 @@
       rel="stylesheet"
     />
 
+    <link rel="stylesheet" href="css/custom-theme.css" />
     <link rel="stylesheet" href="css/blog.css" />
+    <link rel="stylesheet" href="css/comments.css" />
   </head>
   <body>
+    <nav
       class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
       aria-label="Main navigation"
     >
@@ -65,7 +68,6 @@
         </div>
       </div>
     </nav>
-
 
     <main>
       <section class="hero-section">
@@ -123,6 +125,7 @@
           </div>
         </div>
       </section>
+
       <section id="about" class="py-section">
         <div class="container">
           <div class="row align-items-center g-5">
@@ -246,6 +249,7 @@
           </div>
         </div>
       </section>
+
       <section id="portfolio" class="py-section">
         <div class="container">
           <div class="text-center mb-5">
@@ -366,6 +370,7 @@
           </div>
         </div>
       </section>
+
       <section id="process" class="py-section bg-slate-50">
         <div class="container">
           <div class="text-center mb-5">
@@ -411,76 +416,6 @@
                   Handoff, iteration, and polish until the experience ships with
                   confidence.
                 </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="contact" class="py-section bg-slate-50">
-        <div class="container">
-          <div class="text-center mb-5">
-            <p class="section-label mb-2">Contact</p>
-            <h2 class="section-title">Get In Touch</h2>
-          </div>
-          <div class="row g-5">
-            <div class="col-lg-5">
-              <div class="card h-100 border-0 shadow-sm">
-                <div class="card-body p-4">
-                  <h3 class="h5 fw-bold mb-3">Contact Information</h3>
-                  <p class="text-muted">
-                    Feel free to reach out. I'm always open to discussing new
-                    projects.
-                  </p>
-                  <div class="d-flex align-items-center mb-3">
-                    <i class="bi bi-envelope text-primary fs-5 me-3"></i>
-                    <span>hoang.designer@example.com</span>
-                  </div>
-                  <div class="d-flex align-items-center">
-                    <i class="bi bi-geo-alt text-primary fs-5 me-3"></i>
-                    <span>Hanoi, Vietnam</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-7">
-              <div class="card border-0 shadow-sm">
-                <div class="card-body p-4">
-                  <form class="contact-form">
-                    <div class="mb-3">
-                      <label for="name" class="form-label">Name</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="name"
-                        name="name"
-                        required
-                      />
-                    </div>
-                    <div class="mb-3">
-                      <label for="email" class="form-label">Email</label>
-                      <input
-                        type="email"
-                        class="form-control"
-                        id="email"
-                        name="email"
-                        required
-                      />
-                    </div>
-                    <div class="mb-3">
-                      <label for="message" class="form-label">Message</label>
-                      <textarea
-                        class="form-control"
-                        id="message"
-                        name="message"
-                        rows="5"
-                        required
-                      ></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary px-4">
-                      <i class="bi bi-send me-1"></i> Send Message
-                    </button>
-                  </form>
-                </div>
               </div>
             </div>
           </div>
@@ -566,6 +501,7 @@
                   <a href="#" class="btn btn-outline-primary">Read More</a>
                 </div>
               </article>
+
               <div class="comments-section">
                 <div class="card mb-4 comment-form-card">
                   <div class="card-header bg-white">
@@ -615,6 +551,7 @@
                   </div>
                 </div>
 
+                <h5 class="mb-4">3 Comments</h5>
 
                 <div class="comment mb-4">
                   <div class="d-flex">
@@ -731,6 +668,8 @@
                   </div>
                 </div>
               </div>
+            </div>
+
             <div class="col-lg-4 blog-sidebar">
               <div class="sticky-top pt-lg-0 pt-4">
                 <div class="card mb-4 sidebar-widget">
@@ -749,6 +688,7 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="card mb-4 sidebar-widget">
                   <div class="card-header bg-white">
                     <h5 class="mb-0">Categories</h5>
@@ -779,6 +719,8 @@
                       <span class="badge bg-primary rounded-pill">5</span>
                     </li>
                   </ul>
+                </div>
+
                 <div class="card mb-4 sidebar-widget">
                   <div class="card-header bg-white">
                     <h5 class="mb-0">Recent Posts</h5>
@@ -823,6 +765,7 @@
                     </div>
                   </div>
                 </div>
+
                 <div class="card mb-4 sidebar-widget">
                   <div class="card-header bg-white">
                     <h5 class="mb-0">Tags</h5>
@@ -850,12 +793,78 @@
             </div>
           </div>
         </div>
+      </section>
+
+      <section id="contact" class="py-section bg-slate-50">
+        <div class="container">
+          <div class="text-center mb-5">
+            <p class="section-label mb-2">Contact</p>
+            <h2 class="section-title">Get In Touch</h2>
+          </div>
+          <div class="row g-5">
+            <div class="col-lg-5">
+              <div class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                  <h3 class="h5 fw-bold mb-3">Contact Information</h3>
+                  <p class="text-muted">
+                    Feel free to reach out. I'm always open to discussing new
+                    projects.
+                  </p>
+                  <div class="d-flex align-items-center mb-3">
+                    <i class="bi bi-envelope text-primary fs-5 me-3"></i>
+                    <span>hoang.designer@example.com</span>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-geo-alt text-primary fs-5 me-3"></i>
+                    <span>Hanoi, Vietnam</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-7">
+              <div class="card border-0 shadow-sm">
+                <div class="card-body p-4">
+                  <form class="contact-form">
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="name"
+                        name="name"
+                        required
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        id="email"
+                        name="email"
+                        required
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="message" class="form-label">Message</label>
+                      <textarea
+                        class="form-control"
+                        id="message"
+                        name="message"
+                        rows="5"
+                        required
+                      ></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary px-4">
+                      <i class="bi bi-send me-1"></i> Send Message
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-
     </main>
 
     <footer class="site-footer py-5">
