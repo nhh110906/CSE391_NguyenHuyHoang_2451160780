@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quản lý công việc</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen bg-gray-50 p-4">
+
+  <div class="mx-auto max-w-6xl py-4">
+    <header class="mb-6 flex flex-wrap items-center justify-between gap-4">
+      <h1 class="text-2xl font-bold">Quản lý công việc cá nhân</h1>
+      <button type="button" id="btnOpenForm" class="rounded bg-blue-600 px-3 py-2 text-sm font-bold text-white">
+        Thêm công việc
+      </button>
+    </header>
+
+    <section class="mb-6 grid gap-4 sm:grid-cols-3" aria-label="Thống kê">
+      <div class="rounded border bg-white p-4">
+        <span class="block text-sm text-gray-600">Tổng công việc</span>
+        <span id="statTotal" class="mt-1 text-2xl font-bold text-blue-600">0</span>
+      </div>
+      <div class="rounded border bg-white p-4">
+        <span class="block text-sm text-gray-600">Đã hoàn thành</span>
+        <span id="statDone" class="mt-1 text-2xl font-bold text-green-600">0</span>
+      </div>
+      <div class="rounded border bg-white p-4">
+        <span class="block text-sm text-gray-600">Chưa hoàn thành</span>
+        <span id="statPending" class="mt-1 text-2xl font-bold text-orange-600">0</span>
+      </div>
+    </section>
+
+    <div id="messageArea" class="mb-4 hidden rounded border border-blue-200 bg-blue-50 p-3 text-sm text-blue-900" role="status" aria-live="polite"></div>
+
+    <section class="rounded border bg-white" aria-label="Danh sách công việc">
+      <div class="overflow-x-auto">
+        <table class="w-full border-collapse border text-left text-sm">
+          <thead class="border-b bg-gray-100 font-bold">
+            <tr>
+              <th scope="col" class="border px-3 py-2">Tiêu đề</th>
+              <th scope="col" class="border px-3 py-2">Mô tả</th>
+              <th scope="col" class="border px-3 py-2">Hạn hoàn thành</th>
+              <th scope="col" class="border px-3 py-2">Ưu tiên</th>
+              <th scope="col" class="border px-3 py-2 text-center">Hoàn thành</th>
+              <th scope="col" class="border px-3 py-2 text-right">Chỉnh sửa</th>
+            </tr>
+          </thead>
+          <tbody id="taskTableBody">
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <div id="modalOverlay" class="fixed inset-0 z-50 hidden bg-black/50 p-4" role="presentation">
+    <div id="taskModal" class="mx-auto mt-20 max-h-[90vh] w-full max-w-md overflow-y-auto rounded border bg-white p-4" role="dialog" aria-labelledby="modalTitle" aria-modal="true">
+      <h2 id="modalTitle" class="mb-4 text-xl font-bold">Thêm công việc</h2>
+
+      <form id="taskForm" class="space-y-4" novalidate>
+        <div>
+          <label for="inputTitle" class="mb-1 block text-sm font-bold">Tiêu đề</label>
+          <input type="text" id="inputTitle" name="title" placeholder="Tên công việc" required class="w-full rounded border px-3 py-2">
+          <p id="errTitle" class="mt-1 hidden text-xs text-red-600"></p>
+        </div>
+
+        <div>
+          <label for="inputDesc" class="mb-1 block text-sm font-bold">Mô tả ngắn</label>
+          <input type="text" id="inputDesc" name="description" placeholder="Mô tả" class="w-full rounded border px-3 py-2">
+          <p id="errDesc" class="mt-1 hidden text-xs text-red-600"></p>
+        </div>
+
+        <div>
+          <label for="inputDue" class="mb-1 block text-sm font-bold">Hạn hoàn thành</label>
+          <input type="date" id="inputDue" name="dueDate" required class="w-full rounded border px-3 py-2">
+          <p id="errDue" class="mt-1 hidden text-xs text-red-600"></p>
+        </div>
+
+        <div>
+          <label for="inputPriority" class="mb-1 block text-sm font-bold">Mức ưu tiên</label>
+          <select id="inputPriority" name="priority" class="w-full rounded border bg-white px-3 py-2">
+            <option value="">-- Chọn --</option>
+            <option value="Thấp">Thấp</option>
+            <option value="Trung bình">Trung bình</option>
+            <option value="Cao">Cao</option>
+          </select>
+          <p id="errPriority" class="mt-1 hidden text-xs text-red-600"></p>
+        </div>
+
+        <div class="flex flex-wrap gap-2 pt-2">
+          <button type="submit" id="btnSave" class="min-w-[6rem] flex-1 rounded bg-blue-600 px-3 py-2 text-sm font-bold text-white">Lưu</button>
+          <button type="button" id="btnCancel" class="min-w-[6rem] flex-1 rounded border bg-white px-3 py-2 text-sm font-bold">Hủy</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <script defer src="app.js"></script>
+</body>
+</html>
