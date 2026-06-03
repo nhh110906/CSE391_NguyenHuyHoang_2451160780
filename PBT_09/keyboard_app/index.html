@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Keyboard Navigation Demo</h1>
+
+<button id="openGallery">Mở Gallery</button>
+
+<!-- Gallery Modal -->
+<div id="galleryModal" class="hidden">
+
+    <div class="modal-content">
+
+        <button id="closeGallery">✖</button>
+
+        <img id="galleryImage">
+
+        <div>
+            <button id="prevBtn">← Prev</button>
+            <button id="nextBtn">Next →</button>
+            <button id="playBtn">Play</button>
+        </div>
+
+        <p>
+            ← → đổi ảnh |
+            1-9 chọn ảnh |
+            Space Play/Pause |
+            Esc đóng
+        </p>
+
+    </div>
+
+</div>
+
+<!-- Command Palette -->
+<div id="palette" class="hidden">
+
+    <div class="palette-content">
+
+        <input
+            id="commandInput"
+            type="text"
+            placeholder="Nhập lệnh..."
+        >
+
+        <ul id="commandList"></ul>
+
+    </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
