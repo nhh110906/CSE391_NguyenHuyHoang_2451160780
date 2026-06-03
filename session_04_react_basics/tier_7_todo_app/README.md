@@ -1,0 +1,8 @@
+# Tier 7 — Todo App
+
+Nguyễn Huy Hoang — CSE391 Session 4
+
+```bash
+npm install
+npm run dev
+```
