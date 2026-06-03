@@ -288,3 +288,6 @@ Không thể tìm thấy thẻ table
 Thẻ form 
 ![Thẻ form](./screenshots/form.png)
 input type được dùng là kiểu text
+
+## Phần D:
+máy em lỗi obs không quay được ạ, mong thầy thông cảm!
