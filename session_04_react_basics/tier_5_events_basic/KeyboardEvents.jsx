@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function KeyboardEvents() {
+function KeyboardEvents() {
   const [lastKey, setLastKey] = useState("");
   const [log, setLog] = useState([]);
   const [inputValue, setInputValue] = useState("");
@@ -18,8 +18,7 @@ export default function KeyboardEvents() {
 
     if (event.ctrlKey && event.key === "d") {
       event.preventDefault();
-      document.body.style.background =
-        document.body.style.background === "rgb(51, 51, 51)" ? "" : "#333";
+      document.body.style.background = document.body.style.background === "rgb(51, 51, 51)" ? "" : "#333";
     }
 
     const step = 10;
@@ -77,3 +76,5 @@ export default function KeyboardEvents() {
     </div>
   );
 }
+
+export default KeyboardEvents;

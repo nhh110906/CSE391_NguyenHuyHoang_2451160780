@@ -20,7 +20,7 @@ export default function App() {
     setInputValue("");
   }
 
-  function handleKeyDown(event) {
+  function handleKeyPress(event) {
     if (event.key === "Enter") addTodo();
   }
 
@@ -67,7 +67,7 @@ export default function App() {
           type="text"
           value={inputValue}
           onChange={(e) => setInputValue(e.target.value)}
-          onKeyDown={handleKeyDown}
+          onKeyDown={handleKeyPress}
           placeholder={placeholder}
           style={{
             flex: 1,
