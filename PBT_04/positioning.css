@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial;
+    background: #f4f4f4;
+}
+
+/* HEADER */
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 60px;
+
+    background: #222;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 30px;
+
+    z-index: 1000;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* CONTAINER */
+
+.container{
+    display: flex;
+    gap: 20px;
+
+    margin-top: 80px;
+    padding: 20px;
+}
+
+/* MAIN */
+
+main{
+    flex: 1;
+}
+
+/* CARD */
+
+.card{
+    position: relative;
+
+    width: 300px;
+
+    background: white;
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.card img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2{
+    margin: 15px 0;
+}
+
+.card button{
+    margin-top: 10px;
+    padding: 10px 15px;
+
+    border: none;
+    background: #222;
+    color: white;
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* BADGE */
+
+.badge{
+    position: absolute;
+
+    top: -10px;
+    right: -10px;
+
+    width: 60px;
+    height: 60px;
+
+    background: red;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+/* SIDEBAR */
+
+aside{
+    position: sticky;
+    top: 80px;
+
+    width: 250px;
+    height: 300px;
+
+    background: white;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+aside h2{
+    margin-bottom: 15px;
+}
+
+aside ul{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* DUMMY CONTENT */
+
+.dummy{
+    height: 1500px;
+}
+
+/* SCROLL TOP BUTTON */
+
+.scroll-top{
+    position: fixed;
+
+    right: 20px;
+    bottom: 20px;
+
+    width: 60px;
+    height: 60px;
+
+    background: #222;
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 28px;
+    cursor: pointer;
+}
