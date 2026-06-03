@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoàng Bank — Đăng ký</title>
+</head>
+<body>
+    <header>
+        <h1>Hoàng Bank</h1>
+        <p>Đăng ký dịch vụ ngân hàng trực tuyến</p>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Thông tin đăng ký</legend>
+
+                <label for="cccd">CCCD:</label>
+                <input type="text" id="cccd" name="cccd" required pattern="^\d{12}$" placeholder="Nhập đúng 12 chữ số" title="CCCD gồm 12 chữ số">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="hoang@example.com">
+
+                <label for="account">Số tài khoản:</label>
+                <input type="text" id="account" name="account" required pattern="^\d{10,15}$" placeholder="10–15 chữ số" title="Số tài khoản từ 10 đến 15 chữ số">
+
+                <label for="pin">Mã PIN:</label>
+                <input type="password" id="pin" name="pin" required pattern="^\d{6}$" placeholder="6 chữ số" title="PIN gồm 6 chữ số" minlength="6" maxlength="6">
+            </fieldset>
+
+            <button type="submit">Đăng ký</button>
+            <button type="reset">Xóa form</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Hoàng Bank. Chỉ dùng cho bài tập HTML5 validation.</p>
+    </footer>
+</body>
+</html>

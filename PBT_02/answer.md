@@ -152,6 +152,28 @@ Khi nào dùng Cách 1, khi nào dùng Cách 2? Cho 2 ví dụ thực tế cho m
   1. Ảnh sản phẩm trên trang thương mại điện tử kèm theo tên sản phẩm và giá bán ngay bên dưới.
   2. Biểu đồ thống kê hoặc sơ đồ khối trong một bài báo cáo, kèm theo đoạn chú thích giải thích số liệu.
 
+# Phần B: Thực hành
+
+## Bài B1 — Vì sao HTML không validate được confirm password?
+
+HTML5 validation chỉ kiểm tra **từng ô input độc lập** (required, minlength, pattern, type="email", …). Trình duyệt **không so sánh giá trị giữa hai trường** với nhau.
+
+Ví dụ trong `register.html`:
+
+```html
+<input type="password" id="password" name="password" minlength="8" required>
+<input type="password" id="confirm" name="confirm" minlength="8" required>
+```
+
+Dù đặt cùng `pattern` hoặc `minlength` cho cả hai ô, nếu người dùng nhập mật khẩu `Abc12345` và xác nhận `Xyz99999`, HTML vẫn coi **mỗi ô đều hợp lệ** vì từng ô đều thỏa ràng buộc riêng — không có thuộc tính HTML nào nghĩa là “phải trùng với `#password`”.
+
+**Lý do kỹ thuật:**
+
+1. HTML là ngôn ngữ **đánh dấu cấu trúc** (markup), không phải ngôn ngữ lập trình — không “ghi nhớ” giá trị ô này để đối chiếu với ô kia.
+2. Bộ validation có sẵn (`setCustomValidity`, Constraint Validation API) chỉ áp dụng cho **một phần tử**; so khớp hai field là **logic nghiệp vụ**, cần JavaScript (hoặc validate phía server).
+
+**Cách xử lý đúng:** dùng JavaScript lắng nghe `submit` / `input`, so sánh `password` với `confirm`, gọi `setCustomValidity()` hoặc chặn submit; đồng thời **luôn validate lại trên server** vì client có thể bị tắt hoặc bypass.
+
 # Phần C:
 ## Câu C1 — Debug Form
 
