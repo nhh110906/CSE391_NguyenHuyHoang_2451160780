@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  padding: 30px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto 40px;
+  border: 3px dashed #111;
+  background: white;
+  overflow: auto;
+}
+
+.sidebar {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  float: left;
+  background: #dbeafe;
+  min-height: 120px;
+}
+
+.content {
+  width: 660px;
+  padding: 30px;
+  border: 1px solid #ccc;
+  float: left;
+  background: #dcfce7;
+  min-height: 120px;
+}
+
+.fix-border-box .sidebar,
+.fix-border-box .content {
+  box-sizing: border-box;
+}
+
+.fix-calc .sidebar {
+  width: 258px;
+}
+
+.fix-calc .content {
+  width: 598px;
+}

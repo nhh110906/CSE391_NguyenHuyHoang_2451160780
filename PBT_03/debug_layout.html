@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Debug Layout</title>
+  <link rel="stylesheet" href="debug_layout.css">
+</head>
+<body>
+  <h1>Debug CSS Layout</h1>
+
+  <h2>Layout gốc bị vỡ</h2>
+  <div class="container broken">
+    <aside class="sidebar">Sidebar bị tính: 300 + 40 + 2 = 342px</aside>
+    <main class="content">Content bị tính: 660 + 60 + 2 = 722px. Tổng = 1064px nên bị xuống dòng.</main>
+  </div>
+
+  <h2>Cách sửa 1: Dùng border-box</h2>
+  <div class="container fix-border-box">
+    <aside class="sidebar">Sidebar 300px gồm cả padding và border</aside>
+    <main class="content">Content 660px gồm cả padding và border</main>
+  </div>
+
+  <h2>Cách sửa 2: Không dùng border-box, tự trừ width</h2>
+  <div class="container fix-calc">
+    <aside class="sidebar">Width content: 258px + 40 + 2 = 300px</aside>
+    <main class="content">Width content: 598px + 60 + 2 = 660px</main>
+  </div>
+</body>
+</html>
