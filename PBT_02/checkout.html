@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặt hàng — Shop Hoàng</title>
+</head>
+<body>
+    <header>
+        <h1>Đặt hàng</h1>
+        <p>Shop Hoàng — Nguyễn Huy Hoàng</p>
+    </header>
+
+    <main>
+        <h2>Giỏ hàng</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Sản phẩm</th>
+                    <th>Đơn giá</th>
+                    <th>Số lượng</th>
+                    <th>Thành tiền</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Laptop A</td>
+                    <td>10.900.000đ</td>
+                    <td>1</td>
+                    <td>10.900.000đ</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Laptop B</td>
+                    <td>15.900.000đ</td>
+                    <td>1</td>
+                    <td>15.900.000đ</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Laptop C</td>
+                    <td>12.900.000đ</td>
+                    <td>2</td>
+                    <td>25.800.000đ</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">Tổng cộng</td>
+                    <td>52.600.000đ</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Thanh toán</legend>
+                <p>Phương thức thanh toán:</p>
+                <label><input type="radio" name="method" value="cod" required> COD</label>
+                <label><input type="radio" name="method" value="bank"> Chuyển khoản</label>
+                <label><input type="radio" name="method" value="wallet"> Ví điện tử</label>
+
+                <label for="note">Ghi chú:</label>
+                <textarea id="note" name="note" rows="3" placeholder="Nhập ghi chú (nếu có)"></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Thông tin giao hàng</legend>
+
+                <label for="deliveryDate">Ngày giao hàng:</label>
+                <input type="date" id="deliveryDate" name="deliveryDate" required>
+
+                <label for="timeSlot">Khung giờ:</label>
+                <select id="timeSlot" name="timeSlot" required>
+                    <option value="morning">Sáng (8h–12h)</option>
+                    <option value="afternoon">Chiều (14h–18h)</option>
+                    <option value="evening">Tối (18h–21h)</option>
+                </select>
+
+                <label for="priority">Mức ưu tiên giao (1–7):</label>
+                <input type="range" id="priority" name="priority" min="1" max="7" step="1" value="4">
+            </fieldset>
+
+            <button type="submit" aria-label="Xác nhận đặt hàng">Xác nhận đặt hàng</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>Liên hệ: hoang@example.com</p>
+    </footer>
+
+    <script>
+        const dateInput = document.getElementById("deliveryDate");
+        const tomorrow = new Date();
+        tomorrow.setDate(tomorrow.getDate() + 1);
+        dateInput.min = tomorrow.toISOString().split("T")[0];
+    </script>
+</body>
+</html>
