@@ -1,0 +1,190 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: $font-primary;
+    background: $background-color;
+    color: $text-color;
+}
+
+
+
+.header{
+    background: $primary-color;
+    color: $white;
+
+    padding: $spacing-md;
+
+    @include flex-center;
+
+    justify-content: space-between;
+
+    .logo{
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .nav{
+
+        display: none;
+
+        a{
+            color: $white;
+            text-decoration: none;
+            margin-left: $spacing-md;
+
+            transition: color $transition-speed ease;
+
+            &:hover{
+                color: $secondary-color;
+            }
+        }
+
+    }
+
+    .hamburger{
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+}
+
+
+
+.product-grid{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: $spacing-lg;
+    padding: $spacing-lg;
+
+    @include respond-to(tablet){
+
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    @include respond-to(desktop){
+
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+}
+
+
+
+.card{
+
+    background: $white;
+    border-radius: $border-radius;
+    overflow: hidden;
+
+    transition: all $transition-speed ease;
+
+    @include card-shadow;
+
+    .card-image{
+
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            height: auto;
+
+            display: block;
+
+            transition: transform $transition-speed ease;
+        }
+
+    }
+
+    .card-content{
+
+        padding: $spacing-md;
+
+        .card-title{
+            font-size: 20px;
+            margin-bottom: $spacing-sm;
+        }
+
+        .card-price{
+            color: $secondary-color;
+            font-size: 18px;
+            margin-bottom: $spacing-md;
+        }
+
+        button{
+
+            background: $primary-color;
+            color: $white;
+
+            border: none;
+            padding: $spacing-sm $spacing-md;
+
+            cursor: pointer;
+            border-radius: 5px;
+
+            transition: all $transition-speed ease;
+
+            &:hover{
+                background: $secondary-color;
+                transform: scale(1.05);
+            }
+
+        }
+
+    }
+
+    &:hover{
+
+        transform: translateY(-8px);
+
+        box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+        .card-image img{
+            transform: scale(1.1);
+        }
+
+    }
+
+    &.featured{
+        border: 3px solid $secondary-color;
+    }
+
+}
+
+
+
+.sidebar{
+
+    display: none;
+
+    @include respond-to(tablet){
+
+        display: block;
+
+        background: $white;
+        padding: $spacing-md;
+
+    }
+
+}
+
+
+
+.footer{
+
+    background: $primary-color;
+    color: $white;
+
+    text-align: center;
+
+    padding: $spacing-lg;
+
+}
