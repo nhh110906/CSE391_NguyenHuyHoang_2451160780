@@ -87,8 +87,6 @@ a[href="/"] → Chọn: Thẻ ```<a>``` có chính xác thuộc tính href="/", 
 
 .top-bar.dark h1 → Chọn: Thẻ ```<h1>``` nằm trong phần tử có đồng thời class top-bar và dark, có nội dung "Hoangmeomeoshop"  
 
-Kiểm chứng đáp án ![Kiểm chứng](./screenshots/kiemchugndapan.png)
-
 ## Câu A3  
 **Trường hợp 1: content-box (mặc định)**  
 .box-1 {  
@@ -774,9 +772,6 @@ color = green
 
 
 ![Minh Chứng](./screenshots/C2_MinhChung.png)
-
-
-**Link Video Thuyết trình:** https://drive.google.com/file/d/1YxJ4clCigAogAPFW93ik1Ai_Qi3rFX__/view?usp=sharing
 
 
 
