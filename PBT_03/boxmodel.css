@@ -1,0 +1,86 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8fafc;
+  padding: 30px;
+  color: #222;
+}
+
+h1, h2 {
+  color: #1d4ed8;
+}
+
+.box-wrapper {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.box {
+  width: 300px;
+  padding: 20px;
+  border: 5px solid #111;
+  background: #dbeafe;
+}
+
+.content-box {
+  box-sizing: content-box;
+}
+
+.border-box {
+  box-sizing: border-box;
+  background: #dcfce7;
+}
+
+.layout {
+  width: 1000px;
+  border: 3px dashed #111;
+  margin-bottom: 35px;
+  overflow: auto;
+  background: white;
+}
+
+.layout div {
+  float: left;
+  min-height: 120px;
+  border: 1px solid #555;
+}
+
+.bad-layout .left {
+  width: 250px;
+  padding: 15px;
+  background: #fee2e2;
+}
+
+.bad-layout .middle {
+  width: 500px;
+  padding: 20px;
+  background: #fef3c7;
+}
+
+.bad-layout .right {
+  width: 250px;
+  padding: 15px;
+  background: #fee2e2;
+}
+
+.good-layout div {
+  box-sizing: border-box;
+}
+
+.good-layout .left {
+  width: 250px;
+  padding: 15px;
+  background: #dcfce7;
+}
+
+.good-layout .middle {
+  width: 500px;
+  padding: 20px;
+  background: #dbeafe;
+}
+
+.good-layout .right {
+  width: 250px;
+  padding: 15px;
+  background: #dcfce7;
+}
