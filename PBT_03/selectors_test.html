@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>A2 - Selectors Test</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 30px; background: #f4f6f8; }
+    header, article { padding: 15px; margin: 10px 0; border: 2px solid #ddd; border-radius: 10px; background: white; }
+    h1 { color: crimson; }
+    .price { color: blue; font-weight: bold; }
+    #app header { background: #222; color: white; }
+    nav a:first-child { background: gold; padding: 6px; border-radius: 6px; }
+    .product.featured h2 { color: purple; }
+    article > p { border-left: 4px solid green; padding-left: 8px; }
+    a[href="/"] { color: red; }
+    .top-bar.dark h1 { text-transform: uppercase; }
+  </style>
+</head>
+<body>
+  <h1>Kiểm chứng CSS Selectors</h1>
+
+  <div id="app">
+    <header class="top-bar dark">
+      <h1>Hoangmeomeoshop</h1>
+      <nav>
+        <a href="/" class="active">Home</a>
+        <a href="/products">Products</a>
+        <a href="/about">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <article class="product">
+        <h2>iPhone 17</h2>
+        <p class="price">30.900.000đ</p>
+        <p>Mô tả sản phẩm...</p>
+      </article>
+
+      <article class="product featured">
+        <h2>MacBook Pro</h2>
+        <p class="price">50.900.000đ</p>
+        <p>Mô tả sản phẩm...</p>
+      </article>
+    </main>
+  </div>
+</body>
+</html>

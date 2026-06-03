@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 40px;
+  background: #f4f6f8;
+}
+
+p {
+  color: black;
+}
+
+.text {
+  color: blue;
+}
+
+.highlight {
+  color: green;
+}
+
+p.text {
+  color: orange;
+}
+
+.text.highlight {
+  color: purple;
+}
+
+.container p {
+  color: brown;
+}
+
+.container .text {
+  color: teal;
+}
+
+.box p.text {
+  color: pink;
+}
+
+#demo {
+  color: red;
+}
+
+p#demo.text.highlight {
+  color: gold;
+}
+
+#demo {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+  background: white;
+  border: 3px solid #333;
+  border-radius: 12px;
+}
