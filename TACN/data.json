@@ -1,0 +1,5652 @@
+{
+  "sections": [
+    {
+      "id": 0,
+      "title": "Unit 1",
+      "type": "unit",
+      "note": "",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "1",
+          "question": "The program which is used for text manipulation (phân phối) is called __________________",
+          "options": [
+            {
+              "key": "b",
+              "text": "spreadsheet"
+            },
+            {
+              "key": "c",
+              "text": "word processor"
+            },
+            {
+              "key": "d",
+              "text": "virtual reality"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "2",
+          "question": "Copying a file from a server to your PC or mobile is called____________",
+          "options": [
+            {
+              "key": "b",
+              "text": "downsizing"
+            },
+            {
+              "key": "c",
+              "text": "uploading"
+            },
+            {
+              "key": "d",
+              "text": "upsizing"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "3",
+          "question": "Skype is a technology that enables you to _____________ over the internet.",
+          "options": [
+            {
+              "key": "b",
+              "text": "do research"
+            },
+            {
+              "key": "c",
+              "text": "give presentations"
+            },
+            {
+              "key": "d",
+              "text": "make calls"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "4",
+          "question": "Cookies allow a website to _____________ on a user’s  machine and later retrieve when you can visit the website.",
+          "options": [
+            {
+              "key": "b",
+              "text": "store information"
+            },
+            {
+              "key": "c",
+              "text": "give presentations"
+            },
+            {
+              "key": "d",
+              "text": "make calls"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "5",
+          "question": "Online banking  lets you ____________ between your accounts easily and securely.",
+          "options": [
+            {
+              "key": "b",
+              "text": "store information"
+            },
+            {
+              "key": "c",
+              "text": "give presentations"
+            },
+            {
+              "key": "d",
+              "text": "make calls"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "6",
+          "question": "With the latest mobile phones, you can _____________ with multimedia attachments – pictures, audio and even video.",
+          "options": [
+            {
+              "key": "b",
+              "text": "store information"
+            },
+            {
+              "key": "c",
+              "text": "send texts"
+            },
+            {
+              "key": "d",
+              "text": "access the database"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Unit 2",
+      "type": "unit",
+      "note": "sơ đồ về computer parts",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "7",
+          "question": "________ is any electronic or mechanical part you can see or touch.",
+          "options": [
+            {
+              "key": "c",
+              "text": "CPU"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "8",
+          "question": "________ is a set of instructions  which tells the computer what to do.",
+          "options": [
+            {
+              "key": "c",
+              "text": "CPU"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "9",
+          "question": "_____________ is called the “brain” of the computer.",
+          "options": [
+            {
+              "key": "c",
+              "text": "CPU= central processing unit"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "10",
+          "question": "_______ are the physical units attached to the computer.",
+          "options": [
+            {
+              "key": "c",
+              "text": "CPU"
+            },
+            {
+              "key": "d",
+              "text": "peripherals = storage devices input, output devices "
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "11",
+          "question": "Monitors and printers are examples of _____________",
+          "options": [
+            {
+              "key": "c",
+              "text": "input devicesd. output devices"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "12",
+          "question": "Mouse, keyboard,... are examples of _______",
+          "options": [
+            {
+              "key": "c",
+              "text": "CPU"
+            },
+            {
+              "key": "d",
+              "text": "peripherals = input devices"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "13",
+          "question": "__________ are sockets into which an external device may be connected .",
+          "options": [
+            {
+              "key": "c",
+              "text": "portsd. peripherals"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "14",
+          "question": "___________ holds instructions  which are needed to start up the computer.",
+          "options": [
+            {
+              "key": "d",
+              "text": "RAM"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Unit 3",
+      "type": "unit",
+      "note": "",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "15",
+          "question": "___________ is a device for controlling the cursor and selecting items on the screen.",
+          "options": [
+            {
+              "key": "b",
+              "text": "keyboard"
+            },
+            {
+              "key": "c",
+              "text": "light pen"
+            },
+            {
+              "key": "d",
+              "text": "scanner"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "16",
+          "question": "__________ works by detecting light from the computer screen and is used by pointing it directly at the screen display.",
+          "options": [
+            {
+              "key": "b",
+              "text": "keyboard"
+            },
+            {
+              "key": "c",
+              "text": "light pen"
+            },
+            {
+              "key": "d",
+              "text": "scanner"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "note",
+          "text": "bàn phím : 5 nhóm"
+        },
+        {
+          "type": "mcq",
+          "num": "17",
+          "question": "_____________ appear at the top of the keyboard and can be programmed to do special tasks.",
+          "options": [
+            {
+              "key": "b",
+              "text": "alphanumeric keys"
+            },
+            {
+              "key": "c",
+              "text": "function keys"
+            },
+            {
+              "key": "d",
+              "text": "dedicated keys"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "18",
+          "question": "___________-- include arrow keys and  keys such as End. Home. Page up and Page down.",
+          "options": [
+            {
+              "key": "b",
+              "text": "alphanumeric keys"
+            },
+            {
+              "key": "c",
+              "text": "function keys"
+            },
+            {
+              "key": "d",
+              "text": "dedicated keys"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "19",
+          "question": "________ are used to  issue  commands  or to produce altenative characters , e.g the Ctrl key or Alt key.",
+          "options": [
+            {
+              "key": "b",
+              "text": "alphanumeric keys"
+            },
+            {
+              "key": "c",
+              "text": "function keys"
+            },
+            {
+              "key": "d",
+              "text": "dedicated keys"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "note",
+          "text": "chức năng các phim (p24)"
+        },
+        {
+          "type": "mcq",
+          "num": "20",
+          "question": "This key removes the character to the left of the cursor or any selected text.",
+          "options": [
+            {
+              "key": "b",
+              "text": "tab"
+            },
+            {
+              "key": "c",
+              "text": "backspace"
+            },
+            {
+              "key": "d",
+              "text": "CTrl"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "21",
+          "question": "This key produces UPPER CASE  letters, but it does not affect numbers or symbols.",
+          "options": [
+            {
+              "key": "b",
+              "text": "Caps lock"
+            },
+            {
+              "key": "c",
+              "text": "backspace"
+            },
+            {
+              "key": "d",
+              "text": "CTrl"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Unit 4",
+      "type": "unit",
+      "note": "hệ điều hành 0S = operating system",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "22",
+          "question": "Which multi-user OS is used on large, powerful computers?",
+          "options": [
+            {
+              "key": "b",
+              "text": "Mac OS"
+            },
+            {
+              "key": "c",
+              "text": "Unix"
+            },
+            {
+              "key": "d",
+              "text": "Linux"
+            }
+          ],
+          "note": "mainframes"
+        },
+        {
+          "type": "mcq",
+          "num": "23",
+          "question": "Which multi-user OS is a open – source software developed under the GNU General Public License.",
+          "options": [
+            {
+              "key": "b",
+              "text": "Mac OS"
+            },
+            {
+              "key": "c",
+              "text": "Unix"
+            },
+            {
+              "key": "d",
+              "text": "Linux"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "24",
+          "question": "Which is NOT a characteristic of GUI?",
+          "options": [
+            {
+              "key": "b",
+              "text": "slow"
+            },
+            {
+              "key": "c",
+              "text": "graphic- based"
+            },
+            {
+              "key": "d",
+              "text": "intuitive"
+            }
+          ],
+          "note": "graphic user interface"
+        },
+        {
+          "type": "mcq",
+          "num": "25",
+          "question": "The _____________ icon lets  you  change the way your laptop looks.",
+          "options": [
+            {
+              "key": "b",
+              "text": "screen saver"
+            },
+            {
+              "key": "c",
+              "text": "display"
+            },
+            {
+              "key": "d",
+              "text": "save"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Unit 5",
+      "type": "unit",
+      "note": "spreadsheet",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "26",
+          "question": "In a speadsheet, each _____________________ is labelled with a letter.",
+          "options": [
+            {
+              "key": "b",
+              "text": "row = number"
+            },
+            {
+              "key": "c",
+              "text": "cell"
+            },
+            {
+              "key": "d",
+              "text": "worksheet."
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "fill_blank",
+          "text": "27. _____________ is  a unit of a database file made up of related fields ."
+        },
+        {
+          "type": "note",
+          "text": "Field –     record-  file. A group of records are called file"
+        },
+        {
+          "type": "mcq",
+          "num": "28",
+          "question": "____________ is a single piece of information in a record.",
+          "options": [
+            {
+              "key": "b",
+              "text": "file"
+            },
+            {
+              "key": "c",
+              "text": "record"
+            },
+            {
+              "key": "d",
+              "text": "database"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "29",
+          "question": "A tool that allows you to extract information that meets certain criteria is __________",
+          "options": [
+            {
+              "key": "b",
+              "text": "sort"
+            },
+            {
+              "key": "c",
+              "text": "record"
+            },
+            {
+              "key": "d",
+              "text": "database"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "30",
+          "question": "Modern databases are__________ - that is, they are made up of related files.",
+          "options": [
+            {
+              "key": "c",
+              "text": "relational"
+            },
+            {
+              "key": "d",
+              "text": "relationship"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "31",
+          "question": "To ______ is to classify records into numerical or alphabetical order.",
+          "options": [
+            {
+              "key": "b",
+              "text": "sort"
+            },
+            {
+              "key": "c",
+              "text": "query"
+            },
+            {
+              "key": "d",
+              "text": "update"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "32",
+          "question": "To ________ is to look for specific information , for example the name of an employee.",
+          "options": [
+            {
+              "key": "b",
+              "text": "sort"
+            },
+            {
+              "key": "c",
+              "text": "query"
+            },
+            {
+              "key": "d",
+              "text": "update"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Unit 6",
+      "type": "unit",
+      "note": "",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "33",
+          "question": "Which term  describes any fast, high bandwidth connection?",
+          "options": [
+            {
+              "key": "b",
+              "text": "dial- up connection"
+            },
+            {
+              "key": "c",
+              "text": "wi-fi connection"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "34",
+          "question": "The power- line Internet provides broadband access through____________",
+          "options": [
+            {
+              "key": "b",
+              "text": "satellites"
+            },
+            {
+              "key": "c",
+              "text": "electrical power lines"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "35",
+          "question": "Which device converts computer data into a form that can be transmitted over phone lines.",
+          "options": [
+            {
+              "key": "b",
+              "text": "a mobile phone"
+            },
+            {
+              "key": "c",
+              "text": "a modem"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "36",
+          "question": "The standard protocol that allows computers to communicate over the internet is called_______",
+          "options": [
+            {
+              "key": "b",
+              "text": "TCP/IPc. HTTP"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "37",
+          "question": "The geographical region covered by one or several access points is called________",
+          "options": [
+            {
+              "key": "b",
+              "text": "hotspot"
+            },
+            {
+              "key": "c",
+              "text": "wireless network device"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "38",
+          "question": "An __________ is a company that offers connection for a monthly fee.",
+          "options": [
+            {
+              "key": "b",
+              "text": "ISP = internet service provider"
+            },
+            {
+              "key": "c",
+              "text": "IP"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "39",
+          "question": "If you want to connect lots of computers without using cables, you can use a ______________ router.",
+          "options": [
+            {
+              "key": "c",
+              "text": "wire"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "40",
+          "question": "You use _________ if you want to take part in public  discussion areas devoted to specific areas.",
+          "options": [
+            {
+              "key": "b",
+              "text": "Telnet"
+            },
+            {
+              "key": "c",
+              "text": "newsgroups"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "41",
+          "question": "You use _________ if you want to have a live conversation ( usually typed) online.",
+          "options": [
+            {
+              "key": "b",
+              "text": "Telnet"
+            },
+            {
+              "key": "c",
+              "text": "newsgroups"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "42",
+          "question": "You use _________ if you want to connect to a remote computer by entering instructions , and run a program on it.",
+          "options": [
+            {
+              "key": "b",
+              "text": "Telnet = giao thức khách – chủc. newsgroups"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "43",
+          "question": "__________ is a system to distribute email to many different subscribers at once.",
+          "options": [
+            {
+              "key": "b",
+              "text": "news reader"
+            },
+            {
+              "key": "c",
+              "text": "mailing list"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "44",
+          "question": "__________ is a program for reading Usenet newsgroups .",
+          "options": [
+            {
+              "key": "b",
+              "text": "Telnet"
+            },
+            {
+              "key": "c",
+              "text": "newsreader"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "45",
+          "question": "___________ is a program for displaying web pages.",
+          "options": [
+            {
+              "key": "b",
+              "text": "Telnet"
+            },
+            {
+              "key": "c",
+              "text": "web browser"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "46",
+          "question": "Your ISP stores your emails on the _______",
+          "options": [
+            {
+              "key": "b",
+              "text": "spam"
+            },
+            {
+              "key": "c",
+              "text": "mail server"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "47",
+          "question": "You can make your messages more expressive by using ____________ or emoticons .",
+          "options": [
+            {
+              "key": "b",
+              "text": "smilingsc. smileys   ☺ ;("
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "48",
+          "question": "The computer file which is sent along with an email message is called________",
+          "options": [
+            {
+              "key": "b",
+              "text": "subject"
+            },
+            {
+              "key": "c",
+              "text": "signature file"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "49",
+          "question": "The line that describes the content of an email is called________",
+          "options": [
+            {
+              "key": "b",
+              "text": "subject"
+            },
+            {
+              "key": "c",
+              "text": "signature file"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "50",
+          "question": "the part of an email address that identifies the user of the service is called______",
+          "options": [
+            {
+              "key": "b",
+              "text": "password"
+            },
+            {
+              "key": "c",
+              "text": "domain name"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "note",
+          "text": "miminguyenthi6886      @   gmail.com"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Unit 7",
+      "type": "unit",
+      "note": "",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "51",
+          "question": "This highly__________adj___  game adv/adj- N will keep you playing for hours.",
+          "options": [
+            {
+              "key": "c",
+              "text": "addictive (adj)"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "52",
+          "question": "This software may not be fully _____adj__________with older operating systems.",
+          "options": [
+            {
+              "key": "b",
+              "text": "suitable"
+            },
+            {
+              "key": "c",
+              "text": "fit"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "53",
+          "question": "Companies are starting to use virtual _______________ on their websites",
+          "options": [
+            {
+              "key": "b",
+              "text": "really"
+            },
+            {
+              "key": "c",
+              "text": "reality"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "54",
+          "question": "___________ can be used on some website instead of real money to make purchases.",
+          "options": [
+            {
+              "key": "b",
+              "text": "e- money"
+            },
+            {
+              "key": "c",
+              "text": "cyber – money"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "55",
+          "question": "We exchange messages in real time about anything you like with strangers via_______",
+          "options": [
+            {
+              "key": "b",
+              "text": "newsgroup"
+            },
+            {
+              "key": "c",
+              "text": "chatroom"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "56",
+          "question": "We exchange information and views about social events via _______",
+          "options": [
+            {
+              "key": "b",
+              "text": "newsgroup"
+            },
+            {
+              "key": "c",
+              "text": "chat room"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Unit 8",
+      "type": "unit",
+      "note": "",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "57",
+          "question": "Most ______  is designed to obtain personal information without the user’s permission.",
+          "options": [
+            {
+              "key": "c",
+              "text": "spyware = giánđiệp"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "58",
+          "question": "A_______ is a type of software which is available free of charge but protected by copyright.",
+          "options": [
+            {
+              "key": "b",
+              "text": "malware"
+            },
+            {
+              "key": "c",
+              "text": "spyware"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "59",
+          "question": "______ is a program designed to damage your computer.",
+          "options": [
+            {
+              "key": "b",
+              "text": "malware"
+            },
+            {
+              "key": "c",
+              "text": "spyware"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "60",
+          "question": "A ________  is a self- copying program that spread through email attachments.",
+          "options": [
+            {
+              "key": "b",
+              "text": "worm"
+            },
+            {
+              "key": "c",
+              "text": "spyware"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "61",
+          "question": "A___________ is disguised as a useful program .",
+          "options": [
+            {
+              "key": "b",
+              "text": "worm"
+            },
+            {
+              "key": "c",
+              "text": "virus"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "62",
+          "question": "Encoding data so that  unauthorized users cannot read it is known as_____",
+          "options": [
+            {
+              "key": "c",
+              "text": "firewall"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "63",
+          "question": "A_________  can enter a PC via a disc drive.",
+          "options": [
+            {
+              "key": "b",
+              "text": "worm"
+            },
+            {
+              "key": "c",
+              "text": "spyware"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Unit 9",
+      "type": "unit",
+      "note": "",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "64",
+          "question": "In graphics programs , __________ means moving an object to a different location.",
+          "options": [
+            {
+              "key": "a",
+              "text": "translating= di chuyểnb. rotating = xoayc. scaling up / down = phóng top, thunhỏ"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "65",
+          "question": "In graphics programs , __________ means turning the object around  an axis.",
+          "options": [
+            {
+              "key": "b",
+              "text": "rotating"
+            },
+            {
+              "key": "c",
+              "text": "scaling"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "66",
+          "question": ". In graphics programs , __________ means making objects larger or smaller.",
+          "options": [
+            {
+              "key": "b",
+              "text": "rotating"
+            },
+            {
+              "key": "c",
+              "text": "scaling"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "67",
+          "question": "In the Photoshop toolbox, you click on the ______ to cut down the dimensions of a picture.",
+          "options": [
+            {
+              "key": "b",
+              "text": "crop tool"
+            },
+            {
+              "key": "c",
+              "text": "type tool"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "68",
+          "question": "In the Photoshop toolbox, you click on the ______ to fill in an area with a colour.",
+          "options": [
+            {
+              "key": "b",
+              "text": "colour tools and palette"
+            },
+            {
+              "key": "c",
+              "text": "paint bucket"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "69",
+          "question": "Popular formats of __________ are JPEG, GIF, TIFF .",
+          "options": [
+            {
+              "key": "a",
+              "text": "vector graphics= vectơb. raster graphics = mànhquétc. GIS= bản đồ"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "note",
+          "text": "- basic shapes : lines , curves ,..     pixels"
+        },
+        {
+          "type": "note",
+          "text": "- not jagged – good quality- jagged edges"
+        },
+        {
+          "type": "note",
+          "text": "- not natural colour- natural colour"
+        },
+        {
+          "type": "note",
+          "text": "EPS. JPEG, GIF, TIFF"
+        },
+        {
+          "type": "mcq",
+          "num": "70",
+          "question": "____  use geometric objects  based on mathematical equations.",
+          "options": [
+            {
+              "key": "b",
+              "text": "raster graphics"
+            },
+            {
+              "key": "c",
+              "text": "GIS"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "71",
+          "question": "_________ Can be changed or scaled without losing quality.",
+          "options": [
+            {
+              "key": "b",
+              "text": "raster graphics"
+            },
+            {
+              "key": "c",
+              "text": "GIS"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "72",
+          "question": "One of the disadvantages of _________ is that texts or pictures that are scaled up may show jagged edges.",
+          "options": [
+            {
+              "key": "b",
+              "text": "raster graphics"
+            },
+            {
+              "key": "c",
+              "text": "GIS"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "73",
+          "question": "_________ are stored as a collection of pixels . The sharpness of an image depends on the resolution.",
+          "options": [
+            {
+              "key": "b",
+              "text": "raster graphics"
+            },
+            {
+              "key": "c",
+              "text": "GIS"
+            }
+          ],
+          "note": "độphângiải"
+        },
+        {
+          "type": "fill_blank",
+          "text": "74. ________ means showing the outline of all edges  in a transparent drawing."
+        },
+        {
+          "type": "mcq",
+          "num": "4",
+          "question": "steps to design a drawing",
+          "options": [
+            {
+              "key": "c",
+              "text": "texturing"
+            },
+            {
+              "key": "d",
+              "text": "rendering"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "note",
+          "text": "= vẽphácthảo           3D paint, colourshadow, hightlight"
+        },
+        {
+          "type": "mcq",
+          "num": "75",
+          "question": "______ means specifying: chi dinh  and fill the surface to give a 3-D solid object",
+          "options": [
+            {
+              "key": "c",
+              "text": "texturing"
+            },
+            {
+              "key": "d",
+              "text": "rendering"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "76",
+          "question": "________ means adding paint and colour and filters to achieve the desire ‘look and feel’",
+          "options": [
+            {
+              "key": "c",
+              "text": "texturing"
+            },
+            {
+              "key": "d",
+              "text": "rendering"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "77",
+          "question": "_______ means making the object look real by using lighting and shading and effects to simulate shadows and reflections.",
+          "options": [
+            {
+              "key": "c",
+              "text": "texturing"
+            },
+            {
+              "key": "d",
+              "text": "rendering"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "78",
+          "question": "_________combining parts of different images to create a single image.",
+          "options": [
+            {
+              "key": "b",
+              "text": "animation"
+            },
+            {
+              "key": "c",
+              "text": "compositing"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "79",
+          "question": "The basic shapes which are used to make graphical objects are called______",
+          "options": [
+            {
+              "key": "b",
+              "text": "primitives: line, circklec. fractals"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "80",
+          "question": "The number of pixels in an image is called _______",
+          "options": [
+            {
+              "key": "b",
+              "text": "fractal"
+            },
+            {
+              "key": "c",
+              "text": "primitive"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Unit 10",
+      "type": "unit",
+      "note": "",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "81",
+          "question": "As long as your computer has a……………….., you can use it to capture  sounds in digital format and play them back.",
+          "options": [
+            {
+              "key": "b",
+              "text": "webcast"
+            },
+            {
+              "key": "c",
+              "text": "sound card"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "82",
+          "question": "……………….………is a program that extracts music tracks and saves them on  disks as MP3s",
+          "options": [
+            {
+              "key": "b",
+              "text": "webcast"
+            },
+            {
+              "key": "c",
+              "text": "sound card"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "83",
+          "question": "The broadcast of an event over the web is called a………………………….",
+          "options": [
+            {
+              "key": "b",
+              "text": "webcast"
+            },
+            {
+              "key": "c",
+              "text": "sound card"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "84",
+          "question": "Sound cards offer two capabilities: a built-in stereo synthesizer and a system called ……………………..which allows electronic musical instruments to communicate with computers .",
+          "options": [
+            {
+              "key": "b",
+              "text": "DAW"
+            },
+            {
+              "key": "c",
+              "text": "video computing."
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "85",
+          "question": "A…………………………………………(DAW)lets you mix and record several tracks of digital audio.",
+          "options": [
+            {
+              "key": "b",
+              "text": "DAW"
+            },
+            {
+              "key": "c",
+              "text": "video computing."
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "86",
+          "question": "……..………………………refers to recording, manipulating and storing video in digital format.",
+          "options": [
+            {
+              "key": "b",
+              "text": "DAW"
+            },
+            {
+              "key": "c",
+              "text": "video computing."
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "87",
+          "question": "_______  is a form of enriched media which allows an interactive and dynamic linking of visual and audio elements.",
+          "options": [
+            {
+              "key": "b",
+              "text": "hypertext"
+            },
+            {
+              "key": "c",
+              "text": "hypermedia"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "88",
+          "question": "_____ is a  technique  for playing sound and video files while they’re downloading.",
+          "options": [
+            {
+              "key": "b",
+              "text": "video computing"
+            },
+            {
+              "key": "c",
+              "text": "video editing"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Unit 11",
+      "type": "unit",
+      "note": "",
+      "items": [
+        {
+          "type": "fill_blank",
+          "text": "89. The only language that  computers can  understand directly is ___________"
+        },
+        {
+          "type": "note",
+          "text": "Machine code compiler = interpreter high- level language"
+        },
+        {
+          "type": "note",
+          "text": "Máy Tính Hiểutrình biên dịchngôn ngữ lập trình"
+        },
+        {
+          "type": "mcq",
+          "num": "90",
+          "question": "Which markup language  enables us to define our own tags: thẻ, not limited by a fixed set of tags.",
+          "options": [
+            {
+              "key": "b",
+              "text": "XML"
+            },
+            {
+              "key": "c",
+              "text": "Voice XML"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "note",
+          "text": "limited tags unlimited tags    voice"
+        },
+        {
+          "type": "mcq",
+          "num": "91",
+          "question": "Which markup language  allows us to describe how information will be displayed in web pages.",
+          "options": [
+            {
+              "key": "b",
+              "text": "XML"
+            },
+            {
+              "key": "c",
+              "text": "Voice XML"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "92",
+          "question": "Which markup language  makes Web content accessible via voice and phone.",
+          "options": [
+            {
+              "key": "b",
+              "text": "XML"
+            },
+            {
+              "key": "c",
+              "text": "Voice XML"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "93",
+          "question": "__________ was the first high level language in data processing.",
+          "options": [
+            {
+              "key": "b",
+              "text": "JAVA c.COBOL"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "94",
+          "question": "This high level language is widely used in the business community",
+          "options": [
+            {
+              "key": "b",
+              "text": "JAVA c.COBOL"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "95",
+          "question": "This high level language is  used in universities to teach the fundamentals  of programming.",
+          "options": [
+            {
+              "key": "b",
+              "text": "PASCAL"
+            },
+            {
+              "key": "c",
+              "text": "C"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "96",
+          "question": "This high level language provides animation and interactive features on web pages.",
+          "options": [
+            {
+              "key": "b",
+              "text": "C"
+            },
+            {
+              "key": "c",
+              "text": "C++"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "97",
+          "question": "_______ is a special program which converts the source program into machine code.",
+          "options": [
+            {
+              "key": "b",
+              "text": "debugger"
+            },
+            {
+              "key": "c",
+              "text": "assembler"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "98",
+          "question": "_______ is the technique of detecting and correcting errors which may occur in programs .",
+          "options": [
+            {
+              "key": "c",
+              "text": "assemblying"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "note",
+          "text": "debug( V) debugger (N) trình  debugging(n)           bug (N)"
+        },
+        {
+          "type": "mcq",
+          "num": "99",
+          "question": "_______ is the process of  writing a program  using a computer language.",
+          "options": [
+            {
+              "key": "b",
+              "text": "programming(N)"
+            },
+            {
+              "key": "c",
+              "text": "programmer (N)"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "100",
+          "question": "Programmers usually _________ their programs to generate an object program and diagnose possible answers.",
+          "options": [
+            {
+              "key": "b",
+              "text": "compiler(N) trình biên dịchc. compiling (N)"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Đề thi mẫu",
+      "type": "exam",
+      "note": "",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "",
+          "question": "Looking at the web pages can be commonly called ______________surfing the net",
+          "options": [
+            {
+              "key": "b",
+              "text": "skiing the net"
+            },
+            {
+              "key": "c",
+              "text": "swimming the net"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "",
+          "question": "connector",
+          "options": [
+            {
+              "key": "b",
+              "text": "link"
+            },
+            {
+              "key": "c",
+              "text": "shortcut"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "",
+          "question": "video",
+          "options": [
+            {
+              "key": "b",
+              "text": "graphic"
+            },
+            {
+              "key": "c",
+              "text": "animation"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "",
+          "question": "search engine matches",
+          "options": [
+            {
+              "key": "b",
+              "text": "sales"
+            },
+            {
+              "key": "c",
+              "text": "visits"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "",
+          "question": "boot up",
+          "options": [
+            {
+              "key": "b",
+              "text": "boot itself"
+            },
+            {
+              "key": "c",
+              "text": "get booted"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "",
+          "question": "connection",
+          "options": [
+            {
+              "key": "b",
+              "text": "access"
+            },
+            {
+              "key": "c",
+              "text": "availability"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "",
+          "question": "wire-free",
+          "options": [
+            {
+              "key": "b",
+              "text": "wireless"
+            },
+            {
+              "key": "c",
+              "text": "no wires"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "",
+          "question": "call centre",
+          "options": [
+            {
+              "key": "b",
+              "text": "talking centre"
+            },
+            {
+              "key": "c",
+              "text": "telephone centre"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "",
+          "question": "fire blanket",
+          "options": [
+            {
+              "key": "b",
+              "text": "firewall"
+            },
+            {
+              "key": "c",
+              "text": "fire engine"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "",
+          "question": "picture",
+          "options": [
+            {
+              "key": "b",
+              "text": "symbol"
+            },
+            {
+              "key": "c",
+              "text": "icon"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Luyện tập Trắc nghiệm",
+      "type": "practice",
+      "note": "",
+      "items": [
+        {
+          "type": "part_header",
+          "title": "Part A"
+        },
+        {
+          "type": "statement",
+          "text": "The display icon lets you change the way your desktop looks"
+        },
+        {
+          "type": "statement",
+          "text": "If you remove a file by mistake, you can find it in the recycle bin"
+        },
+        {
+          "type": "statement",
+          "text": "The screen saver appears when you don’t use the mouse or keyboard"
+        },
+        {
+          "type": "statement",
+          "text": "I didn’t use that program very much, so I delete it from my desktop"
+        },
+        {
+          "type": "statement",
+          "text": "I have a great program on my desktop that I use for playing music"
+        },
+        {
+          "type": "part_header",
+          "title": "Part B"
+        },
+        {
+          "type": "part_header",
+          "title": "Part C"
+        },
+        {
+          "type": "part_header",
+          "title": "Part D"
+        },
+        {
+          "type": "part_header",
+          "title": "Part E"
+        },
+        {
+          "type": "part_header",
+          "title": "Part F"
+        },
+        {
+          "type": "part_header",
+          "title": "Part G"
+        },
+        {
+          "type": "part_header",
+          "title": "Part H"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Ngữ pháp - Chọn đáp án",
+      "type": "grammar",
+      "note": "",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "1",
+          "question": "It’s important ______ programming languages with markup languages.",
+          "options": [
+            {
+              "key": "a",
+              "text": "not confuse"
+            },
+            {
+              "key": "b",
+              "text": "not to confuse"
+            },
+            {
+              "key": "c",
+              "text": "don’t confuse"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "2",
+          "question": "Markup languages are used ____ the structure of web documents.",
+          "options": [
+            {
+              "key": "a",
+              "text": "for describe"
+            },
+            {
+              "key": "b",
+              "text": "describe"
+            },
+            {
+              "key": "c",
+              "text": "to describe"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "3",
+          "question": "You must learn _____ effective business letters.",
+          "options": [
+            {
+              "key": "a",
+              "text": "to write"
+            },
+            {
+              "key": "b",
+              "text": "write"
+            },
+            {
+              "key": "c",
+              "text": "writing"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "4",
+          "question": "Mr Keller has asked me _____ you these files.",
+          "options": [
+            {
+              "key": "a",
+              "text": "send"
+            },
+            {
+              "key": "b",
+              "text": "sending"
+            },
+            {
+              "key": "c",
+              "text": "to send"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "5",
+          "question": "This program will make this old PC _____ faster.",
+          "options": [
+            {
+              "key": "a",
+              "text": "running"
+            },
+            {
+              "key": "b",
+              "text": "run"
+            },
+            {
+              "key": "c",
+              "text": "to run"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "6",
+          "question": "We use high-level languages because machine code is too difficult_______, understand and debug.",
+          "options": [
+            {
+              "key": "a",
+              "text": "read"
+            },
+            {
+              "key": "b",
+              "text": "reading"
+            },
+            {
+              "key": "c",
+              "text": "to read"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "7",
+          "question": "I went on the course _____ how to be a better programmer",
+          "options": [
+            {
+              "key": "a",
+              "text": "learn"
+            },
+            {
+              "key": "b",
+              "text": "to learn"
+            },
+            {
+              "key": "c",
+              "text": "for to learn"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "8",
+          "question": "I’m not interested in ______ that computer language",
+          "options": [
+            {
+              "key": "a",
+              "text": "learn"
+            },
+            {
+              "key": "b",
+              "text": "learning"
+            },
+            {
+              "key": "c",
+              "text": "to learn"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "9",
+          "question": "He refuses ______ the project with me.",
+          "options": [
+            {
+              "key": "a",
+              "text": "do"
+            },
+            {
+              "key": "b",
+              "text": "doing"
+            },
+            {
+              "key": "c",
+              "text": "to do"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "10",
+          "question": "The engineers warned the employees not _____ the cables.",
+          "options": [
+            {
+              "key": "a",
+              "text": "touch"
+            },
+            {
+              "key": "b",
+              "text": "touchingc. to touch"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "11",
+          "question": "They may not _____ to the conference.",
+          "options": [
+            {
+              "key": "a",
+              "text": "come"
+            },
+            {
+              "key": "b",
+              "text": "coming"
+            },
+            {
+              "key": "c",
+              "text": "to come"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "12",
+          "question": "Spyware can make your PC ______ more slowly.",
+          "options": [
+            {
+              "key": "a",
+              "text": "perform"
+            },
+            {
+              "key": "b",
+              "text": "performing"
+            },
+            {
+              "key": "c",
+              "text": "to perform"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "13",
+          "question": "This program is too slow_______ the simulation.",
+          "options": [
+            {
+              "key": "a",
+              "text": "do"
+            },
+            {
+              "key": "b",
+              "text": "to do"
+            },
+            {
+              "key": "c",
+              "text": "for doing"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Điền vào chỗ trống",
+      "type": "fill_blank",
+      "note": "",
+      "items": [
+        {
+          "type": "part_header",
+          "title": "Part 1"
+        },
+        {
+          "type": "passage",
+          "text": "Make calls                give presentation                           send  text                         access the internet"
+        },
+        {
+          "type": "passage",
+          "text": "do research                 transfer money                         store information"
+        },
+        {
+          "type": "fill_blank",
+          "text": "1.      Thanks to Wi-Fi, it’s now easy to ……access the internet  ………from cafes, hotels, parks and many other public places."
+        },
+        {
+          "type": "fill_blank",
+          "text": "2.      Online banking lets you … transfer money ….between your accounts easily and securely."
+        },
+        {
+          "type": "fill_blank",
+          "text": "3.      Skype is a technology that enable users to ………Make calls……... over the Internet for free."
+        },
+        {
+          "type": "fill_blank",
+          "text": "4.      In many universities, students are encouraged to …… give presentation.. using PowerPoint in order to make their talks more visually attractive."
+        },
+        {
+          "type": "fill_blank",
+          "text": "5.      The Web has revolutionized the way people ……do research ….. – with sites such as Google and Wikipedia, you can find the information you need in seconds."
+        },
+        {
+          "type": "fill_blank",
+          "text": "6.      Cookies allow a website to …store information…….... on a user’s machine and later retrieve it; when you visit the website again, it remembers your preferences."
+        },
+        {
+          "type": "fill_blank",
+          "text": "7.      With the latest mobile phones, you can ……send  text   ...… with multimedia attachments – pictures, audio, even video."
+        },
+        {
+          "type": "part_header",
+          "title": "Part 2"
+        },
+        {
+          "type": "passage",
+          "text": "update,                    planning ,                calculate,              make,            row,                   transforms,                cell  ,                   commands"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Ok, everyone. Let’s begin with the basics. A spreadsheet program is normally used in business for financial(1)……………………– to keep a record of accounts, to analyze budgets or to (2) ……………… specific calculations. It’s like a large piece of paper divided into columns and rows. Each column is labelled with a letter and each(3)…………….. is labelled with a number. The point where a column and a row intersect is called a (4)………….. For example, you can have cells A1, B6, C5 and so on."
+        },
+        {
+          "type": "passage",
+          "text": "A cell can hold three types of information: text, numbers and formulae."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Formulae are functions or operations that add, subtract, multiply or divide existing values to produce new values. We can use them to (5)………………….totals, percentages or discounts."
+        },
+        {
+          "type": "fill_blank",
+          "text": "When you change the value of one cell, the values in other cells are automatically recalculated. You can also (6)……………….. the information in different worksheets by linking cells. This means that when you make a change in one worksheet, the same change is made in the other worksheet."
+        },
+        {
+          "type": "fill_blank",
+          "text": "The format menu is a spreadsheet usually includes several (7)…………. ……….allowing you to choose the font, number alignment, borders, column width, and so on."
+        },
+        {
+          "type": "passage",
+          "text": "Most spreadsheet programs can also generate graphic representations. The value of cells are shown in different ways, such as line graphs, bar or pie charts. There are even three-dimensional options."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Some spreadsheet programs also have a database facility which (8)……………………….the values of the cells into a database. In this case, each column is a field and each row is a record"
+        },
+        {
+          "type": "part_header",
+          "title": "Part 3"
+        },
+        {
+          "type": "passage",
+          "text": "attach          browse       field        inboxes        open          send           size"
+        },
+        {
+          "type": "fill_blank",
+          "text": "You can send almost any file as an attachment._________ through the folders on your computer until you find the file you want to attach. Click on _______. The file will appear in the attachments ________. Then click _________ , and wait while the file uploads. Add move files if you wish. When you have finished adding files, click ___________ ."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Some email _________ will only receive attachment up to a certain ______ with one email, for example 10MB. If you need to send a lot of very big attachment, it’s sometimes necessary to spread them over a number of separate emails"
+        },
+        {
+          "type": "part_header",
+          "title": "Part 4"
+        },
+        {
+          "type": "passage",
+          "text": "DAW                  CD ripper                  hypermedia             sound card               video coputing"
+        },
+        {
+          "type": "passage",
+          "text": "MIDI                    webcast                           streaming audio techcology"
+        },
+        {
+          "type": "fill_blank",
+          "text": "1.      The power of multimedia software resides in hypertext, …hypermedia…….. and interactivity."
+        },
+        {
+          "type": "fill_blank",
+          "text": "2.      As long as your computer has a…sound card …….., you can use it to capture  sounds in digital format and play them back."
+        },
+        {
+          "type": "fill_blank",
+          "text": "3.      Sound cards offer two capabilities: a built-in stereo synthesizer and a system called ………MIDI………..which allows electronic musical instruments to communicate with computers"
+        },
+        {
+          "type": "fill_blank",
+          "text": "4.      A………………DAW…………………………(DAW)lets you mix and record several tracks of digital audio."
+        },
+        {
+          "type": "fill_blank",
+          "text": "5.      ………CD ripper….………is a program that extracts music tracks and saves them on  disks as MP3s"
+        },
+        {
+          "type": "fill_blank",
+          "text": "6.      …………streaming audio..…………………………….lets you listen to the audio in a continuous streams while it is being transmitted."
+        },
+        {
+          "type": "fill_blank",
+          "text": "7.      The broadcast of an event over the web is called a………webcast…………."
+        },
+        {
+          "type": "fill_blank",
+          "text": "8.      ……..…video coputing……………refers to recording, manipulating and storing video in digital format."
+        },
+        {
+          "type": "part_header",
+          "title": "Part 5"
+        },
+        {
+          "type": "passage",
+          "text": "On     in (2)            for (4)          since          ago        until      where       beenstart"
+        },
+        {
+          "type": "word_box",
+          "words": [
+            "Dear",
+            "Mr",
+            "Mikkola"
+          ]
+        },
+        {
+          "type": "fill_blank",
+          "text": "I am writing to apply (1)_____a job of graphic designer, which was advertised (2)____ your company website. I have a bachelor’s degree (3)________graphic design from Koln Technical College, Germany. I started to work in the DTP field six years (4)_____, when I attended an in-company training course in Helsinki as part of the Leonardo Da Vinci Program. The project was coordinated by Heltech College, and I did practical training in Lonberg P.O, a Finnish company specializing (5)_____ printing advertising material."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Before taking my present job, I worked for two years with KBI, a German publishing company,(6)________I used Adobe Illustrator, Photoshop and Quark Express to layout books and magazines. I stayed in this job (7)_____ June 2004."
+        },
+        {
+          "type": "fill_blank",
+          "text": "(8) _______ the last three years I have been working part-time at VEM Verlag, where I’ve been responsible(9)_______graphic design and digital imaging. (10)_____ February this year I have (11)_____using Adobe InDesign, the new standard in professional page layout. I have knowledge of mainstream computer platforms, including Macintosh and Windows."
+        },
+        {
+          "type": "passage",
+          "text": "I would welcome the opportunity to work for your company. I would like to improve my graphic and typographic design skills and eventually more into management."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Please find enclosed my CV along with samples of my work. I will be available (12)______ an interview at any time. The earliest date that I could (13)_____ work is 21 May."
+        },
+        {
+          "type": "part_header",
+          "title": "Part 6:  put the verbs into the correct forms"
+        },
+        {
+          "type": "passage",
+          "text": "Complete these texts with the passive form of the verbs in brackets."
+        },
+        {
+          "type": "fill_blank",
+          "text": "The Phonograph (invent) _______________ by Thomas Edison in 1877, who discovered how to record music and voice on a metal cylinder of tin foil."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Magnetic tapes (manufacture)_______________by German audio engineers at AEG and Bash in the 1930s, and the first compact disc (design)___________ by Philips and Sony in 1980. Three years later, CDs reached the market in Asia and the US. In the near future, CDs, (probably replace) ___________________ by new technologies such as DVD-Audio, HD-DVD and Blu-ray discs."
+        },
+        {
+          "type": "fill_blank",
+          "text": "The most recent development in digital recording has been the MP3 format, which has generated the market for portable Mp3 players and iPods. Today, more than 50% of all music (buy)_________________ online and many music tracks (download) ____________________ illegally."
+        },
+        {
+          "type": "part_header",
+          "title": "Part 7"
+        },
+        {
+          "type": "fill_blank",
+          "text": "Alexander Graham Bell is remembered today as the inventor of the telephone in 1876. A year later, his invention (improve)___________ by Thomas Edison, by adding a microphone."
+        },
+        {
+          "type": "fill_blank",
+          "text": "The first fully automatic mobile phone (introduce) _____________ by Motorola in 1981. Nowadays, new mobile phones (develop)_________________, with emphasis on multimedia, radio and real-time TV. Some models (call)__________ smartphones."
+        },
+        {
+          "type": "part_header",
+          "title": "Part 8"
+        },
+        {
+          "type": "fill_blank",
+          "text": "The first computers built using silicon chips went on sale in 1965. Microsoft (found) ____________by Bill Gates and Paul Allen in 1975 to sell a version of the BASIC language for the Altair computer. The first IBM-PC (sell) ____________ in 1981, becoming a standard for personal computers."
+        },
+        {
+          "type": "fill_blank",
+          "text": "Every year, more and more people get on the Internet. Today, the Web (can access) ____________ from PDAs, mobile phones – indeed, from anywhere at any time. In the future, artificial intelligence and voice recognition (incorporate) _____________ into most computer applications."
+        },
+        {
+          "type": "part_header",
+          "title": "Part 9;"
+        },
+        {
+          "type": "fill_blank",
+          "text": "1.  Graphics programs have a ______ that enables you to draw, paint and edit images on the computer."
+        },
+        {
+          "type": "mcq",
+          "num": "2",
+          "question": "Bitmaps, or __Raster graphics__, are stored as a series of tiny dots called pixels.",
+          "options": [],
+          "note": ""
+        },
+        {
+          "type": "fill_blank",
+          "text": "3.  __Vector graphics____ are created using mathematical formulas describing shapes, lines and curves. They are used by drawing programs to create images that can be scaled without loss of quality."
+        },
+        {
+          "type": "fill_blank",
+          "text": "4.  The basic elements used to construct graphical objects are called______; they include lines, circles, polygons and text."
+        },
+        {
+          "type": "fill_blank",
+          "text": "5.  CAD designers often start a project by making a _Wireframe___, a drawing showing the edges and vertices of a 3-D model."
+        },
+        {
+          "type": "fill_blank",
+          "text": "6.  ______ is the technique used to make a graphic object look realistic, by adding reflection, shadows and highlights."
+        },
+        {
+          "type": "fill_blank",
+          "text": "7.  In image-editing programs, _____ are special effects that can be applied to pictures."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Đúng / Sai",
+      "type": "true_false",
+      "note": "",
+      "items": [
+        {
+          "type": "true_false",
+          "statement": "Skype is a technology that enables users to store information over the Internet for free.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Wi-Fi technology let you access the Internet from many public places easily.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "It is less secure to transfer money between your accounts by using online banking.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "With smart phones, you can send texts with multimedia attachments such as pictures, audio, video.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "The processor controls all the operations in a computer.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "The mouse is an output device used to controls the cursor.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "A computer system consists of three parts: hardware, software and spyware.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "The keyboard displays the output from a computer on a screen.",
+          "answer": "F"
+        },
+        {
+          "type": "mcq",
+          "num": "3",
+          "question": ".",
+          "options": [],
+          "note": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "To select text, hold down the left mouse button and move the mouse pointer.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Arrow keys are used to move the cursor, as an alternative to the mouse.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "An optical mouse does not have a ball underneath.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Function keys appear at the bottom of the keyboard and can be programmed to do special tasks.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Unix is a family of open-source software operating systems.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Before you can use a new printer, you have to install the driver from a CD-ROM.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "In Windows, if you delete the application icon, the application will still be on your computer.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "GUI is a user-friendly interface based on text.",
+          "answer": "F"
+        },
+        {
+          "type": "mcq",
+          "num": "5",
+          "question": ".",
+          "options": [],
+          "note": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "To get a worksheet to perform a mathematical calculation, you have to enter a formula.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "In spreadsheets, each column is labeled with a number and each row is labeled with a letter.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "When you change the value of one cell in a spreadsheet, the values in other cells are automatically recalculated.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "A database program is much slower to consult and update than a manual filing system.",
+          "answer": "F"
+        },
+        {
+          "type": "mcq",
+          "num": "6",
+          "question": ".",
+          "options": [],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "7",
+          "question": ".",
+          "options": [],
+          "note": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "The GPS is a navigation and location system formed by various satellites and their corresponding receivers on Earth.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Digital TV is a system for broadcasting and receiving moving pictures and sound by means of digital signals.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Artificial Intelligence is the study of methods by which a computer can simulate aspects of human intelligence.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Nanotechnology is the science of making small devices from single atoms and molecules.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Biometrics is biological identification of people",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Digital TV is the use of radio waves and chip-equipped tags to automatically identify people or things.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "VoIP is a service which allows users to make phone calls over the traditional phone line.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Wireless router is the geographic boundary covered by a Wi-Fi wireless access point.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "RFID is the science of making small devices from single atoms and molecules",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Teleworking is the practice of working at home and communicating with the office by phone and computer.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Digital TV is the term that refers to the transmission of audio signals (radio) or audiovisual signals (television).",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Fixed phone is the device that deliver email and phone services to users on the move.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "The Internet is accessed more frequently from desktop computers than from PDAs and mobile phones",
+          "answer": "F"
+        },
+        {
+          "type": "mcq",
+          "num": "8",
+          "question": ".",
+          "options": [],
+          "note": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "A computer security specialist is responsible for designing and developing the electronic and mechanical parts of computers.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "A computer hardware engineer is responsible for designing and developing the electronic and mechanical parts of computers.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "A software engineer relates access to computer data and prevents unauthorized modification or destruction of information",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "A help desk technician provides phone or email support on technical issues, including operation of equipment, setup problems, troubleshooting, etc.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "A webmaster must be proficient in HTML, XML and JavaScript.",
+          "answer": "T"
+        },
+        {
+          "type": "mcq",
+          "num": "9",
+          "question": ".",
+          "options": [],
+          "note": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Programming languages are used to describe the structure of web documents.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "XML enables us to define our own tags; it is not limited by a fixed set of tags like in HTML.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "The interpreter translates the source code line by line in the runtime while the compiler converts the entire program into machine code in one go.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Low-level languages are closer to the English language than high-level languages.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Source code is the basic instructions understood by computers; it consists of 1s and 0s (binary code)",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Machine code is the program instructions written in a particular programming language.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Debugging is the techniques of detecting and correcting errors which may occur in programs.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Flowchart is a diagram representing the successive logical steps of the program.",
+          "answer": "T"
+        },
+        {
+          "type": "mcq",
+          "num": "10",
+          "question": ".",
+          "options": [],
+          "note": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Streaming is a technique for playing sound and video files while they’re downloading.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "A CD ripper converts CDs to live streams.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "MIDI stands for Musical Instrument Digital Internet.",
+          "answer": "F"
+        },
+        {
+          "type": "mcq",
+          "num": "11",
+          "question": ".",
+          "options": [],
+          "note": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Rendering is a technique that generates realistic reflections, shadows and highlights.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Resolution is the number of pixels in an image.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Fractals is the drawing of a model by using features like edges or contour lines.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Rendering is special effects that can be applied to pictures.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "GIS stands for Geographic Internet Systems.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Compositing is combine multiple images together to form one final image.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Raster graphics are created using mathematical formulas describing shapes, lines and curves.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Bitmaps, or vector graphics, are stored as a series of tiny dots called pixels.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Concerts and other events are broadcast over the Web in a process called webcast",
+          "answer": "T"
+        },
+        {
+          "type": "mcq",
+          "num": "12",
+          "question": ".",
+          "options": [],
+          "note": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Encryption converts encrypted data back into its original form.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "A worm is disguised as a useful program; it may affect data security.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Spyware collects information from your PC without your consent.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "A worm is a self-copying program that spreads through email attachments; it replicates its self and send a copy to everyone in an address book.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Private networks use a software and hardware mechanism called a firewall to block unauthorized traffic from the Internet.",
+          "answer": "T"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Đúng / Sai (ôn tập)",
+      "type": "true_false",
+      "note": "",
+      "items": [
+        {
+          "type": "fill_blank",
+          "text": "1.      ………The Internet is accessed more frequently from desktop computers than from PDAs and                     mobile phones."
+        },
+        {
+          "type": "fill_blank",
+          "text": "2.      ……….A computer security specialist is responsible for designing and developing the electronic and mechanical parts of computers."
+        },
+        {
+          "type": "fill_blank",
+          "text": "3.      ……….A computer hardware engineer is responsible for designing and developing the     electronic and mechanical parts of computers."
+        },
+        {
+          "type": "fill_blank",
+          "text": "4.      ……….A software engineer relates access to computer data and prevents unauthorized modification or destruction of information"
+        },
+        {
+          "type": "fill_blank",
+          "text": "5.      ……….A help desk technician provides phone or email support on technical issues, including operation of equipment, setup problems, troubleshooting, etc."
+        },
+        {
+          "type": "fill_blank",
+          "text": "6.      ……….A webmaster must be proficient in HTML, XML and JavaScript"
+        },
+        {
+          "type": "fill_blank",
+          "text": "7.      ……….Programming languages are used to describe the structure of web documents."
+        },
+        {
+          "type": "fill_blank",
+          "text": "8.      ……….Markup languages use instructions, known as markup tags, to format and link text files."
+        },
+        {
+          "type": "fill_blank",
+          "text": "9.      …….….XML enables us to define our own tags; it is not limited by a fixed set of tags like in HTML."
+        },
+        {
+          "type": "fill_blank",
+          "text": "10. ……….The interpreter translates the source code line by line in the runtime while the compiler converts the entire program into machine code in one go."
+        },
+        {
+          "type": "fill_blank",
+          "text": "11. ……….High-level languages are more difficult to write than low-level languages."
+        },
+        {
+          "type": "fill_blank",
+          "text": "12. ……….Low-level languages are closer to the English language than high-level languages."
+        },
+        {
+          "type": "fill_blank",
+          "text": "13. …….Source code is the basic instructions understood by computers; it consists of 1s and 0s (binary code)"
+        },
+        {
+          "type": "fill_blank",
+          "text": "14. ……….Machine code is the program instructions written in a particular programming language."
+        },
+        {
+          "type": "fill_blank",
+          "text": "15. ……….Debugging is the techniques of detecting and correcting errors which may occur in programs."
+        },
+        {
+          "type": "fill_blank",
+          "text": "16. ……….Flowchart is a diagram representing the successive logical steps of the program."
+        },
+        {
+          "type": "fill_blank",
+          "text": "17. ……….Streaming is a technique for playing sound and video files while they’re downloading."
+        },
+        {
+          "type": "fill_blank",
+          "text": "18. ……...Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements."
+        },
+        {
+          "type": "fill_blank",
+          "text": "19. ……….A CD ripper converts CDs to live streams."
+        },
+        {
+          "type": "fill_blank",
+          "text": "20. ………MIDI stands for Musical Instrument Digital Internet."
+        },
+        {
+          "type": "fill_blank",
+          "text": "21. ……….Rendering is a technique that generates realistic reflections, shadows and highlights."
+        },
+        {
+          "type": "fill_blank",
+          "text": "22. ……….Resolution is the number of pixels in an image."
+        },
+        {
+          "type": "fill_blank",
+          "text": "23. ……….Fractals is the drawing of a model by using features like edges or contour lines."
+        },
+        {
+          "type": "fill_blank",
+          "text": "24. ……….Rendering is special effects that can be applied to pictures."
+        },
+        {
+          "type": "fill_blank",
+          "text": "25. ……….GIS stands for Geographic Internet Systems."
+        },
+        {
+          "type": "fill_blank",
+          "text": "26. ……….Compositing is combine multiple images together to form one final image."
+        },
+        {
+          "type": "fill_blank",
+          "text": "27. ……….Raster graphics are created using mathematical formulas describing shapes, lines and curves."
+        },
+        {
+          "type": "fill_blank",
+          "text": "28. ……….Bitmaps, or vector graphics, are stored as a series of tiny dots called pixels."
+        },
+        {
+          "type": "fill_blank",
+          "text": "29. ……….Concerts and other events are broadcast over the Web in a process called webcast"
+        },
+        {
+          "type": "fill_blank",
+          "text": "30. ……….People who use technology for criminal aims; also called dark hats and crackers."
+        },
+        {
+          "type": "fill_blank",
+          "text": "31. ……….Encryption converts encrypted data back into its original form."
+        },
+        {
+          "type": "fill_blank",
+          "text": "32. ……….A worm is disguised as a useful program; it may affect data security."
+        },
+        {
+          "type": "fill_blank",
+          "text": "33. ……….Spyware collects information from your PC without your consent."
+        },
+        {
+          "type": "fill_blank",
+          "text": "34. ……….A worm is a self-copying program that spreads through email attachments; it replicates its self and send a copy to everyone in an address book."
+        },
+        {
+          "type": "fill_blank",
+          "text": "35.  ……….Private networks use a software and hardware mechanism called a firewall to block unauthorized traffic from the Internet."
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "title": "I. Decide if the sentences are true (T) or false (F)",
+      "type": "true_false",
+      "note": "",
+      "items": [
+        {
+          "type": "true_false",
+          "statement": "A worm is disguised as a useful program; it may affect data security.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Programming languages are used to describe the structure of web documents.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Rendering is a technique that generates realistic reflections, shadows and highlights.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "XML enables us to define our own tags; it is not limited by a fixed set of tags like in HTML.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "VoIP is a service which allows users to make phone calls over the traditional phone line.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Encryption converts encrypted data back into its original form.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Nanotechnology is the science of making small devices from single atoms and molecules.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Digital TV is a system for broadcasting and receiving moving pictures and sound by means of digital signals.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Biometrics is biological identification of people.",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "title": "III. Decide if the sentences are true (T) or false (F)",
+      "type": "true_false",
+      "note": "",
+      "items": [
+        {
+          "type": "true_false",
+          "statement": "A worm is a self-copying program that spreads through email attachments; it replicates its self and send a copy to everyone in an address book.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "Arrow keys are used to move the cursor, as an alternative to the mouse.",
+          "answer": "T"
+        },
+        {
+          "type": "true_false",
+          "statement": "A computer security specialist is responsible for designing and developing the electronic and mechanical parts of computers.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "RFID is the science of making small devices from single atoms and molecules",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "A worm is disguised as a useful program; it may affect data security.",
+          "answer": "F"
+        },
+        {
+          "type": "true_false",
+          "statement": "Markup languages use instructions, known as markup tags, to format and link text files.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Debugging is the techniques of detecting and correcting errors which may occur in programs.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Machine code is the program instructions written in a particular programming language.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Resolution is the number of pixels in an image.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Source code is the basic instructions understood by computers; it consists of 1s and 0s (binary code).",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "title": "IV. Decide if the sentences are true (T) or false (F)",
+      "type": "true_false",
+      "note": "",
+      "items": [
+        {
+          "type": "true_false",
+          "statement": "Biometrics is biological identification of people.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "VoIP is a service which allows users to make phone calls over the traditional phone line.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "A worm is a self-copying program that spreads through email attachments; it replicates its self and send a copy to everyone in an address book.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Bitmaps, or vector graphics, are stored as a series of tiny dots called pixels.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "A CD ripper converts CDs to live streams.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Digital TV is the use of radio waves and chip-equipped tags to automatically identify people or things.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Streaming is a technique for playing sound and video files while they’re downloading.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "With smart phones, you can send texts with multimedia attachments such as pictures, audio, video.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Digital TV is a system for broadcasting and receiving moving pictures and sound by means of digital signals.",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "title": "V. Decide if the sentences are true (T) or false (F) (",
+      "type": "true_false",
+      "note": "",
+      "items": [
+        {
+          "type": "true_false",
+          "statement": "Concerts and other events are broadcast over the Web in a process called webcast.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Digital TV is the term that refers to the transmission of audio signals (radio) or audiovisual signals (television).",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "In Windows, if you delete the application icon, the application will still be on your computer.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Function keys appear at the bottom of the keyboard and can be programmed to do special tasks.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Fixed phone is the device that deliver email and phone services to users on the move.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "The GPS is a navigation and location system formed by various satellites and their corresponding receivers on Earth.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "The interpreter translates the source code line by line in the runtime while the compiler converts the entire program into machine code in one go.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Flowchart is a diagram representing the successive logical steps of the program.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "A help desk technician provides phone or email support on technical issues, including operation of equipment, setup problems, troubleshooting, etc.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Private networks use a software and hardware mechanism called a firewall to block unauthorized traffic from the Internet.",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Dịch câu (EN → VI)",
+      "type": "translation",
+      "note": "",
+      "items": [
+        {
+          "type": "translation",
+          "english": "A wiki is a collaborative website whose content can be edited by its users.",
+          "vietnamese": "Wiki là một trang web cộng tác mà nội dung của nó có thể được người dùng chỉnh sửa."
+        },
+        {
+          "type": "translation",
+          "english": "A computer program is a set of instructions that tells the computer how to do a specific task.",
+          "vietnamese": "Chương trình máy tính là tập hợp các hướng dẫn cho máy tính biết cách thực hiện một tác vụ cụ thể"
+        },
+        {
+          "type": "translation",
+          "english": "YouTube is a site based on user-generated content, which allows users to upload, view and share movie clips and music videos, as well as amateur videoblogs.",
+          "vietnamese": "YouTube là một trang web dựa trên nội dung do người dùng tạo, cho phép người dùng tải lên, xem và chia sẻ các đoạn phim và video ca nhạc cũng như các blog video nghiệp dư."
+        },
+        {
+          "type": "translation",
+          "english": "Programs written in a high-level language require compiler that is, translation into machine code, the language understood by the processor.",
+          "vietnamese": "Các chương trình được viết bằng ngôn ngữ cấp cao yêu cầu trình biên dịch, tức là dịch sang mã máy, ngôn ngữ mà bộ xử lý hiểu được."
+        },
+        {
+          "type": "translation",
+          "english": "Graphic artists and designers use drawing programs to create freehand drawings and illustration for books or for the Web.",
+          "vietnamese": "Các nghệ sĩ và nhà thiết kế đồ họa sử dụng các chương trình vẽ để tạo các bản vẽ và minh họa tự do cho sách hoặc cho Web."
+        },
+        {
+          "type": "translation",
+          "english": "In the future, artificial intelligence and voice recognition will be incorporated into most computer applications",
+          "vietnamese": "Trong tương lai trí tuệ nhân tạo và nhận diện giọng nói sẽ được tích hợp vào hầu hết các ứng dụng máy tính"
+        },
+        {
+          "type": "translation",
+          "english": "In recent years, TV and radio broadcasting has been revolutionized by developments in satellite and digital transmission.",
+          "vietnamese": "Trong những năm gần đây, truyền hình và phát thanh đã được cách mạng hóa nhờ sự phát triển của truyền dẫn vệ tinh và kỹ thuật số."
+        },
+        {
+          "type": "translation",
+          "english": "CPU speed is a major factor in determining how fast your computer operates.",
+          "vietnamese": "Tốc độ CPU là yếu tố chính quyết định tốc độ hoạt động của máy tính."
+        },
+        {
+          "type": "translation",
+          "english": "Graphic programs have a toolbox that enables you to draw, paint and edit images on the computer.",
+          "vietnamese": "Các chương trình đồ họa có một hộp công cụ cho phép bạn vẽ, tô màu và chỉnh sửa hình ảnh trên máy tính."
+        },
+        {
+          "type": "translation",
+          "english": "If you want to protect your PC, don’t open email attachments from strangers and take care when downloading files from the Web.",
+          "vietnamese": "Nếu bạn muốn bảo vệ PC của mình, đừng mở tệp đính kèm email từ người lạ và hãy cẩn thận khi tải tệp xuống từ Web."
+        },
+        {
+          "type": "translation",
+          "english": "Computer animation is the process of create objects which move across the screen.",
+          "vietnamese": "Hoạt hình máy tính là quá trình tạo ra các đối tượng di chuyển trên màn hình."
+        },
+        {
+          "type": "translation",
+          "english": "The process of going through the code to identify the cause of errors and fixing them is called debugging.",
+          "vietnamese": "Quá trình duyệt qua mã để xác định nguyên nhân lỗi và sửa chúng được gọi là gỡ lỗi."
+        },
+        {
+          "type": "translation",
+          "english": "Programs written in a high-level language require compiler that is, translation into machine code, the language understood by the processor.",
+          "vietnamese": "Các chương trình được viết bằng ngôn ngữ cấp cao yêu cầu trình biên dịch, tức là dịch sang mã máy, ngôn ngữ mà bộ xử lý hiểu được."
+        },
+        {
+          "type": "translation",
+          "english": "Site that ask for your credit card number or other personal information should use a secure server, so the data you send is encrypted",
+          "vietnamese": "Trang web yêu cầu số thẻ tín dụng hoặc thông tin cá nhân khác của bạn phải sử dụng máy chủ bảo mật để dữ liệu bạn gửi được mã hóa"
+        },
+        {
+          "type": "translation",
+          "english": "Web suffers will go somewhere else if the page doesn’t appear quickly.",
+          "vietnamese": "Web bị ảnh hưởng sẽ đi nơi khác nếu trang không xuất hiện nhanh chóng."
+        },
+        {
+          "type": "translation",
+          "english": "Websites is also used for many other functions, including sending and receiving email, and connecting to the newsgroups and discussion groups.",
+          "vietnamese": "Trang web cũng được sử dụng cho nhiều chức năng khác, bao gồm gửi và nhận email cũng như kết nối với các nhóm tin và nhóm thảo luận."
+        },
+        {
+          "type": "translation",
+          "english": "In the future, artificial intelligence and voice recognition will be incorporated into most computer applications.",
+          "vietnamese": "Trong tương lai, trí tuệ nhân tạo và nhận diện giọng nói sẽ được tích hợp vào các ứng dụng của máy tính"
+        },
+        {
+          "type": "translation",
+          "english": "E-commerce has become increasingly popular over the last decade.",
+          "vietnamese": "Thương mại điện tử ngày càng trở nên phổ biến trong thập kỷ qua."
+        },
+        {
+          "type": "translation",
+          "english": "Downloading files from the internet can infect your computer with a virus.",
+          "vietnamese": "Tải xuống các tập tin từ internet có thể lây nhiễm vi-rút vào máy tính của bạn."
+        },
+        {
+          "type": "translation",
+          "english": "Depending on the e-book format you select, you can read e-books on a computer, PDA(Personal Digital Assistant), or a dedicated handheld device known as an e-book reader.",
+          "vietnamese": "Tùy thuộc vào định dạng sách điện tử bạn chọn, bạn có thể đọc sách điện tử trên máy tính, PDA (Trợ lý kỹ thuật số cá nhân) hoặc thiết bị cầm tay chuyên dụng được gọi là đầu đọc sách điện tử."
+        },
+        {
+          "type": "translation",
+          "english": "Most print newspaper are developing online editions, which allow them to effectively compete with TV and radio in presenting breaking news as it happens.",
+          "vietnamese": "Hầu hết các tờ báo in đang phát triển các phiên bản trực tuyến, cho phép họ cạnh tranh hiệu quả với truyền hình và đài phát thanh trong việc đưa ra những tin tức nóng hổi khi nó xảy ra."
+        },
+        {
+          "type": "translation",
+          "english": "A cyber slacker is an employee who uses his company’s internet connection during work hours to chat with friends, play games, etc.",
+          "vietnamese": "Kẻ lười biếng trên mạng là một nhân viên sử dụng kết nối internet của công ty mình trong giờ làm việc để trò chuyện với bạn bè, chơi trò chơi, v.v."
+        },
+        {
+          "type": "translation",
+          "english": "Cookies are data sent by an internet server to a browser. They identify the user and track the user’s access to the server.",
+          "vietnamese": "Cookies là dữ liệu được máy chủ internet gửi tới trình duyệt. Họ xác định người dùng và theo dõi quyền truy cập của người dùng vào máy chủ."
+        },
+        {
+          "type": "translation",
+          "english": "If you want to protect your PC, don’t open email attachments from strangers and take care when downloading files from the Web.",
+          "vietnamese": "Nếu bạn muốn bảo vệ PC của mình, đừng mở tệp đính kèm email từ người lạ và hãy cẩn thận khi tải tệp xuống từ Web."
+        },
+        {
+          "type": "translation",
+          "english": "Commercial online services function like ISPs, but also provide their own unique content.",
+          "vietnamese": "Các dịch vụ thương mại trực tuyến hoạt động giống như ISP nhưng cũng cung cấp nội dung độc đáo của riêng họ."
+        },
+        {
+          "type": "translation",
+          "english": "Moving pictures in websites are usually called animations.",
+          "vietnamese": "Hình ảnh chuyển động trong trang web thường được gọi là ảnh động."
+        },
+        {
+          "type": "translation",
+          "english": "With this software, you can make the video frame larger.",
+          "vietnamese": "Với phần mềm này, bạn có thể làm cho khung hình video lớn hơn."
+        },
+        {
+          "type": "translation",
+          "english": "Temporary internet files are stored in the cache.",
+          "vietnamese": "Các tệp internet tạm thời được lưu trữ trong bộ đệm."
+        },
+        {
+          "type": "translation",
+          "english": "Keylogger records characters that are typed into a computer.",
+          "vietnamese": "Keylogger ghi lại các ký tự được gõ vào máy tính."
+        },
+        {
+          "type": "translation",
+          "english": "Instant messaging is to exchange messages in real time with friends or colleagues.",
+          "vietnamese": "Nhắn tin tức thời là trao đổi tin nhắn trong thời gian thực với bạn bè hoặc đồng nghiệp."
+        },
+        {
+          "type": "translation",
+          "english": "Cookies are data sent by an internet server to a browser. They identify the user and track the user’s access to the server.",
+          "vietnamese": "Cookie là dữ liệu được máy chủ internet gửi tới trình duyệt. Họ xác định người dùng và theo dõi quyền truy cập của người dùng vào máy chủ."
+        },
+        {
+          "type": "translation",
+          "english": "Desktops, laptops and mobile devices connect the world together and perform multiple tasks at once.",
+          "vietnamese": "Máy tính để bàn, máy tính xách tay và thiết bị di động kết nối thế giới với nhau và thực hiện nhiều tác vụ cùng một lúc"
+        },
+        {
+          "type": "translation",
+          "english": "The Web has revolutionized the way people do research – with sites such as Google and Wikipedia – you can find the information you need in seconds.",
+          "vietnamese": "Web đã cách mạng hóa cách mọi người nghiên cứu – với các trang web như Google và Wikipedia – bạn có thể tìm thấy thông tin mình cần trong vài giây."
+        },
+        {
+          "type": "translation",
+          "english": "Cookies allow a website to store information on a user’s machine and later retrieve it; when you visit the website again, it remembers your preferences.",
+          "vietnamese": "Cookie cho phép trang web lưu trữ thông tin trên máy của người dùng và sau đó truy xuất thông tin đó; khi bạn truy cập lại trang web, nó sẽ ghi nhớ các tùy chọn của bạn."
+        },
+        {
+          "type": "translation",
+          "english": "In many universities, students are encouraged to give presentations using PowerPoint in order to make their talks more visually attractive.",
+          "vietnamese": "Ở nhiều trường đại học, sinh viên được khuyến khích thuyết trình bằng PowerPoint để làm cho bài thuyết trình của họ hấp dẫn hơn về mặt hình ảnh."
+        },
+        {
+          "type": "translation",
+          "english": "The basic configuration of a mainframe consists of a central system which processes large amount of data very quickly.",
+          "vietnamese": "Cấu hình cơ bản của máy tính lớn bao gồm một hệ thống trung tâm xử lý lượng lớn dữ liệu rất nhanh."
+        },
+        {
+          "type": "translation",
+          "english": "Ports, which we can plug a wide range of peripherals into, allow communication between the computer and the devices.",
+          "vietnamese": "Các cổng mà chúng ta có thể cắm nhiều loại thiết bị ngoại vi vào, cho phép giao tiếp giữa máy tính và các thiết bị."
+        },
+        {
+          "type": "translation",
+          "english": "A tablet PC is a type of computer that has an LCD screen on which you can write with a stylus or digital pen.",
+          "vietnamese": "Máy tính bảng là một loại máy tính có màn hình LCD mà bạn có thể viết bằng bút stylus hoặc bút kỹ thuật số."
+        },
+        {
+          "type": "translation",
+          "english": "A word processing program is a type of software which lets the user create and edit text.",
+          "vietnamese": "Chương trình xử lý văn bản là loại phần mềm cho phép người dùng tạo và chỉnh sửa văn bản."
+        },
+        {
+          "type": "translation",
+          "english": "A computer is an electronic machine which can accept data in a certain form, process the data, and give the results of the processing.",
+          "vietnamese": "Máy tính là một loại máy điện tử có khả năng tiếp nhận dữ liệu ở một dạng nhất định, xử lý dữ liệu và đưa ra kết quả xử lý."
+        },
+        {
+          "type": "translation",
+          "english": "As well as having normal keys for characters, keyboard may also have function keys and editing keys for special purposes.",
+          "vietnamese": "Ngoài các phím ký tự thông thường, bàn phím còn có thể có các phím chức năng và phím soạn thảo dành cho những mục đích đặc biệt."
+        },
+        {
+          "type": "translation",
+          "english": "Controlling your PC by voice commands means that you can launch programs, open a file, save it in a particular format or print it.",
+          "vietnamese": "Điều khiển PC của bạn bằng lệnh thoại có nghĩa là bạn có thể khởi chạy chương trình, mở tệp, lưu tệp ở định dạng cụ thể hoặc in tệp."
+        },
+        {
+          "type": "translation",
+          "english": "To launch a program or open a document with the mouse, you put the pointer on the file name and double-click on the name.",
+          "vietnamese": "Để khởi chạy một chương trình hoặc mở một tài liệu bằng chuột, bạn đặt con trỏ vào tên file và nhấp đúp vào tên đó."
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "title": "Khoanh tròn từ phù hợp",
+      "type": "mcq",
+      "note": "",
+      "items": [
+        {
+          "type": "mcq",
+          "num": "1",
+          "question": "I don’t think this printer is _________ with my computer.",
+          "options": [
+            {
+              "key": "b",
+              "text": "connectable"
+            },
+            {
+              "key": "c",
+              "text": "suitable"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "2",
+          "question": "A laptop computer with a screen you can write on is called a ________.",
+          "options": [
+            {
+              "key": "b",
+              "text": "table PCC. flat screen PC"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "3",
+          "question": "Software which is easy to use is ________",
+          "options": [
+            {
+              "key": "b",
+              "text": "user-friendly"
+            },
+            {
+              "key": "c",
+              "text": "usable"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "4",
+          "question": "My new computer has a very ________ processor.",
+          "options": [
+            {
+              "key": "b",
+              "text": "high speed"
+            },
+            {
+              "key": "c",
+              "text": "fast"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "5",
+          "question": "Looking at the web pages can be commonly called _________.",
+          "options": [
+            {
+              "key": "c",
+              "text": "swimming the net"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "6",
+          "question": "The computer is connected to the telephone line via a ________.",
+          "options": [
+            {
+              "key": "b",
+              "text": "modem"
+            },
+            {
+              "key": "c",
+              "text": "modulator"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "7",
+          "question": "You can draw directly onto a computer screen with a _________.",
+          "options": [
+            {
+              "key": "b",
+              "text": "light pen"
+            },
+            {
+              "key": "c",
+              "text": "pixel pen"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "8",
+          "question": "A camera connected directly to the internet is called _______.",
+          "options": [
+            {
+              "key": "b",
+              "text": "a web watcher"
+            },
+            {
+              "key": "c",
+              "text": "a webcam"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "9",
+          "question": "A file which is copied from the internet onto your computer is called_______.",
+          "options": [
+            {
+              "key": "b",
+              "text": "a download"
+            },
+            {
+              "key": "c",
+              "text": "a load"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "10",
+          "question": "Mobile phones and PDAs can communicate with computers via _______.",
+          "options": [
+            {
+              "key": "b",
+              "text": "Blueberry"
+            },
+            {
+              "key": "c",
+              "text": "Bluetooth"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "1",
+          "question": "You can often find the answer to a question by_________ on the internet.",
+          "options": [
+            {
+              "key": "b",
+              "text": "looking for it"
+            },
+            {
+              "key": "c",
+              "text": "looking it up"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "2",
+          "question": "My new PDA is the ________ model.",
+          "options": [
+            {
+              "key": "b",
+              "text": "newest"
+            },
+            {
+              "key": "c",
+              "text": "most modern"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "3",
+          "question": "In our office, we’ve set up a ________ network.",
+          "options": [
+            {
+              "key": "b",
+              "text": "no wires"
+            },
+            {
+              "key": "c",
+              "text": "wireless"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "4",
+          "question": "The screen on my laptop isn’t very ________.",
+          "options": [
+            {
+              "key": "b",
+              "text": "white"
+            },
+            {
+              "key": "c",
+              "text": "bright"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "5",
+          "question": "When your computer is not connected to the internet, it is _________.",
+          "options": [
+            {
+              "key": "b",
+              "text": "offline"
+            },
+            {
+              "key": "c",
+              "text": "off the line"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "6",
+          "question": "Scanners, printers and webcams are ________.",
+          "options": [
+            {
+              "key": "b",
+              "text": "peripherals"
+            },
+            {
+              "key": "c",
+              "text": "externals"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "7",
+          "question": "ADSL is also known as _________.",
+          "options": [
+            {
+              "key": "b",
+              "text": "broadband"
+            },
+            {
+              "key": "c",
+              "text": "longband"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "8",
+          "question": "To run a program on the computer, double-click on the _______.",
+          "options": [
+            {
+              "key": "b",
+              "text": "symbol"
+            },
+            {
+              "key": "c",
+              "text": "icon"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "9",
+          "question": "Deleted documents stay in the recycle bin until you _______ it.",
+          "options": [
+            {
+              "key": "b",
+              "text": "empty"
+            },
+            {
+              "key": "c",
+              "text": "clean"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "10",
+          "question": "A space in a website where you enter information (address, password, etc) is called a _______.",
+          "options": [
+            {
+              "key": "b",
+              "text": "strip"
+            },
+            {
+              "key": "c",
+              "text": "field"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "11",
+          "question": "The World Wide Web is the billions of web pages that are stored on large computers called web _______.",
+          "options": [
+            {
+              "key": "b",
+              "text": "services"
+            },
+            {
+              "key": "c",
+              "text": "serving"
+            }
+          ],
+          "note": ""
+        },
+        {
+          "type": "mcq",
+          "num": "12",
+          "question": "To access the Internet, you need an account with an Internet Service _______ company.",
+          "options": [
+            {
+              "key": "b",
+              "text": "Provider"
+            },
+            {
+              "key": "c",
+              "text": "Prudent"
+            }
+          ],
+          "note": ""
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "title": "Ghép Collocation",
+      "type": "collocation",
+      "note": "",
+      "items": [
+        {
+          "type": "collocation_word",
+          "num": "1",
+          "word": "digital ___"
+        },
+        {
+          "type": "collocation_word",
+          "num": "2",
+          "word": "word ___"
+        },
+        {
+          "type": "collocation_word",
+          "num": "3",
+          "word": "relational ___"
+        },
+        {
+          "type": "collocation_word",
+          "num": "4",
+          "word": "machine ___"
+        },
+        {
+          "type": "collocation_word",
+          "num": "5",
+          "word": "up-to-date ___"
+        },
+        {
+          "type": "collocation_word",
+          "num": "6",
+          "word": "speech ___"
+        },
+        {
+          "type": "collocation_word",
+          "num": "7",
+          "word": "anti-virus ___"
+        },
+        {
+          "type": "collocation_word",
+          "num": "8",
+          "word": "sound ___"
+        },
+        {
+          "type": "collocation_word",
+          "num": "9",
+          "word": "vector ___"
+        },
+        {
+          "type": "collocation_word",
+          "num": "10",
+          "word": "device ____"
+        },
+        {
+          "type": "collocation_word",
+          "num": "11",
+          "word": "mathematical ____"
+        },
+        {
+          "type": "collocation_word",
+          "num": "12",
+          "word": "portable ______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "13",
+          "word": "official ______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "14",
+          "word": "instant ______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "15",
+          "word": "real _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "16",
+          "word": "virtual _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "17",
+          "word": "search _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "18",
+          "word": "internet _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "19",
+          "word": "mobile _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "20",
+          "word": "network _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "21",
+          "word": "assembly _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "22",
+          "word": "markup _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "23",
+          "word": "interactive _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "24",
+          "word": "senior _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "25",
+          "word": "hardware _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "26",
+          "word": "distance _______"
+        },
+        {
+          "type": "collocation_word",
+          "num": "27",
+          "word": "mail _______"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "a",
+          "text": "certificate"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "b",
+          "text": "processor"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "c",
+          "text": "database"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "d",
+          "text": "code"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "e",
+          "text": "information"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "f",
+          "text": "recognition"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "g",
+          "text": "software"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "h",
+          "text": "card"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "i",
+          "text": "graphic"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "j",
+          "text": "driver"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "k",
+          "text": "formulas"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "l",
+          "text": "player"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "m",
+          "text": "website"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "n",
+          "text": "messaging"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "o",
+          "text": "time"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "p",
+          "text": "reality"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "q",
+          "text": "engine"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "r",
+          "text": "access"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "s",
+          "text": "phone"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "t",
+          "text": "administrator"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "u",
+          "text": "languages"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "v",
+          "text": "tags"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "w",
+          "text": "animation"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "x",
+          "text": "programmer"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "y",
+          "text": "engineer"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "z",
+          "text": "learning"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "a",
+          "text": "server"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "title": "Hoàn thành câu (từ cho sẵn)",
+      "type": "word_box",
+      "note": "",
+      "items": [
+        {
+          "type": "fill_blank",
+          "text": "1. In Windows, the icon is just a ________to the application. If you delete the icon, the application will still be on your computer."
+        },
+        {
+          "type": "fill_blank",
+          "text": "2. All the links in this e-zine are ________ to football."
+        },
+        {
+          "type": "fill_blank",
+          "text": "3. The mail is stored in a _________ mailbox of your ISP."
+        },
+        {
+          "type": "fill_blank",
+          "text": "4. Before you can connect to the internet for the first time, you have to _________ an account with an ISP."
+        },
+        {
+          "type": "fill_blank",
+          "text": "5. When you _________ a document, it’s sent to the recycle bin. 6. You can free up space on your hard drive by _________ applications you never use."
+        },
+        {
+          "type": "fill_blank",
+          "text": "7. Broadband internet connection is much faster than _________."
+        },
+        {
+          "type": "fill_blank",
+          "text": "8. Windows 8, Linux, Macintosh OS X are ________."
+        },
+        {
+          "type": "fill_blank",
+          "text": "9. The CPU controls how fast the computer ________ data, or information."
+        },
+        {
+          "type": "fill_blank",
+          "text": "10. Windows has a folder called My Documents to help you ________ your files. graphics navigate commercial animations track exchanging transfer cyberspace intuitive back-up"
+        },
+        {
+          "type": "fill_blank",
+          "text": "11. Program with a lot of ________ need a large RAM to run well."
+        },
+        {
+          "type": "fill_blank",
+          "text": "12. Most computer users store their data on the hard disk but because computers can crash, they often use other disks to make ________ copies."
+        },
+        {
+          "type": "fill_blank",
+          "text": "13. HTTP is a set of _________ rules to link Web files together across the Internet. 14. Software which is obvious to use is _________."
+        },
+        {
+          "type": "fill_blank",
+          "text": "15. Software for use by business is _________."
+        },
+        {
+          "type": "fill_blank",
+          "text": "16. Chat is _________ messages in real time with friends or colleagues."
+        },
+        {
+          "type": "fill_blank",
+          "text": "17. When you surf the Internet, you are travelling in _________."
+        },
+        {
+          "type": "fill_blank",
+          "text": "18. Moving pictures in websites are usually called ________."
+        },
+        {
+          "type": "fill_blank",
+          "text": "19. Cookies are data sent by an internet server to a browser. They identify the user and ________ the user’s access to the server."
+        },
+        {
+          "type": "fill_blank",
+          "text": "20. Web browsers let you ________ from one link to another."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "IV. Decide if the sentences are true (T) or false (F) (2ps)",
+      "type": "true_false",
+      "note": "",
+      "items": [
+        {
+          "type": "true_false",
+          "statement": "Concerts and other events are broadcast over the Web in a process called webcast.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Debugging is the technADSLiques of detecting and correcting errors which may occur in programs.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "XML enables us to define our own tags; it is not limited by a fixed set of tags like in HTML.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Fractals is the drawing of a model by using features like edges or contour lines.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "The interpreter translates the source code line by line in the runtime while the compiler convertsthe entire program into machine code in one go.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "A webmaster must be proficient in HTML, XML and JavaScript.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Bitmaps, or vector graphics, are stored as a series of tiny dots called pixels.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "Resolution is the number of pixels in an image.",
+          "answer": ""
+        },
+        {
+          "type": "true_false",
+          "statement": "High-level languages are more difficult to write than low-level languages.",
+          "answer": ""
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Ôn tập Collocation 2",
+      "type": "collocation",
+      "note": "",
+      "items": []
+    },
+    {
+      "id": 27,
+      "title": "Collocations",
+      "type": "collocation",
+      "note": "",
+      "items": [
+        {
+          "type": "collocation_word",
+          "num": "1",
+          "word": "word"
+        },
+        {
+          "type": "collocation_word",
+          "num": "2",
+          "word": "anti-virus"
+        },
+        {
+          "type": "collocation_word",
+          "num": "3",
+          "word": "up-to-date"
+        },
+        {
+          "type": "collocation_word",
+          "num": "4",
+          "word": "markup"
+        },
+        {
+          "type": "collocation_word",
+          "num": "5",
+          "word": "distance"
+        },
+        {
+          "type": "collocation_word",
+          "num": "6",
+          "word": "network"
+        },
+        {
+          "type": "collocation_word",
+          "num": "7",
+          "word": "portable"
+        },
+        {
+          "type": "collocation_word",
+          "num": "8",
+          "word": "official"
+        },
+        {
+          "type": "collocation_word",
+          "num": "9",
+          "word": "sound"
+        },
+        {
+          "type": "collocation_word",
+          "num": "10",
+          "word": "instant"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "a",
+          "text": "software"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "b",
+          "text": "card"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "c",
+          "text": "processor"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "d",
+          "text": "website"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "e",
+          "text": "tags"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "f",
+          "text": "player"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "g",
+          "text": "administrator"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "h",
+          "text": "learning"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "i",
+          "text": "messaging"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "j",
+          "text": "information"
+        },
+        {
+          "type": "fill_blank",
+          "text": "1 ….c"
+        },
+        {
+          "type": "fill_blank",
+          "text": "2 ….a"
+        },
+        {
+          "type": "fill_blank",
+          "text": "3 ….j"
+        },
+        {
+          "type": "fill_blank",
+          "text": "4 ….e"
+        },
+        {
+          "type": "fill_blank",
+          "text": "5 ….h"
+        },
+        {
+          "type": "fill_blank",
+          "text": "6 ….g"
+        },
+        {
+          "type": "fill_blank",
+          "text": "7 ….f"
+        },
+        {
+          "type": "fill_blank",
+          "text": "8 ….d"
+        },
+        {
+          "type": "fill_blank",
+          "text": "9 ….b"
+        },
+        {
+          "type": "fill_blank",
+          "text": "10 ….i"
+        },
+        {
+          "type": "collocation_word",
+          "num": "11",
+          "word": "hardware"
+        },
+        {
+          "type": "collocation_word",
+          "num": "12",
+          "word": "speech"
+        },
+        {
+          "type": "collocation_word",
+          "num": "13",
+          "word": "machine"
+        },
+        {
+          "type": "collocation_word",
+          "num": "14",
+          "word": "digital"
+        },
+        {
+          "type": "collocation_word",
+          "num": "15",
+          "word": "up-to-date"
+        },
+        {
+          "type": "collocation_word",
+          "num": "16",
+          "word": "vector"
+        },
+        {
+          "type": "collocation_word",
+          "num": "17",
+          "word": "mobile"
+        },
+        {
+          "type": "collocation_word",
+          "num": "18",
+          "word": "relational"
+        },
+        {
+          "type": "collocation_word",
+          "num": "19",
+          "word": "network"
+        },
+        {
+          "type": "collocation_word",
+          "num": "20",
+          "word": "real"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "a",
+          "text": "graphic"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "b",
+          "text": "time"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "c",
+          "text": "recognition"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "d",
+          "text": "engineer"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "e",
+          "text": "information"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "f",
+          "text": "code"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "g",
+          "text": "database"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "h",
+          "text": "certificate"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "i",
+          "text": "phone"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "j",
+          "text": "administrator"
+        },
+        {
+          "type": "collocation_ans",
+          "num": "11",
+          "answer": "d"
+        },
+        {
+          "type": "fill_blank",
+          "text": "12 ….c"
+        },
+        {
+          "type": "fill_blank",
+          "text": "13 ….f"
+        },
+        {
+          "type": "fill_blank",
+          "text": "14 ….h"
+        },
+        {
+          "type": "fill_blank",
+          "text": "15 ….e"
+        },
+        {
+          "type": "fill_blank",
+          "text": "16 ….a"
+        },
+        {
+          "type": "fill_blank",
+          "text": "17 ….i"
+        },
+        {
+          "type": "fill_blank",
+          "text": "18 ….g"
+        },
+        {
+          "type": "fill_blank",
+          "text": "19 ….j"
+        },
+        {
+          "type": "fill_blank",
+          "text": "20 ….b"
+        },
+        {
+          "type": "collocation_word",
+          "num": "21",
+          "word": "real"
+        },
+        {
+          "type": "collocation_word",
+          "num": "22",
+          "word": "senior"
+        },
+        {
+          "type": "collocation_word",
+          "num": "23",
+          "word": "mathematical"
+        },
+        {
+          "type": "collocation_word",
+          "num": "24",
+          "word": "anti-virus"
+        },
+        {
+          "type": "collocation_word",
+          "num": "25",
+          "word": "speech"
+        },
+        {
+          "type": "collocation_word",
+          "num": "26",
+          "word": "internet"
+        },
+        {
+          "type": "collocation_word",
+          "num": "27",
+          "word": "assembly"
+        },
+        {
+          "type": "collocation_word",
+          "num": "28",
+          "word": "virtual"
+        },
+        {
+          "type": "collocation_word",
+          "num": "29",
+          "word": "up-to-date"
+        },
+        {
+          "type": "collocation_word",
+          "num": "30",
+          "word": "interactive"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "a",
+          "text": "access"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "b",
+          "text": "recognition"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "c",
+          "text": "software"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "d",
+          "text": "programmer"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "e",
+          "text": "reality"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "f",
+          "text": "animation"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "g",
+          "text": "languages"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "h",
+          "text": "formulas"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "j",
+          "text": "time"
+        },
+        {
+          "type": "fill_blank",
+          "text": "21 ….j"
+        },
+        {
+          "type": "fill_blank",
+          "text": "22 ….d"
+        },
+        {
+          "type": "fill_blank",
+          "text": "23 ….h"
+        },
+        {
+          "type": "fill_blank",
+          "text": "24 ….c"
+        },
+        {
+          "type": "fill_blank",
+          "text": "25 ….b"
+        },
+        {
+          "type": "fill_blank",
+          "text": "26 ….a"
+        },
+        {
+          "type": "fill_blank",
+          "text": "27 ….g"
+        },
+        {
+          "type": "fill_blank",
+          "text": "28 ….e"
+        },
+        {
+          "type": "fill_blank",
+          "text": "29 ….i"
+        },
+        {
+          "type": "fill_blank",
+          "text": "30 ….f"
+        },
+        {
+          "type": "collocation_word",
+          "num": "31",
+          "word": "markup"
+        },
+        {
+          "type": "collocation_word",
+          "num": "32",
+          "word": "device"
+        },
+        {
+          "type": "collocation_word",
+          "num": "33",
+          "word": "anti-virus"
+        },
+        {
+          "type": "collocation_word",
+          "num": "34",
+          "word": "speech"
+        },
+        {
+          "type": "collocation_word",
+          "num": "35",
+          "word": "word"
+        },
+        {
+          "type": "collocation_word",
+          "num": "36",
+          "word": "assembly"
+        },
+        {
+          "type": "collocation_word",
+          "num": "37",
+          "word": "digital"
+        },
+        {
+          "type": "collocation_word",
+          "num": "38",
+          "word": "mathematical"
+        },
+        {
+          "type": "collocation_word",
+          "num": "39",
+          "word": "relational"
+        },
+        {
+          "type": "collocation_word",
+          "num": "40",
+          "word": "vector"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "a",
+          "text": "formulas"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "b",
+          "text": "graphic"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "c",
+          "text": "database"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "d",
+          "text": "tags"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "e",
+          "text": "software"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "f",
+          "text": "certificate"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "g",
+          "text": "languages"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "h",
+          "text": "recognition"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "i",
+          "text": "driver"
+        },
+        {
+          "type": "collocation_opt",
+          "key": "j",
+          "text": "processor"
+        },
+        {
+          "type": "fill_blank",
+          "text": "31 ….d"
+        },
+        {
+          "type": "fill_blank",
+          "text": "32 ….i"
+        },
+        {
+          "type": "fill_blank",
+          "text": "33 ….e"
+        },
+        {
+          "type": "fill_blank",
+          "text": "34 ….h"
+        },
+        {
+          "type": "fill_blank",
+          "text": "35 ….j"
+        },
+        {
+          "type": "fill_blank",
+          "text": "36 ….g"
+        },
+        {
+          "type": "fill_blank",
+          "text": "37 ….f"
+        },
+        {
+          "type": "fill_blank",
+          "text": "38 ….a"
+        },
+        {
+          "type": "fill_blank",
+          "text": "39 ….c"
+        },
+        {
+          "type": "fill_blank",
+          "text": "40 ….b"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "Skype is a technology that enables users to store information over the Internet for free.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Wi-Fi technology let you access the Internet from many public places easily.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "It is less secure to transfer money between your accounts by using online banking.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "With smart phones, you can send texts with multimedia attachments such as pictures, audio, video.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "The processor controls all the operations in a computer.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "The mouse is an output device used to controls the cursor.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "A computer system consists of three parts: hardware, software and spyware.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "The keyboard displays the output from a computer on a screen.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "To select text, hold down the left mouse button and move the mouse pointer.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Arrow keys are used to move the cursor, as an alternative to the mouse.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "An optical mouse does not have a ball underneath.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Function keys appear at the bottom of the keyboard and can be programmed to do special tasks.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Unix is a family of open-source software operating systems.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Before you can use a new printer, you have to install the driver from a CD-ROM.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "In Windows, if you delete the application icon, the application will still be on your computer.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "GUI is a user-friendly interface based on text.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "To get a worksheet to perform a mathematical calculation, you have to enter a formula.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "In spreadsheets, each column is labeled with a number and each row is labeled with a letter.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "When you change the value of one cell in a spreadsheet, the values in other cells are automatically recalculated.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "A database program is much slower to consult and update than a manual filing system.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "The GPS is a navigation and location system formed by various satellites and their corresponding receivers on Earth.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Digital TV is a system for broadcasting and receiving moving pictures and sound by means of digital signals.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Artificial Intelligence is the study of methods by which a computer can simulate aspects of human intelligence.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Nanotechnology is the science of making small devices from single atoms and molecules.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Biometrics is biological identification of people",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Digital TV is the use of radio waves and chip-equipped tags to automatically identify people or things.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "VoIP is a service which allows users to make phone calls over the traditional phone line.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Wireless router is the geographic boundary covered by a Wi-Fi wireless access point.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "RFID is the science of making small devices from single atoms and molecules",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Teleworking is the practice of working at home and communicating with the office by phone and computer.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Digital TV is the term that refers to the transmission of audio signals (radio) or audiovisual signals (television).",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Fixed phone is the device that deliver email and phone services to users on the move.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "The Internet is accessed more frequently from desktop computers than from PDAs and mobile phones",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "A computer security specialist is responsible for designing and developing the electronic and mechanical parts of computers.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "A computer hardware engineer is responsible for designing and developing the electronic and mechanical parts of computers.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "A software engineer relates access to computer data and prevents unauthorized modification or destruction of information",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "A help desk technician provides phone or email support on technical issues, including operation of equipment, setup problems, troubleshooting, etc.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "A webmaster must be proficient in HTML, XML and JavaScript.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Programming languages are used to describe the structure of web documents.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "XML enables us to define our own tags; it is not limited by a fixed set of tags like in HTML.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "The interpreter translates the source code line by line in the runtime while the compiler converts the entire program into machine code in one go.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Low-level languages are closer to the English language than high-level languages.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Source code is the basic instructions understood by computers; it consists of 1s and 0s (binary code)",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Machine code is the program instructions written in a particular programming language.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Debugging is the techniques of detecting and correcting errors which may occur in programs.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Flowchart is a diagram representing the successive logical steps of the program.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Streaming is a technique for playing sound and video files while they’re downloading.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "A CD ripper converts CDs to live streams.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "MIDI stands for Musical Instrument Digital Internet.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Rendering is a technique that generates realistic reflections, shadows and highlights.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Resolution is the number of pixels in an image.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Fractals is the drawing of a model by using features like edges or contour lines.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Rendering is special effects that can be applied to pictures.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "GIS stands for Geographic Internet Systems.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Compositing is combine multiple images together to form one final image.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Raster graphics are created using mathematical formulas describing shapes, lines and curves.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Bitmaps, or vector graphics, are stored as a series of tiny dots called pixels.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Concerts and other events are broadcast over the Web in a process called webcast",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Encryption converts encrypted data back into its original form.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "A worm is disguised as a useful program; it may affect data security.",
+      "back": "Đáp án: Sai",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Spyware collects information from your PC without your consent.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "A worm is a self-copying program that spreads through email attachments; it replicates its self and send a copy to everyone in an address book.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "Private networks use a software and hardware mechanism called a firewall to block unauthorized traffic from the Internet.",
+      "back": "Đáp án: Đúng",
+      "section": "Đúng / Sai"
+    },
+    {
+      "front": "A worm is disguised as a useful program; it may affect data security.",
+      "back": "Đáp án: ?",
+      "section": "I. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Programming languages are used to describe the structure of web documents.",
+      "back": "Đáp án: ?",
+      "section": "I. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements.",
+      "back": "Đáp án: ?",
+      "section": "I. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Rendering is a technique that generates realistic reflections, shadows and highlights.",
+      "back": "Đáp án: ?",
+      "section": "I. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "XML enables us to define our own tags; it is not limited by a fixed set of tags like in HTML.",
+      "back": "Đáp án: ?",
+      "section": "I. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "VoIP is a service which allows users to make phone calls over the traditional phone line.",
+      "back": "Đáp án: ?",
+      "section": "I. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Encryption converts encrypted data back into its original form.",
+      "back": "Đáp án: ?",
+      "section": "I. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Nanotechnology is the science of making small devices from single atoms and molecules.",
+      "back": "Đáp án: ?",
+      "section": "I. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Digital TV is a system for broadcasting and receiving moving pictures and sound by means of digital signals.",
+      "back": "Đáp án: ?",
+      "section": "I. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Biometrics is biological identification of people.",
+      "back": "Đáp án: ?",
+      "section": "I. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "A worm is a self-copying program that spreads through email attachments; it replicates its self and send a copy to everyone in an address book.",
+      "back": "Đáp án: Đúng",
+      "section": "III. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Arrow keys are used to move the cursor, as an alternative to the mouse.",
+      "back": "Đáp án: Đúng",
+      "section": "III. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "A computer security specialist is responsible for designing and developing the electronic and mechanical parts of computers.",
+      "back": "Đáp án: ?",
+      "section": "III. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "RFID is the science of making small devices from single atoms and molecules",
+      "back": "Đáp án: ?",
+      "section": "III. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "A worm is disguised as a useful program; it may affect data security.",
+      "back": "Đáp án: Sai",
+      "section": "III. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Markup languages use instructions, known as markup tags, to format and link text files.",
+      "back": "Đáp án: ?",
+      "section": "III. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Debugging is the techniques of detecting and correcting errors which may occur in programs.",
+      "back": "Đáp án: ?",
+      "section": "III. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Machine code is the program instructions written in a particular programming language.",
+      "back": "Đáp án: ?",
+      "section": "III. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Resolution is the number of pixels in an image.",
+      "back": "Đáp án: ?",
+      "section": "III. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Source code is the basic instructions understood by computers; it consists of 1s and 0s (binary code).",
+      "back": "Đáp án: ?",
+      "section": "III. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Biometrics is biological identification of people.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "VoIP is a service which allows users to make phone calls over the traditional phone line.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "A worm is a self-copying program that spreads through email attachments; it replicates its self and send a copy to everyone in an address book.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Bitmaps, or vector graphics, are stored as a series of tiny dots called pixels.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "A CD ripper converts CDs to live streams.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Digital TV is the use of radio waves and chip-equipped tags to automatically identify people or things.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Streaming is a technique for playing sound and video files while they’re downloading.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "With smart phones, you can send texts with multimedia attachments such as pictures, audio, video.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Digital TV is a system for broadcasting and receiving moving pictures and sound by means of digital signals.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F)"
+    },
+    {
+      "front": "Concerts and other events are broadcast over the Web in a process called webcast.",
+      "back": "Đáp án: ?",
+      "section": "V. Decide if the sentences are true (T) or false (F) ("
+    },
+    {
+      "front": "Digital TV is the term that refers to the transmission of audio signals (radio) or audiovisual signals (television).",
+      "back": "Đáp án: ?",
+      "section": "V. Decide if the sentences are true (T) or false (F) ("
+    },
+    {
+      "front": "In Windows, if you delete the application icon, the application will still be on your computer.",
+      "back": "Đáp án: ?",
+      "section": "V. Decide if the sentences are true (T) or false (F) ("
+    },
+    {
+      "front": "Function keys appear at the bottom of the keyboard and can be programmed to do special tasks.",
+      "back": "Đáp án: ?",
+      "section": "V. Decide if the sentences are true (T) or false (F) ("
+    },
+    {
+      "front": "Fixed phone is the device that deliver email and phone services to users on the move.",
+      "back": "Đáp án: ?",
+      "section": "V. Decide if the sentences are true (T) or false (F) ("
+    },
+    {
+      "front": "The GPS is a navigation and location system formed by various satellites and their corresponding receivers on Earth.",
+      "back": "Đáp án: ?",
+      "section": "V. Decide if the sentences are true (T) or false (F) ("
+    },
+    {
+      "front": "The interpreter translates the source code line by line in the runtime while the compiler converts the entire program into machine code in one go.",
+      "back": "Đáp án: ?",
+      "section": "V. Decide if the sentences are true (T) or false (F) ("
+    },
+    {
+      "front": "Flowchart is a diagram representing the successive logical steps of the program.",
+      "back": "Đáp án: ?",
+      "section": "V. Decide if the sentences are true (T) or false (F) ("
+    },
+    {
+      "front": "A help desk technician provides phone or email support on technical issues, including operation of equipment, setup problems, troubleshooting, etc.",
+      "back": "Đáp án: ?",
+      "section": "V. Decide if the sentences are true (T) or false (F) ("
+    },
+    {
+      "front": "Private networks use a software and hardware mechanism called a firewall to block unauthorized traffic from the Internet.",
+      "back": "Đáp án: ?",
+      "section": "V. Decide if the sentences are true (T) or false (F) ("
+    },
+    {
+      "front": "A wiki is a collaborative website whose content can be edited by its users.",
+      "back": "Wiki là một trang web cộng tác mà nội dung của nó có thể được người dùng chỉnh sửa.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "A computer program is a set of instructions that tells the computer how to do a specific task.",
+      "back": "Chương trình máy tính là tập hợp các hướng dẫn cho máy tính biết cách thực hiện một tác vụ cụ thể",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "YouTube is a site based on user-generated content, which allows users to upload, view and share movie clips and music videos, as well as amateur videoblogs.",
+      "back": "YouTube là một trang web dựa trên nội dung do người dùng tạo, cho phép người dùng tải lên, xem và chia sẻ các đoạn phim và video ca nhạc cũng như các blog video nghiệp dư.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Programs written in a high-level language require compiler that is, translation into machine code, the language understood by the processor.",
+      "back": "Các chương trình được viết bằng ngôn ngữ cấp cao yêu cầu trình biên dịch, tức là dịch sang mã máy, ngôn ngữ mà bộ xử lý hiểu được.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Graphic artists and designers use drawing programs to create freehand drawings and illustration for books or for the Web.",
+      "back": "Các nghệ sĩ và nhà thiết kế đồ họa sử dụng các chương trình vẽ để tạo các bản vẽ và minh họa tự do cho sách hoặc cho Web.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "In the future, artificial intelligence and voice recognition will be incorporated into most computer applications",
+      "back": "Trong tương lai trí tuệ nhân tạo và nhận diện giọng nói sẽ được tích hợp vào hầu hết các ứng dụng máy tính",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "In recent years, TV and radio broadcasting has been revolutionized by developments in satellite and digital transmission.",
+      "back": "Trong những năm gần đây, truyền hình và phát thanh đã được cách mạng hóa nhờ sự phát triển của truyền dẫn vệ tinh và kỹ thuật số.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "CPU speed is a major factor in determining how fast your computer operates.",
+      "back": "Tốc độ CPU là yếu tố chính quyết định tốc độ hoạt động của máy tính.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Graphic programs have a toolbox that enables you to draw, paint and edit images on the computer.",
+      "back": "Các chương trình đồ họa có một hộp công cụ cho phép bạn vẽ, tô màu và chỉnh sửa hình ảnh trên máy tính.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "If you want to protect your PC, don’t open email attachments from strangers and take care when downloading files from the Web.",
+      "back": "Nếu bạn muốn bảo vệ PC của mình, đừng mở tệp đính kèm email từ người lạ và hãy cẩn thận khi tải tệp xuống từ Web.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Computer animation is the process of create objects which move across the screen.",
+      "back": "Hoạt hình máy tính là quá trình tạo ra các đối tượng di chuyển trên màn hình.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "The process of going through the code to identify the cause of errors and fixing them is called debugging.",
+      "back": "Quá trình duyệt qua mã để xác định nguyên nhân lỗi và sửa chúng được gọi là gỡ lỗi.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Programs written in a high-level language require compiler that is, translation into machine code, the language understood by the processor.",
+      "back": "Các chương trình được viết bằng ngôn ngữ cấp cao yêu cầu trình biên dịch, tức là dịch sang mã máy, ngôn ngữ mà bộ xử lý hiểu được.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Site that ask for your credit card number or other personal information should use a secure server, so the data you send is encrypted",
+      "back": "Trang web yêu cầu số thẻ tín dụng hoặc thông tin cá nhân khác của bạn phải sử dụng máy chủ bảo mật để dữ liệu bạn gửi được mã hóa",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Web suffers will go somewhere else if the page doesn’t appear quickly.",
+      "back": "Web bị ảnh hưởng sẽ đi nơi khác nếu trang không xuất hiện nhanh chóng.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Websites is also used for many other functions, including sending and receiving email, and connecting to the newsgroups and discussion groups.",
+      "back": "Trang web cũng được sử dụng cho nhiều chức năng khác, bao gồm gửi và nhận email cũng như kết nối với các nhóm tin và nhóm thảo luận.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "In the future, artificial intelligence and voice recognition will be incorporated into most computer applications.",
+      "back": "Trong tương lai, trí tuệ nhân tạo và nhận diện giọng nói sẽ được tích hợp vào các ứng dụng của máy tính",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "E-commerce has become increasingly popular over the last decade.",
+      "back": "Thương mại điện tử ngày càng trở nên phổ biến trong thập kỷ qua.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Downloading files from the internet can infect your computer with a virus.",
+      "back": "Tải xuống các tập tin từ internet có thể lây nhiễm vi-rút vào máy tính của bạn.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Depending on the e-book format you select, you can read e-books on a computer, PDA(Personal Digital Assistant), or a dedicated handheld device known as an e-book reader.",
+      "back": "Tùy thuộc vào định dạng sách điện tử bạn chọn, bạn có thể đọc sách điện tử trên máy tính, PDA (Trợ lý kỹ thuật số cá nhân) hoặc thiết bị cầm tay chuyên dụng được gọi là đầu đọc sách điện tử.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Most print newspaper are developing online editions, which allow them to effectively compete with TV and radio in presenting breaking news as it happens.",
+      "back": "Hầu hết các tờ báo in đang phát triển các phiên bản trực tuyến, cho phép họ cạnh tranh hiệu quả với truyền hình và đài phát thanh trong việc đưa ra những tin tức nóng hổi khi nó xảy ra.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "A cyber slacker is an employee who uses his company’s internet connection during work hours to chat with friends, play games, etc.",
+      "back": "Kẻ lười biếng trên mạng là một nhân viên sử dụng kết nối internet của công ty mình trong giờ làm việc để trò chuyện với bạn bè, chơi trò chơi, v.v.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Cookies are data sent by an internet server to a browser. They identify the user and track the user’s access to the server.",
+      "back": "Cookies là dữ liệu được máy chủ internet gửi tới trình duyệt. Họ xác định người dùng và theo dõi quyền truy cập của người dùng vào máy chủ.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "If you want to protect your PC, don’t open email attachments from strangers and take care when downloading files from the Web.",
+      "back": "Nếu bạn muốn bảo vệ PC của mình, đừng mở tệp đính kèm email từ người lạ và hãy cẩn thận khi tải tệp xuống từ Web.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Commercial online services function like ISPs, but also provide their own unique content.",
+      "back": "Các dịch vụ thương mại trực tuyến hoạt động giống như ISP nhưng cũng cung cấp nội dung độc đáo của riêng họ.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Moving pictures in websites are usually called animations.",
+      "back": "Hình ảnh chuyển động trong trang web thường được gọi là ảnh động.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "With this software, you can make the video frame larger.",
+      "back": "Với phần mềm này, bạn có thể làm cho khung hình video lớn hơn.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Temporary internet files are stored in the cache.",
+      "back": "Các tệp internet tạm thời được lưu trữ trong bộ đệm.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Keylogger records characters that are typed into a computer.",
+      "back": "Keylogger ghi lại các ký tự được gõ vào máy tính.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Instant messaging is to exchange messages in real time with friends or colleagues.",
+      "back": "Nhắn tin tức thời là trao đổi tin nhắn trong thời gian thực với bạn bè hoặc đồng nghiệp.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Cookies are data sent by an internet server to a browser. They identify the user and track the user’s access to the server.",
+      "back": "Cookie là dữ liệu được máy chủ internet gửi tới trình duyệt. Họ xác định người dùng và theo dõi quyền truy cập của người dùng vào máy chủ.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Desktops, laptops and mobile devices connect the world together and perform multiple tasks at once.",
+      "back": "Máy tính để bàn, máy tính xách tay và thiết bị di động kết nối thế giới với nhau và thực hiện nhiều tác vụ cùng một lúc",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "The Web has revolutionized the way people do research – with sites such as Google and Wikipedia – you can find the information you need in seconds.",
+      "back": "Web đã cách mạng hóa cách mọi người nghiên cứu – với các trang web như Google và Wikipedia – bạn có thể tìm thấy thông tin mình cần trong vài giây.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Cookies allow a website to store information on a user’s machine and later retrieve it; when you visit the website again, it remembers your preferences.",
+      "back": "Cookie cho phép trang web lưu trữ thông tin trên máy của người dùng và sau đó truy xuất thông tin đó; khi bạn truy cập lại trang web, nó sẽ ghi nhớ các tùy chọn của bạn.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "In many universities, students are encouraged to give presentations using PowerPoint in order to make their talks more visually attractive.",
+      "back": "Ở nhiều trường đại học, sinh viên được khuyến khích thuyết trình bằng PowerPoint để làm cho bài thuyết trình của họ hấp dẫn hơn về mặt hình ảnh.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "The basic configuration of a mainframe consists of a central system which processes large amount of data very quickly.",
+      "back": "Cấu hình cơ bản của máy tính lớn bao gồm một hệ thống trung tâm xử lý lượng lớn dữ liệu rất nhanh.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Ports, which we can plug a wide range of peripherals into, allow communication between the computer and the devices.",
+      "back": "Các cổng mà chúng ta có thể cắm nhiều loại thiết bị ngoại vi vào, cho phép giao tiếp giữa máy tính và các thiết bị.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "A tablet PC is a type of computer that has an LCD screen on which you can write with a stylus or digital pen.",
+      "back": "Máy tính bảng là một loại máy tính có màn hình LCD mà bạn có thể viết bằng bút stylus hoặc bút kỹ thuật số.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "A word processing program is a type of software which lets the user create and edit text.",
+      "back": "Chương trình xử lý văn bản là loại phần mềm cho phép người dùng tạo và chỉnh sửa văn bản.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "A computer is an electronic machine which can accept data in a certain form, process the data, and give the results of the processing.",
+      "back": "Máy tính là một loại máy điện tử có khả năng tiếp nhận dữ liệu ở một dạng nhất định, xử lý dữ liệu và đưa ra kết quả xử lý.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "As well as having normal keys for characters, keyboard may also have function keys and editing keys for special purposes.",
+      "back": "Ngoài các phím ký tự thông thường, bàn phím còn có thể có các phím chức năng và phím soạn thảo dành cho những mục đích đặc biệt.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Controlling your PC by voice commands means that you can launch programs, open a file, save it in a particular format or print it.",
+      "back": "Điều khiển PC của bạn bằng lệnh thoại có nghĩa là bạn có thể khởi chạy chương trình, mở tệp, lưu tệp ở định dạng cụ thể hoặc in tệp.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "To launch a program or open a document with the mouse, you put the pointer on the file name and double-click on the name.",
+      "back": "Để khởi chạy một chương trình hoặc mở một tài liệu bằng chuột, bạn đặt con trỏ vào tên file và nhấp đúp vào tên đó.",
+      "section": "Dịch câu (EN → VI)"
+    },
+    {
+      "front": "Concerts and other events are broadcast over the Web in a process called webcast.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F) (2ps)"
+    },
+    {
+      "front": "Debugging is the technADSLiques of detecting and correcting errors which may occur in programs.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F) (2ps)"
+    },
+    {
+      "front": "XML enables us to define our own tags; it is not limited by a fixed set of tags like in HTML.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F) (2ps)"
+    },
+    {
+      "front": "Fractals is the drawing of a model by using features like edges or contour lines.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F) (2ps)"
+    },
+    {
+      "front": "Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F) (2ps)"
+    },
+    {
+      "front": "The interpreter translates the source code line by line in the runtime while the compiler convertsthe entire program into machine code in one go.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F) (2ps)"
+    },
+    {
+      "front": "A webmaster must be proficient in HTML, XML and JavaScript.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F) (2ps)"
+    },
+    {
+      "front": "Bitmaps, or vector graphics, are stored as a series of tiny dots called pixels.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F) (2ps)"
+    },
+    {
+      "front": "Resolution is the number of pixels in an image.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F) (2ps)"
+    },
+    {
+      "front": "High-level languages are more difficult to write than low-level languages.",
+      "back": "Đáp án: ?",
+      "section": "IV. Decide if the sentences are true (T) or false (F) (2ps)"
+    }
+  ],
+  "stats": {
+    "sections": 28,
+    "total_items": 625,
+    "mcq": 153,
+    "translation": 43,
+    "true_false": 114,
+    "fill_blank": 134,
+    "flashcards": 157,
+    "Unit 1": 6,
+    "Unit 2": 8,
+    "Unit 3": 9,
+    "Unit 4": 4,
+    "Unit 5": 8,
+    "Unit 6": 19,
+    "Unit 7": 6,
+    "Unit 8": 7,
+    "Unit 9": 23,
+    "Unit 10": 8,
+    "Unit 11": 16,
+    "Đề thi mẫu": 10,
+    "Luyện tập Trắc nghiệm": 13,
+    "Ngữ pháp - Chọn đáp án": 13,
+    "Điền vào chỗ trống": 61,
+    "Đúng / Sai": 73,
+    "Đúng / Sai (ôn tập)": 35,
+    "I. Decide if the sentences are true (T) or false (F)": 10,
+    "III. Decide if the sentences are true (T) or false (F)": 10,
+    "IV. Decide if the sentences are true (T) or false (F)": 10,
+    "V. Decide if the sentences are true (T) or false (F) (": 10,
+    "Dịch câu (EN → VI)": 43,
+    "Khoanh tròn từ phù hợp": 22,
+    "Ghép Collocation": 54,
+    "Hoàn thành câu (từ cho sẵn)": 18,
+    "IV. Decide if the sentences are true (T) or false (F) (2ps)": 10,
+    "Ôn tập Collocation 2": 0,
+    "Collocations": 119
+  }
+}
