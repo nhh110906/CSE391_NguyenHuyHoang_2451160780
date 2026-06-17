@@ -210,6 +210,34 @@
     }
     .option.revealed-correct { border-color: var(--success); background: rgba(34,197,94,.1); }
     .option.revealed-wrong { opacity: .5; }
+    .answer-panel {
+      margin-top: .75rem;
+      padding: .6rem .85rem;
+      background: rgba(34,197,94,.08);
+      border-radius: 8px;
+      border-left: 3px solid var(--success);
+      font-size: .875rem;
+      color: var(--success);
+      display: none;
+    }
+    .card.revealed .answer-panel,
+    .card.revealed .vi { display: block; }
+    .answer-panel strong { color: var(--text); }
+    .toggle-answers-btn {
+      padding: .45rem .9rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: .8rem;
+      font-weight: 500;
+      border-radius: 7px;
+      cursor: pointer;
+      font-family: inherit;
+      white-space: nowrap;
+    }
+    .toggle-answers-btn:hover,
+    .toggle-answers-btn.active { border-color: var(--accent); color: var(--accent); }
+    .toggle-answers-btn.active { background: rgba(59,130,246,.12); }
     .reveal-btn {
       margin-top: .75rem;
       padding: .4rem .85rem;
@@ -237,7 +265,8 @@
     .translation-card.revealed .vi { display: block; }
 
     /* True/False */
-    .tf-card { display: flex; align-items: flex-start; gap: 1rem; }
+    .tf-card { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 1rem; }
+    .tf-card .reveal-btn { flex-basis: 100%; margin-top: 0; }
     .tf-btns { display: flex; gap: .4rem; flex-shrink: 0; }
     .tf-btn {
       padding: .35rem .75rem;
@@ -396,6 +425,7 @@
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
           <input type="search" id="searchInput" placeholder="Tìm kiếm từ vựng, câu hỏi...">
         </div>
+        <button class="toggle-answers-btn" id="toggleAnswers" type="button">Hiện đáp án</button>
         <div class="mode-tabs">
           <button class="mode-tab active" data-mode="browse">📖 Xem</button>
           <button class="mode-tab" data-mode="flashcard">🃏 Flashcard</button>
@@ -418,6 +448,7 @@
     let flashcardIndex = 0;
     let flashcardDeck = [];
     let quizState = null;
+    let showAnswers = false;
 
     async function loadData() {
       const res = await fetch('data.json');
@@ -450,6 +481,77 @@
       document.getElementById('menuToggle').addEventListener('click', () => {
         document.getElementById('sidebar').classList.toggle('open');
       });
+      document.getElementById('toggleAnswers').addEventListener('click', () => {
+        showAnswers = !showAnswers;
+        const btn = document.getElementById('toggleAnswers');
+        btn.textContent = showAnswers ? 'Ẩn đáp án' : 'Hiện đáp án';
+        btn.classList.toggle('active', showAnswers);
+        renderContent();
+      });
+    }
+
+    function getMcqAnswer(item) {
+      if (item.answer) {
+        const opt = (item.options || []).find(o => o.key === item.answer);
+        const text = item.answer_text || (opt ? opt.text.split('=')[0].trim() : '');
+        return { key: item.answer, text };
+      }
+      const note = (item.note || '').trim();
+      if (/^[a-d]$/i.test(note)) {
+        const key = note.toLowerCase();
+        const opt = (item.options || []).find(o => o.key === key);
+        return { key, text: opt ? opt.text.split('=')[0].trim() : '' };
+      }
+      if (note) return { text: note };
+      for (const o of (item.options || [])) {
+        if (o.text.includes('=')) {
+          return { key: o.key, text: o.text.split('=')[0].trim() };
+        }
+      }
+      const embedded = (item.question || '').match(/_{2,}\s*([A-Za-z][\w\s-]*)\s*$/);
+      if (embedded) return { text: embedded[1].trim() };
+      return null;
+    }
+
+    function getFillAnswer(item) {
+      if (item.answer) return item.answer;
+      const text = item.text || '';
+      const underscore = text.match(/_{1,}([^_\s][^_]*?)[_\s]{1,}/);
+      if (underscore) return underscore[1].trim();
+      const letter = text.match(/^\d+\s*[.…]+\s*([a-z])\s*$/i);
+      if (letter) return letter[1].toLowerCase();
+      return null;
+    }
+
+    function getCollocationAnswer(wordItem, optsByNum, ansByNum) {
+      if (wordItem.answer) {
+        const key = String(wordItem.answer).toLowerCase();
+        const opt = (optsByNum[wordItem.num] || optsByNum._shared || []).find(o => o.key === key);
+        return { key, text: opt ? opt.text : key };
+      }
+      const ans = ansByNum[wordItem.num];
+      if (ans) {
+        const key = String(ans.answer || ans).toLowerCase();
+        const opt = (optsByNum[wordItem.num] || optsByNum._shared || []).find(o => o.key === key);
+        return { key, text: opt ? opt.text : key };
+      }
+      return null;
+    }
+
+    function formatAnswerLabel(ans) {
+      if (!ans) return '';
+      if (ans.key && ans.text) return `${ans.key.toUpperCase()}. ${ans.text}`;
+      if (ans.key) return ans.key.toUpperCase();
+      return ans.text || '';
+    }
+
+    function renderAnswerPanel(html, revealed) {
+      if (!html) return '';
+      return `<div class="answer-panel" style="display:${revealed ? 'block' : 'none'}">Đáp án: <strong>${html}</strong></div>`;
+    }
+
+    function isRevealed(force) {
+      return showAnswers || !!force;
     }
 
     function renderNav() {
@@ -533,10 +635,57 @@
         <h2>${sec.title}</h2>
         ${sec.note ? `<p class="note">${sec.note}</p>` : ''}
       </div>`;
-      sec.items.forEach((item, idx) => {
+
+      const optsByNum = {};
+      const ansByNum = {};
+      const colWords = [];
+      const normal = [];
+
+      sec.items.forEach(item => {
+        if (item.type === 'collocation_word') colWords.push(item);
+        else if (item.type === 'collocation_opt') {
+          const n = item.num || '_shared';
+          (optsByNum[n] ||= []).push(item);
+        } else if (item.type === 'collocation_ans') {
+          ansByNum[item.num] = item;
+        } else if (item.type !== 'collocation_opt' && item.type !== 'collocation_ans') {
+          normal.push(item);
+        }
+      });
+
+      normal.forEach((item, idx) => {
         html += renderItem(item, sec.title, idx);
       });
+
+      if (colWords.length) {
+        html += renderCollocationGroup(colWords, optsByNum, ansByNum);
+      }
+
       return html;
+    }
+
+    function renderCollocationGroup(words, optsByNum, ansByNum) {
+      const shared = optsByNum._shared || [];
+      return words.map(word => {
+        const opts = (optsByNum[word.num] || shared).map(o =>
+          `<div class="option" data-coll-key="${o.key}"><span class="key">${o.key}.</span><span>${escapeHtml(o.text)}</span></div>`
+        ).join('');
+        const ans = getCollocationAnswer(word, optsByNum, ansByNum);
+        const revealed = isRevealed();
+        const correctKey = ans ? ans.key : '';
+        const optsHtml = (optsByNum[word.num] || shared).map(o => {
+          const classes = ['option'];
+          if (revealed && correctKey && o.key === correctKey) classes.push('revealed-correct');
+          return `<div class="${classes.join(' ')}"><span class="key">${o.key}.</span><span>${escapeHtml(o.text)}</span></div>`;
+        }).join('');
+        return `<div class="card collocation-card ${revealed ? 'revealed' : ''}" data-coll-ans="${correctKey}">
+          <span class="card-num">${word.num}</span>
+          <p class="card-question">${escapeHtml(word.word)}</p>
+          ${optsHtml ? `<div class="options">${optsHtml}</div>` : ''}
+          ${renderAnswerPanel(escapeHtml(formatAnswerLabel(ans)), revealed)}
+          <button class="reveal-btn" data-reveal-coll>Hiện đáp án</button>
+        </div>`;
+      }).join('');
     }
 
     function renderItem(item, sectionTitle, idx) {
@@ -560,88 +709,166 @@
         case 'word_box':
           return `<div class="card"><p style="font-size:.8rem;color:var(--text-muted);margin-bottom:.5rem">Từ gợi ý:</p><div style="display:flex;flex-wrap:wrap;gap:.4rem">${item.words.map(w => `<span style="background:var(--surface2);padding:.25rem .6rem;border-radius:6px;font-size:.8rem">${escapeHtml(w)}</span>`).join('')}</div></div>`;
         case 'collocation_word':
-          return `<div class="card"><span class="card-num">${item.num}</span><p class="card-question">${escapeHtml(item.word)}</p></div>`;
         case 'collocation_opt':
-          return `<div class="option" style="margin-bottom:.3rem"><span class="key">${item.key}.</span><span>${escapeHtml(item.text)}</span></div>`;
         case 'collocation_ans':
-          return `<div class="card" style="padding:.6rem 1rem"><span class="card-num">${item.num}</span> → <strong style="color:var(--success)">${escapeHtml(item.answer)}</strong></div>`;
+          return '';
         default:
           return '';
       }
     }
 
     function renderMCQ(item, idx) {
-      const opts = (item.options || []).map(o =>
-        `<div class="option" data-idx="${idx}"><span class="key">${o.key}.</span><span>${escapeHtml(o.text)}</span></div>`
-      ).join('');
-      return `<div class="card mcq-card" data-idx="${idx}">
+      const ans = getMcqAnswer(item);
+      const revealed = isRevealed();
+      const correctKey = ans && ans.key ? ans.key : '';
+      const opts = (item.options || []).map(o => {
+        const classes = ['option'];
+        if (revealed && correctKey && o.key === correctKey) classes.push('revealed-correct');
+        return `<div class="${classes.join(' ')}" data-idx="${idx}" data-opt-key="${o.key}"><span class="key">${o.key}.</span><span>${escapeHtml(o.text.split('=')[0].trim())}</span></div>`;
+      }).join('');
+      const answerHtml = formatAnswerLabel(ans);
+      return `<div class="card mcq-card ${revealed ? 'revealed' : ''}" data-idx="${idx}" data-correct="${correctKey}">
         ${item.num ? `<span class="card-num">Câu ${item.num}</span>` : ''}
-        ${item.note ? `<p class="card-note">💡 ${escapeHtml(item.note)}</p>` : ''}
-        <p class="card-question">${escapeHtml(item.question)}</p>
+        ${item.note && !ans ? `<p class="card-note">💡 ${escapeHtml(item.note)}</p>` : ''}
+        <p class="card-question">${escapeHtml(item.question.replace(/_{2,}\s*[A-Za-z][\w\s-]*\s*$/, ' ___'))}</p>
         ${opts ? `<div class="options">${opts}</div>` : ''}
-        ${item.note && !opts.length ? '' : `<button class="reveal-btn" data-reveal="${idx}">Hiện gợi ý</button>`}
+        ${renderAnswerPanel(escapeHtml(answerHtml), revealed && !!answerHtml)}
+        ${answerHtml || (item.options || []).length ? `<button class="reveal-btn" data-reveal-mcq="${idx}">Hiện đáp án</button>` : ''}
       </div>`;
     }
 
     function renderTranslation(item, idx) {
-      return `<div class="card translation-card" data-tidx="${idx}">
+      const revealed = isRevealed();
+      return `<div class="card translation-card ${revealed ? 'revealed' : ''}" data-tidx="${idx}">
         <span class="card-num">Dịch</span>
         <p class="en">${escapeHtml(item.english)}</p>
-        <div class="vi">${escapeHtml(item.vietnamese || 'Chưa có bản dịch')}</div>
+        <div class="vi" style="display:${revealed ? 'block' : 'none'}">${escapeHtml(item.vietnamese || 'Chưa có bản dịch')}</div>
         <button class="reveal-btn" data-trans="${idx}">Hiện bản dịch</button>
       </div>`;
     }
 
     function renderTF(item, idx) {
-      return `<div class="card tf-card" data-tfidx="${idx}" data-answer="${item.answer || ''}">
-        <p class="card-question" style="flex:1">${escapeHtml(item.statement)}</p>
-        <div class="tf-btns">
-          <button class="tf-btn" data-tf="T">Đúng</button>
-          <button class="tf-btn" data-tf="F">Sai</button>
+      const ans = item.answer || '';
+      const revealed = isRevealed();
+      const label = ans === 'T' ? 'ĐÚNG (True)' : ans === 'F' ? 'SAI (False)' : '';
+      return `<div class="card tf-card ${revealed ? 'revealed' : ''}" data-tfidx="${idx}" data-answer="${ans}">
+        <div style="flex:1">
+          <p class="card-question">${escapeHtml(item.statement)}</p>
+          ${renderAnswerPanel(escapeHtml(label), revealed && !!label)}
         </div>
+        <div class="tf-btns">
+          <button class="tf-btn ${revealed && ans === 'T' ? 'correct' : ''}" data-tf="T">Đúng</button>
+          <button class="tf-btn ${revealed && ans === 'F' ? 'correct' : ''}" data-tf="F">Sai</button>
+        </div>
+        <button class="reveal-btn" data-reveal-tf="${idx}" style="width:100%;margin-top:.5rem">Hiện đáp án</button>
       </div>`;
     }
 
     function renderFillBlank(item) {
+      const ans = getFillAnswer(item);
+      const revealed = isRevealed();
       const text = escapeHtml(item.text)
+        .replace(/_{1,}([^_\s][^_]*?)[_\s]{1,}/g, '<span class="blank">___</span>')
         .replace(/…+/g, '<span class="blank">___</span>')
         .replace(/_{2,}/g, '<span class="blank">___</span>');
-      return `<div class="card"><p class="fill-text">${text}</p></div>`;
+      const answerLabel = ans && ans.length === 1 && /[a-z]/i.test(ans)
+        ? `Chọn: ${ans.toUpperCase()}`
+        : ans;
+      return `<div class="card fill-card ${revealed ? 'revealed' : ''}">
+        <p class="fill-text">${text}</p>
+        ${renderAnswerPanel(escapeHtml(answerLabel || ''), revealed && !!answerLabel)}
+        <button class="reveal-btn" data-reveal-fill>Hiện đáp án</button>
+      </div>`;
     }
 
     function bindCardEvents() {
       document.querySelectorAll('[data-trans]').forEach(btn => {
         btn.addEventListener('click', () => {
-          btn.closest('.translation-card').classList.add('revealed');
+          const card = btn.closest('.translation-card');
+          card.classList.add('revealed');
+          card.querySelector('.vi').style.display = 'block';
           btn.style.display = 'none';
         });
       });
-      document.querySelectorAll('[data-reveal]').forEach(btn => {
+      document.querySelectorAll('[data-reveal-mcq]').forEach(btn => {
+        btn.addEventListener('click', () => revealMcqCard(btn.closest('.mcq-card')));
+      });
+      document.querySelectorAll('[data-reveal-tf]').forEach(btn => {
+        btn.addEventListener('click', () => revealTfCard(btn.closest('.tf-card')));
+      });
+      document.querySelectorAll('[data-reveal-fill]').forEach(btn => {
         btn.addEventListener('click', () => {
-          const card = btn.closest('.mcq-card');
-          const note = card.querySelector('.card-note');
-          if (note) note.style.display = 'block';
-          btn.textContent = 'Đã hiện gợi ý';
+          const card = btn.closest('.fill-card');
+          card.classList.add('revealed');
+          card.querySelector('.answer-panel').style.display = 'block';
+          btn.textContent = 'Đã hiện đáp án';
+        });
+      });
+      document.querySelectorAll('[data-reveal-coll]').forEach(btn => {
+        btn.addEventListener('click', () => {
+          const card = btn.closest('.collocation-card');
+          const key = card.dataset.collAns;
+          card.classList.add('revealed');
+          card.querySelectorAll('.option').forEach(o => {
+            if (key && o.querySelector('.key').textContent.startsWith(key + '.')) {
+              o.classList.add('revealed-correct');
+            }
+          });
+          const panel = card.querySelector('.answer-panel');
+          if (panel) panel.style.display = 'block';
+          btn.textContent = 'Đã hiện đáp án';
         });
       });
       document.querySelectorAll('.tf-btn').forEach(btn => {
         btn.addEventListener('click', () => {
           const card = btn.closest('.tf-card');
-          const answer = card.dataset.answer;
-          if (!answer) { btn.classList.add('correct'); return; }
-          const chosen = btn.dataset.tf;
-          card.querySelectorAll('.tf-btn').forEach(b => {
-            if (b.dataset.tf === answer) b.classList.add('correct');
-            else if (b === btn && chosen !== answer) b.classList.add('wrong');
-          });
+          revealTfCard(card, btn.dataset.tf);
         });
       });
+    }
+
+    function revealMcqCard(card) {
+      if (!card) return;
+      const correctKey = card.dataset.correct;
+      card.classList.add('revealed');
+      card.querySelectorAll('.option').forEach(o => {
+        if (correctKey && o.dataset.optKey === correctKey) o.classList.add('revealed-correct');
+      });
+      const panel = card.querySelector('.answer-panel');
+      if (panel) panel.style.display = 'block';
+      const btn = card.querySelector('[data-reveal-mcq]');
+      if (btn) btn.textContent = 'Đã hiện đáp án';
+    }
+
+    function revealTfCard(card, chosen) {
+      if (!card) return;
+      const answer = card.dataset.answer;
+      card.classList.add('revealed');
+      card.querySelectorAll('.tf-btn').forEach(b => {
+        b.classList.remove('correct', 'wrong');
+        if (answer && b.dataset.tf === answer) b.classList.add('correct');
+        else if (chosen && b.dataset.tf === chosen && chosen !== answer) b.classList.add('wrong');
+      });
+      const panel = card.querySelector('.answer-panel');
+      if (panel) panel.style.display = 'block';
+      const btn = card.querySelector('[data-reveal-tf]');
+      if (btn) btn.textContent = 'Đã hiện đáp án';
     }
 
     function buildFlashcardDeck() {
       const deck = [];
       const sections = getFilteredSections();
       sections.forEach(sec => {
+        const optsByNum = {};
+        const ansByNum = {};
+        sec.items.forEach(item => {
+          if (item.type === 'collocation_opt') {
+            const n = item.num || '_shared';
+            (optsByNum[n] ||= []).push(item);
+          } else if (item.type === 'collocation_ans') {
+            ansByNum[item.num] = item;
+          }
+        });
         sec.items.forEach(item => {
           if (item.type === 'translation' && item.vietnamese) {
             deck.push({ front: item.english, back: item.vietnamese, section: sec.title });
@@ -651,13 +878,26 @@
               back: item.answer === 'T' ? '✅ ĐÚNG (True)' : '❌ SAI (False)',
               section: sec.title
             });
-          } else if (item.type === 'mcq' && item.options.length > 0) {
-            const hint = item.note ? `\n💡 ${item.note}` : '';
+          } else if (item.type === 'mcq') {
+            const ans = getMcqAnswer(item);
+            if (!ans) return;
+            const label = formatAnswerLabel(ans);
             deck.push({
               front: item.question,
-              back: item.options.map(o => `${o.key}. ${o.text}`).join('\n') + hint,
+              back: label + (item.options || []).filter(o => !ans.key || o.key !== ans.key)
+                .slice(0, 3).map(o => `\n${o.key}. ${o.text.split('=')[0].trim()}`).join(''),
               section: sec.title
             });
+          } else if (item.type === 'fill_blank') {
+            const ans = getFillAnswer(item);
+            if (ans) {
+              deck.push({ front: item.text.replace(/_{2,}/g, '___'), back: `Đáp án: ${ans}`, section: sec.title });
+            }
+          } else if (item.type === 'collocation_word') {
+            const ans = getCollocationAnswer(item, optsByNum, ansByNum);
+            if (ans) {
+              deck.push({ front: item.word, back: formatAnswerLabel(ans), section: sec.title });
+            }
           }
         });
       });
@@ -718,10 +958,16 @@
         sec.items.forEach(item => {
           if (item.type === 'true_false' && item.answer) {
             questions.push({ type: 'tf', statement: item.statement, answer: item.answer });
-          } else if (item.type === 'mcq' && item.options.length >= 2 && item.note) {
-            const correctKey = item.note.split(/[,\s=]/)[0].trim().toLowerCase().charAt(0);
-            if (/^[a-d]$/.test(correctKey)) {
-              questions.push({ type: 'mcq', question: item.question, options: item.options, answer: correctKey });
+          } else if (item.type === 'mcq') {
+            const ans = getMcqAnswer(item);
+            if (ans && ans.key && (item.options || []).length >= 2) {
+              questions.push({
+                type: 'mcq',
+                question: item.question,
+                options: item.options,
+                answer: ans.key,
+                answerText: ans.text
+              });
             }
           }
         });
@@ -755,26 +1001,28 @@
         return `<div class="quiz-container">
           <div class="quiz-progress"><div class="quiz-progress-bar" style="width:${progress}%"></div></div>
           <p style="color:var(--text-muted);font-size:.85rem;margin-bottom:1rem">Câu ${quizState.current + 1}/${quizState.questions.length}</p>
-          <div class="card">
+          <div class="card" id="quizCard">
             <p class="card-question" style="font-size:1.05rem">${escapeHtml(q.statement)}</p>
             <div class="tf-btns" style="margin-top:1rem">
               <button class="tf-btn quiz-answer" data-ans="T" style="padding:.75rem 2rem">Đúng</button>
               <button class="tf-btn quiz-answer" data-ans="F" style="padding:.75rem 2rem">Sai</button>
             </div>
+            <div class="answer-panel" id="quizFeedback" style="display:none;margin-top:1rem"></div>
           </div>
         </div>`;
       }
 
       const opts = q.options.map(o =>
-        `<div class="option quiz-answer" data-ans="${o.key}"><span class="key">${o.key}.</span><span>${escapeHtml(o.text)}</span></div>`
+        `<div class="option quiz-answer" data-ans="${o.key}"><span class="key">${o.key}.</span><span>${escapeHtml(o.text.split('=')[0].trim())}</span></div>`
       ).join('');
 
       return `<div class="quiz-container">
         <div class="quiz-progress"><div class="quiz-progress-bar" style="width:${progress}%"></div></div>
         <p style="color:var(--text-muted);font-size:.85rem;margin-bottom:1rem">Câu ${quizState.current + 1}/${quizState.questions.length}</p>
-        <div class="card">
+        <div class="card" id="quizCard">
           <p class="card-question" style="font-size:1.05rem">${escapeHtml(q.question)}</p>
           <div class="options" style="margin-top:1rem">${opts}</div>
+          <div class="answer-panel" id="quizFeedback" style="display:none;margin-top:1rem"></div>
         </div>
       </div>`;
     }
@@ -796,6 +1044,7 @@
           const q = quizState.questions[quizState.current];
           const chosen = btn.dataset.ans;
           const correct = q.answer;
+          const feedback = document.getElementById('quizFeedback');
           if (chosen === correct) {
             quizState.score++;
             btn.classList.add('revealed-correct');
@@ -805,12 +1054,19 @@
               if (b.dataset.ans === correct) b.classList.add('revealed-correct');
             });
           }
+          if (feedback) {
+            const label = q.type === 'tf'
+              ? (correct === 'T' ? 'ĐÚNG (True)' : 'SAI (False)')
+              : formatAnswerLabel({ key: correct, text: q.answerText });
+            feedback.innerHTML = `Đáp án đúng: <strong>${escapeHtml(label)}</strong>`;
+            feedback.style.display = 'block';
+          }
           quizState.answered = true;
           setTimeout(() => {
             quizState.current++;
             quizState.answered = false;
             renderContent();
-          }, 1200);
+          }, 1800);
         });
       });
     }

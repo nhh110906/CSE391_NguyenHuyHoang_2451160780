@@ -12,6 +12,10 @@
           "question": "The program which is used for text manipulation (phân phối) is called __________________",
           "options": [
             {
+              "key": "a",
+              "text": "database"
+            },
+            {
               "key": "b",
               "text": "spreadsheet"
             },
@@ -31,6 +35,10 @@
           "num": "2",
           "question": "Copying a file from a server to your PC or mobile is called____________",
           "options": [
+            {
+              "key": "a",
+              "text": "downloading"
+            },
             {
               "key": "b",
               "text": "downsizing"
@@ -52,6 +60,10 @@
           "question": "Skype is a technology that enables you to _____________ over the internet.",
           "options": [
             {
+              "key": "a",
+              "text": "transfer money"
+            },
+            {
               "key": "b",
               "text": "do research"
             },
@@ -71,6 +83,10 @@
           "num": "4",
           "question": "Cookies allow a website to _____________ on a user’s  machine and later retrieve when you can visit the website.",
           "options": [
+            {
+              "key": "a",
+              "text": "transfer money"
+            },
             {
               "key": "b",
               "text": "store information"
@@ -92,6 +108,10 @@
           "question": "Online banking  lets you ____________ between your accounts easily and securely.",
           "options": [
             {
+              "key": "a",
+              "text": "transfer money"
+            },
+            {
               "key": "b",
               "text": "store information"
             },
@@ -111,6 +131,10 @@
           "num": "6",
           "question": "With the latest mobile phones, you can _____________ with multimedia attachments – pictures, audio and even video.",
           "options": [
+            {
+              "key": "a",
+              "text": "transfer money"
+            },
             {
               "key": "b",
               "text": "store information"
@@ -140,6 +164,14 @@
           "question": "________ is any electronic or mechanical part you can see or touch.",
           "options": [
             {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
+            {
               "key": "c",
               "text": "CPU"
             },
@@ -155,6 +187,14 @@
           "num": "8",
           "question": "________ is a set of instructions  which tells the computer what to do.",
           "options": [
+            {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
             {
               "key": "c",
               "text": "CPU"
@@ -172,6 +212,14 @@
           "question": "_____________ is called the “brain” of the computer.",
           "options": [
             {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
+            {
               "key": "c",
               "text": "CPU= central processing unit"
             },
@@ -180,13 +228,23 @@
               "text": "peripherals"
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "c",
+          "answer_text": "CPU= central processing unit"
         },
         {
           "type": "mcq",
           "num": "10",
           "question": "_______ are the physical units attached to the computer.",
           "options": [
+            {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
             {
               "key": "c",
               "text": "CPU"
@@ -196,7 +254,9 @@
               "text": "peripherals = storage devices input, output devices "
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "d",
+          "answer_text": "peripherals = storage devices input, output devices "
         },
         {
           "type": "mcq",
@@ -204,8 +264,20 @@
           "question": "Monitors and printers are examples of _____________",
           "options": [
             {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
+            {
               "key": "c",
               "text": "input devicesd. output devices"
+            },
+            {
+              "key": "d",
+              "text": "output devices"
             }
           ],
           "note": ""
@@ -216,6 +288,14 @@
           "question": "Mouse, keyboard,... are examples of _______",
           "options": [
             {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
+            {
               "key": "c",
               "text": "CPU"
             },
@@ -224,7 +304,9 @@
               "text": "peripherals = input devices"
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "d",
+          "answer_text": "peripherals = input devices"
         },
         {
           "type": "mcq",
@@ -232,8 +314,20 @@
           "question": "__________ are sockets into which an external device may be connected .",
           "options": [
             {
+              "key": "a",
+              "text": "input"
+            },
+            {
+              "key": "b",
+              "text": "output"
+            },
+            {
               "key": "c",
               "text": "portsd. peripherals"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
             }
           ],
           "note": ""
@@ -243,6 +337,18 @@
           "num": "14",
           "question": "___________ holds instructions  which are needed to start up the computer.",
           "options": [
+            {
+              "key": "a",
+              "text": "port"
+            },
+            {
+              "key": "b",
+              "text": "peripheral"
+            },
+            {
+              "key": "c",
+              "text": "ROM"
+            },
             {
               "key": "d",
               "text": "RAM"
@@ -264,6 +370,10 @@
           "question": "___________ is a device for controlling the cursor and selecting items on the screen.",
           "options": [
             {
+              "key": "a",
+              "text": "mouse"
+            },
+            {
               "key": "b",
               "text": "keyboard"
             },
@@ -283,6 +393,10 @@
           "num": "16",
           "question": "__________ works by detecting light from the computer screen and is used by pointing it directly at the screen display.",
           "options": [
+            {
+              "key": "a",
+              "text": "mouse"
+            },
             {
               "key": "b",
               "text": "keyboard"
@@ -308,6 +422,10 @@
           "question": "_____________ appear at the top of the keyboard and can be programmed to do special tasks.",
           "options": [
             {
+              "key": "a",
+              "text": "cursor control keys"
+            },
+            {
               "key": "b",
               "text": "alphanumeric keys"
             },
@@ -328,6 +446,10 @@
           "question": "___________-- include arrow keys and  keys such as End. Home. Page up and Page down.",
           "options": [
             {
+              "key": "a",
+              "text": "cursor control keys"
+            },
+            {
               "key": "b",
               "text": "alphanumeric keys"
             },
@@ -347,6 +469,10 @@
           "num": "19",
           "question": "________ are used to  issue  commands  or to produce altenative characters , e.g the Ctrl key or Alt key.",
           "options": [
+            {
+              "key": "a",
+              "text": "cursor control keys"
+            },
             {
               "key": "b",
               "text": "alphanumeric keys"
@@ -392,6 +518,10 @@
           "question": "This key produces UPPER CASE  letters, but it does not affect numbers or symbols.",
           "options": [
             {
+              "key": "a",
+              "text": "shift"
+            },
+            {
               "key": "b",
               "text": "Caps lock"
             },
@@ -420,6 +550,10 @@
           "question": "Which multi-user OS is used on large, powerful computers?",
           "options": [
             {
+              "key": "a",
+              "text": "Windows"
+            },
+            {
               "key": "b",
               "text": "Mac OS"
             },
@@ -432,13 +566,18 @@
               "text": "Linux"
             }
           ],
-          "note": "mainframes"
+          "note": "mainframes",
+          "answer_text": "mainframes"
         },
         {
           "type": "mcq",
           "num": "23",
           "question": "Which multi-user OS is a open – source software developed under the GNU General Public License.",
           "options": [
+            {
+              "key": "a",
+              "text": "Windows"
+            },
             {
               "key": "b",
               "text": "Mac OS"
@@ -460,6 +599,10 @@
           "question": "Which is NOT a characteristic of GUI?",
           "options": [
             {
+              "key": "a",
+              "text": "user- friendly"
+            },
+            {
               "key": "b",
               "text": "slow"
             },
@@ -472,13 +615,19 @@
               "text": "intuitive"
             }
           ],
-          "note": "graphic user interface"
+          "note": "graphic user interface",
+          "answer": "c",
+          "answer_text": "graphic- based"
         },
         {
           "type": "mcq",
           "num": "25",
           "question": "The _____________ icon lets  you  change the way your laptop looks.",
           "options": [
+            {
+              "key": "a",
+              "text": "folder"
+            },
             {
               "key": "b",
               "text": "screen saver"
@@ -508,6 +657,10 @@
           "question": "In a speadsheet, each _____________________ is labelled with a letter.",
           "options": [
             {
+              "key": "a",
+              "text": "column"
+            },
+            {
               "key": "b",
               "text": "row = number"
             },
@@ -520,7 +673,9 @@
               "text": "worksheet."
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "b",
+          "answer_text": "row = number"
         },
         {
           "type": "fill_blank",
@@ -535,6 +690,10 @@
           "num": "28",
           "question": "____________ is a single piece of information in a record.",
           "options": [
+            {
+              "key": "a",
+              "text": "field"
+            },
             {
               "key": "b",
               "text": "file"
@@ -556,6 +715,10 @@
           "question": "A tool that allows you to extract information that meets certain criteria is __________",
           "options": [
             {
+              "key": "a",
+              "text": "query"
+            },
+            {
               "key": "b",
               "text": "sort"
             },
@@ -576,6 +739,14 @@
           "question": "Modern databases are__________ - that is, they are made up of related files.",
           "options": [
             {
+              "key": "a",
+              "text": "relate"
+            },
+            {
+              "key": "b",
+              "text": "relation"
+            },
+            {
               "key": "c",
               "text": "relational"
             },
@@ -591,6 +762,10 @@
           "num": "31",
           "question": "To ______ is to classify records into numerical or alphabetical order.",
           "options": [
+            {
+              "key": "a",
+              "text": "search"
+            },
             {
               "key": "b",
               "text": "sort"
@@ -611,6 +786,10 @@
           "num": "32",
           "question": "To ________ is to look for specific information , for example the name of an employee.",
           "options": [
+            {
+              "key": "a",
+              "text": "search"
+            },
             {
               "key": "b",
               "text": "sort"
@@ -640,6 +819,10 @@
           "question": "Which term  describes any fast, high bandwidth connection?",
           "options": [
             {
+              "key": "a",
+              "text": "broadband"
+            },
+            {
               "key": "b",
               "text": "dial- up connection"
             },
@@ -655,6 +838,10 @@
           "num": "34",
           "question": "The power- line Internet provides broadband access through____________",
           "options": [
+            {
+              "key": "a",
+              "text": "telephone lines"
+            },
             {
               "key": "b",
               "text": "satellites"
@@ -672,6 +859,10 @@
           "question": "Which device converts computer data into a form that can be transmitted over phone lines.",
           "options": [
             {
+              "key": "a",
+              "text": "ADSL"
+            },
+            {
               "key": "b",
               "text": "a mobile phone"
             },
@@ -688,8 +879,16 @@
           "question": "The standard protocol that allows computers to communicate over the internet is called_______",
           "options": [
             {
+              "key": "a",
+              "text": "an IP address"
+            },
+            {
               "key": "b",
               "text": "TCP/IPc. HTTP"
+            },
+            {
+              "key": "c",
+              "text": "HTTP"
             }
           ],
           "note": ""
@@ -699,6 +898,10 @@
           "num": "37",
           "question": "The geographical region covered by one or several access points is called________",
           "options": [
+            {
+              "key": "a",
+              "text": "wireless access point"
+            },
             {
               "key": "b",
               "text": "hotspot"
@@ -716,6 +919,10 @@
           "question": "An __________ is a company that offers connection for a monthly fee.",
           "options": [
             {
+              "key": "a",
+              "text": "ADSL"
+            },
+            {
               "key": "b",
               "text": "ISP = internet service provider"
             },
@@ -724,13 +931,23 @@
               "text": "IP"
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "b",
+          "answer_text": "ISP = internet service provider"
         },
         {
           "type": "mcq",
           "num": "39",
           "question": "If you want to connect lots of computers without using cables, you can use a ______________ router.",
           "options": [
+            {
+              "key": "a",
+              "text": "wifi"
+            },
+            {
+              "key": "b",
+              "text": "wireless"
+            },
             {
               "key": "c",
               "text": "wire"
@@ -743,6 +960,10 @@
           "num": "40",
           "question": "You use _________ if you want to take part in public  discussion areas devoted to specific areas.",
           "options": [
+            {
+              "key": "a",
+              "text": "Chat and IM instant messaging"
+            },
             {
               "key": "b",
               "text": "Telnet"
@@ -760,6 +981,10 @@
           "question": "You use _________ if you want to have a live conversation ( usually typed) online.",
           "options": [
             {
+              "key": "a",
+              "text": "Chat and IM"
+            },
+            {
               "key": "b",
               "text": "Telnet"
             },
@@ -776,17 +1001,31 @@
           "question": "You use _________ if you want to connect to a remote computer by entering instructions , and run a program on it.",
           "options": [
             {
+              "key": "a",
+              "text": "Chat and IM"
+            },
+            {
               "key": "b",
               "text": "Telnet = giao thức khách – chủc. newsgroups"
+            },
+            {
+              "key": "c",
+              "text": "newsgroups"
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "b",
+          "answer_text": "Telnet = giao thức khách – chủc. newsgroups"
         },
         {
           "type": "mcq",
           "num": "43",
           "question": "__________ is a system to distribute email to many different subscribers at once.",
           "options": [
+            {
+              "key": "a",
+              "text": "web browser"
+            },
             {
               "key": "b",
               "text": "news reader"
@@ -804,6 +1043,10 @@
           "question": "__________ is a program for reading Usenet newsgroups .",
           "options": [
             {
+              "key": "a",
+              "text": "Chat and IM"
+            },
+            {
               "key": "b",
               "text": "Telnet"
             },
@@ -819,6 +1062,10 @@
           "num": "45",
           "question": "___________ is a program for displaying web pages.",
           "options": [
+            {
+              "key": "a",
+              "text": "Chat and IM"
+            },
             {
               "key": "b",
               "text": "Telnet"
@@ -836,6 +1083,10 @@
           "question": "Your ISP stores your emails on the _______",
           "options": [
             {
+              "key": "a",
+              "text": "web browser"
+            },
+            {
               "key": "b",
               "text": "spam"
             },
@@ -852,8 +1103,16 @@
           "question": "You can make your messages more expressive by using ____________ or emoticons .",
           "options": [
             {
+              "key": "a",
+              "text": "smiles"
+            },
+            {
               "key": "b",
               "text": "smilingsc. smileys   ☺ ;("
+            },
+            {
+              "key": "c",
+              "text": "smileys   ☺ ;("
             }
           ],
           "note": ""
@@ -863,6 +1122,10 @@
           "num": "48",
           "question": "The computer file which is sent along with an email message is called________",
           "options": [
+            {
+              "key": "a",
+              "text": "attachment"
+            },
             {
               "key": "b",
               "text": "subject"
@@ -880,6 +1143,10 @@
           "question": "The line that describes the content of an email is called________",
           "options": [
             {
+              "key": "a",
+              "text": "attachment"
+            },
+            {
               "key": "b",
               "text": "subject"
             },
@@ -895,6 +1162,10 @@
           "num": "50",
           "question": "the part of an email address that identifies the user of the service is called______",
           "options": [
+            {
+              "key": "a",
+              "text": "username"
+            },
             {
               "key": "b",
               "text": "password"
@@ -924,6 +1195,14 @@
           "question": "This highly__________adj___  game adv/adj- N will keep you playing for hours.",
           "options": [
             {
+              "key": "a",
+              "text": "addict(V,n)"
+            },
+            {
+              "key": "b",
+              "text": "addiction (n)"
+            },
+            {
               "key": "c",
               "text": "addictive (adj)"
             }
@@ -935,6 +1214,10 @@
           "num": "52",
           "question": "This software may not be fully _____adj__________with older operating systems.",
           "options": [
+            {
+              "key": "a",
+              "text": "compatible"
+            },
             {
               "key": "b",
               "text": "suitable"
@@ -952,6 +1235,10 @@
           "question": "Companies are starting to use virtual _______________ on their websites",
           "options": [
             {
+              "key": "a",
+              "text": "real"
+            },
+            {
               "key": "b",
               "text": "really"
             },
@@ -967,6 +1254,10 @@
           "num": "54",
           "question": "___________ can be used on some website instead of real money to make purchases.",
           "options": [
+            {
+              "key": "a",
+              "text": "e- cash"
+            },
             {
               "key": "b",
               "text": "e- money"
@@ -984,6 +1275,10 @@
           "question": "We exchange messages in real time about anything you like with strangers via_______",
           "options": [
             {
+              "key": "a",
+              "text": "forum"
+            },
+            {
               "key": "b",
               "text": "newsgroup"
             },
@@ -999,6 +1294,10 @@
           "num": "56",
           "question": "We exchange information and views about social events via _______",
           "options": [
+            {
+              "key": "a",
+              "text": "forum"
+            },
             {
               "key": "b",
               "text": "newsgroup"
@@ -1024,17 +1323,31 @@
           "question": "Most ______  is designed to obtain personal information without the user’s permission.",
           "options": [
             {
+              "key": "a",
+              "text": "freeware"
+            },
+            {
+              "key": "b",
+              "text": "malware"
+            },
+            {
               "key": "c",
               "text": "spyware = giánđiệp"
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "c",
+          "answer_text": "spyware = giánđiệp"
         },
         {
           "type": "mcq",
           "num": "58",
           "question": "A_______ is a type of software which is available free of charge but protected by copyright.",
           "options": [
+            {
+              "key": "a",
+              "text": "freeware"
+            },
             {
               "key": "b",
               "text": "malware"
@@ -1052,6 +1365,10 @@
           "question": "______ is a program designed to damage your computer.",
           "options": [
             {
+              "key": "a",
+              "text": "freeware"
+            },
+            {
               "key": "b",
               "text": "malware"
             },
@@ -1067,6 +1384,10 @@
           "num": "60",
           "question": "A ________  is a self- copying program that spread through email attachments.",
           "options": [
+            {
+              "key": "a",
+              "text": "virus"
+            },
             {
               "key": "b",
               "text": "worm"
@@ -1084,6 +1405,10 @@
           "question": "A___________ is disguised as a useful program .",
           "options": [
             {
+              "key": "a",
+              "text": "Trojan"
+            },
+            {
               "key": "b",
               "text": "worm"
             },
@@ -1100,17 +1425,31 @@
           "question": "Encoding data so that  unauthorized users cannot read it is known as_____",
           "options": [
             {
+              "key": "a",
+              "text": "encryption"
+            },
+            {
+              "key": "b",
+              "text": "decryption"
+            },
+            {
               "key": "c",
               "text": "firewall"
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "b",
+          "answer_text": "decryption"
         },
         {
           "type": "mcq",
           "num": "63",
           "question": "A_________  can enter a PC via a disc drive.",
           "options": [
+            {
+              "key": "a",
+              "text": "virus"
+            },
             {
               "key": "b",
               "text": "worm"
@@ -1138,15 +1477,29 @@
             {
               "key": "a",
               "text": "translating= di chuyểnb. rotating = xoayc. scaling up / down = phóng top, thunhỏ"
+            },
+            {
+              "key": "b",
+              "text": "rotating"
+            },
+            {
+              "key": "c",
+              "text": "scaling up / down"
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "c",
+          "answer_text": "scaling up / down"
         },
         {
           "type": "mcq",
           "num": "65",
           "question": "In graphics programs , __________ means turning the object around  an axis.",
           "options": [
+            {
+              "key": "a",
+              "text": "translating"
+            },
             {
               "key": "b",
               "text": "rotating"
@@ -1164,6 +1517,10 @@
           "question": ". In graphics programs , __________ means making objects larger or smaller.",
           "options": [
             {
+              "key": "a",
+              "text": "translating"
+            },
+            {
               "key": "b",
               "text": "rotating"
             },
@@ -1180,6 +1537,10 @@
           "question": "In the Photoshop toolbox, you click on the ______ to cut down the dimensions of a picture.",
           "options": [
             {
+              "key": "a",
+              "text": "move tool"
+            },
+            {
               "key": "b",
               "text": "crop tool"
             },
@@ -1195,6 +1556,10 @@
           "num": "68",
           "question": "In the Photoshop toolbox, you click on the ______ to fill in an area with a colour.",
           "options": [
+            {
+              "key": "a",
+              "text": "colour picker"
+            },
             {
               "key": "b",
               "text": "colour tools and palette"
@@ -1214,9 +1579,15 @@
             {
               "key": "a",
               "text": "vector graphics= vectơb. raster graphics = mànhquétc. GIS= bản đồ"
+            },
+            {
+              "key": "b",
+              "text": "raster graphics"
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "b",
+          "answer_text": "raster graphics"
         },
         {
           "type": "note",
@@ -1240,6 +1611,10 @@
           "question": "____  use geometric objects  based on mathematical equations.",
           "options": [
             {
+              "key": "a",
+              "text": "vector graphics"
+            },
+            {
               "key": "b",
               "text": "raster graphics"
             },
@@ -1255,6 +1630,10 @@
           "num": "71",
           "question": "_________ Can be changed or scaled without losing quality.",
           "options": [
+            {
+              "key": "a",
+              "text": "vector graphics"
+            },
             {
               "key": "b",
               "text": "raster graphics"
@@ -1272,6 +1651,10 @@
           "question": "One of the disadvantages of _________ is that texts or pictures that are scaled up may show jagged edges.",
           "options": [
             {
+              "key": "a",
+              "text": "vector graphics"
+            },
+            {
               "key": "b",
               "text": "raster graphics"
             },
@@ -1288,6 +1671,10 @@
           "question": "_________ are stored as a collection of pixels . The sharpness of an image depends on the resolution.",
           "options": [
             {
+              "key": "a",
+              "text": "vector graphics"
+            },
+            {
               "key": "b",
               "text": "raster graphics"
             },
@@ -1296,7 +1683,8 @@
               "text": "GIS"
             }
           ],
-          "note": "độphângiải"
+          "note": "độphângiải",
+          "answer_text": "độphângiải"
         },
         {
           "type": "fill_blank",
@@ -1307,6 +1695,14 @@
           "num": "4",
           "question": "steps to design a drawing",
           "options": [
+            {
+              "key": "a",
+              "text": "transfer money"
+            },
+            {
+              "key": "b",
+              "text": "store information"
+            },
             {
               "key": "c",
               "text": "texturing"
@@ -1328,6 +1724,14 @@
           "question": "______ means specifying: chi dinh  and fill the surface to give a 3-D solid object",
           "options": [
             {
+              "key": "a",
+              "text": "Wireframe"
+            },
+            {
+              "key": "b",
+              "text": "solid modeling"
+            },
+            {
               "key": "c",
               "text": "texturing"
             },
@@ -1343,6 +1747,14 @@
           "num": "76",
           "question": "________ means adding paint and colour and filters to achieve the desire ‘look and feel’",
           "options": [
+            {
+              "key": "a",
+              "text": "Wireframe"
+            },
+            {
+              "key": "b",
+              "text": "solid modeling"
+            },
             {
               "key": "c",
               "text": "texturing"
@@ -1360,6 +1772,14 @@
           "question": "_______ means making the object look real by using lighting and shading and effects to simulate shadows and reflections.",
           "options": [
             {
+              "key": "a",
+              "text": "Wireframe"
+            },
+            {
+              "key": "b",
+              "text": "solid modeling"
+            },
+            {
               "key": "c",
               "text": "texturing"
             },
@@ -1375,6 +1795,10 @@
           "num": "78",
           "question": "_________combining parts of different images to create a single image.",
           "options": [
+            {
+              "key": "a",
+              "text": "CAD"
+            },
             {
               "key": "b",
               "text": "animation"
@@ -1392,8 +1816,16 @@
           "question": "The basic shapes which are used to make graphical objects are called______",
           "options": [
             {
+              "key": "a",
+              "text": "attributes"
+            },
+            {
               "key": "b",
               "text": "primitives: line, circklec. fractals"
+            },
+            {
+              "key": "c",
+              "text": "fractals"
             }
           ],
           "note": ""
@@ -1403,6 +1835,10 @@
           "num": "80",
           "question": "The number of pixels in an image is called _______",
           "options": [
+            {
+              "key": "a",
+              "text": "resolution"
+            },
             {
               "key": "b",
               "text": "fractal"
@@ -1428,6 +1864,10 @@
           "question": "As long as your computer has a……………….., you can use it to capture  sounds in digital format and play them back.",
           "options": [
             {
+              "key": "a",
+              "text": "CD ripper"
+            },
+            {
               "key": "b",
               "text": "webcast"
             },
@@ -1443,6 +1883,10 @@
           "num": "82",
           "question": "……………….………is a program that extracts music tracks and saves them on  disks as MP3s",
           "options": [
+            {
+              "key": "a",
+              "text": "CD ripper"
+            },
             {
               "key": "b",
               "text": "webcast"
@@ -1460,6 +1904,10 @@
           "question": "The broadcast of an event over the web is called a………………………….",
           "options": [
             {
+              "key": "a",
+              "text": "CD ripper"
+            },
+            {
               "key": "b",
               "text": "webcast"
             },
@@ -1475,6 +1923,10 @@
           "num": "84",
           "question": "Sound cards offer two capabilities: a built-in stereo synthesizer and a system called ……………………..which allows electronic musical instruments to communicate with computers .",
           "options": [
+            {
+              "key": "a",
+              "text": "MIDI"
+            },
             {
               "key": "b",
               "text": "DAW"
@@ -1492,6 +1944,10 @@
           "question": "A…………………………………………(DAW)lets you mix and record several tracks of digital audio.",
           "options": [
             {
+              "key": "a",
+              "text": "MIDI"
+            },
+            {
               "key": "b",
               "text": "DAW"
             },
@@ -1507,6 +1963,10 @@
           "num": "86",
           "question": "……..………………………refers to recording, manipulating and storing video in digital format.",
           "options": [
+            {
+              "key": "a",
+              "text": "MIDI"
+            },
             {
               "key": "b",
               "text": "DAW"
@@ -1524,6 +1984,10 @@
           "question": "_______  is a form of enriched media which allows an interactive and dynamic linking of visual and audio elements.",
           "options": [
             {
+              "key": "a",
+              "text": "hyperlink"
+            },
+            {
               "key": "b",
               "text": "hypertext"
             },
@@ -1539,6 +2003,10 @@
           "num": "88",
           "question": "_____ is a  technique  for playing sound and video files while they’re downloading.",
           "options": [
+            {
+              "key": "a",
+              "text": "streaming"
+            },
             {
               "key": "b",
               "text": "video computing"
@@ -1576,6 +2044,10 @@
           "question": "Which markup language  enables us to define our own tags: thẻ, not limited by a fixed set of tags.",
           "options": [
             {
+              "key": "a",
+              "text": "HTML"
+            },
+            {
               "key": "b",
               "text": "XML"
             },
@@ -1596,6 +2068,10 @@
           "question": "Which markup language  allows us to describe how information will be displayed in web pages.",
           "options": [
             {
+              "key": "a",
+              "text": "HTML"
+            },
+            {
               "key": "b",
               "text": "XML"
             },
@@ -1611,6 +2087,10 @@
           "num": "92",
           "question": "Which markup language  makes Web content accessible via voice and phone.",
           "options": [
+            {
+              "key": "a",
+              "text": "HTML"
+            },
             {
               "key": "b",
               "text": "XML"
@@ -1628,8 +2108,16 @@
           "question": "__________ was the first high level language in data processing.",
           "options": [
             {
+              "key": "a",
+              "text": "FORTRAN"
+            },
+            {
               "key": "b",
               "text": "JAVA c.COBOL"
+            },
+            {
+              "key": "c",
+              "text": "COBOL"
             }
           ],
           "note": ""
@@ -1640,8 +2128,16 @@
           "question": "This high level language is widely used in the business community",
           "options": [
             {
+              "key": "a",
+              "text": "FORTRAN"
+            },
+            {
               "key": "b",
               "text": "JAVA c.COBOL"
+            },
+            {
+              "key": "c",
+              "text": "COBOL"
             }
           ],
           "note": ""
@@ -1651,6 +2147,10 @@
           "num": "95",
           "question": "This high level language is  used in universities to teach the fundamentals  of programming.",
           "options": [
+            {
+              "key": "a",
+              "text": "BASIC"
+            },
             {
               "key": "b",
               "text": "PASCAL"
@@ -1668,6 +2168,10 @@
           "question": "This high level language provides animation and interactive features on web pages.",
           "options": [
             {
+              "key": "a",
+              "text": "JAVA"
+            },
+            {
               "key": "b",
               "text": "C"
             },
@@ -1683,6 +2187,10 @@
           "num": "97",
           "question": "_______ is a special program which converts the source program into machine code.",
           "options": [
+            {
+              "key": "a",
+              "text": "compiler"
+            },
             {
               "key": "b",
               "text": "debugger"
@@ -1700,6 +2208,14 @@
           "question": "_______ is the technique of detecting and correcting errors which may occur in programs .",
           "options": [
             {
+              "key": "a",
+              "text": "compiling"
+            },
+            {
+              "key": "b",
+              "text": "debugging"
+            },
+            {
               "key": "c",
               "text": "assemblying"
             }
@@ -1715,6 +2231,10 @@
           "num": "99",
           "question": "_______ is the process of  writing a program  using a computer language.",
           "options": [
+            {
+              "key": "a",
+              "text": "program (N,V )"
+            },
             {
               "key": "b",
               "text": "programming(N)"
@@ -1732,8 +2252,16 @@
           "question": "Programmers usually _________ their programs to generate an object program and diagnose possible answers.",
           "options": [
             {
+              "key": "a",
+              "text": "compile(V)"
+            },
+            {
               "key": "b",
               "text": "compiler(N) trình biên dịchc. compiling (N)"
+            },
+            {
+              "key": "c",
+              "text": "compiling (N)"
             }
           ],
           "note": ""
@@ -1751,6 +2279,10 @@
           "num": "",
           "question": "Looking at the web pages can be commonly called ______________surfing the net",
           "options": [
+            {
+              "key": "a",
+              "text": "surfing the net"
+            },
             {
               "key": "b",
               "text": "skiing the net"
@@ -1784,12 +2316,20 @@
           "question": "video",
           "options": [
             {
+              "key": "a",
+              "text": "transfer money"
+            },
+            {
               "key": "b",
               "text": "graphic"
             },
             {
               "key": "c",
               "text": "animation"
+            },
+            {
+              "key": "d",
+              "text": "access the database"
             }
           ],
           "note": ""
@@ -1831,6 +2371,10 @@
           "num": "",
           "question": "connection",
           "options": [
+            {
+              "key": "a",
+              "text": "broadband"
+            },
             {
               "key": "b",
               "text": "access"
@@ -1896,12 +2440,20 @@
           "question": "picture",
           "options": [
             {
+              "key": "a",
+              "text": "transfer money"
+            },
+            {
               "key": "b",
               "text": "symbol"
             },
             {
               "key": "c",
               "text": "icon"
+            },
+            {
+              "key": "d",
+              "text": "access the database"
             }
           ],
           "note": ""
@@ -1990,6 +2542,10 @@
             {
               "key": "c",
               "text": "don’t confuse"
+            },
+            {
+              "key": "d",
+              "text": "virtual reality"
             }
           ],
           "note": ""
@@ -2010,6 +2566,10 @@
             {
               "key": "c",
               "text": "to describe"
+            },
+            {
+              "key": "d",
+              "text": "upsizing"
             }
           ],
           "note": ""
@@ -2030,6 +2590,10 @@
             {
               "key": "c",
               "text": "writing"
+            },
+            {
+              "key": "d",
+              "text": "make calls"
             }
           ],
           "note": ""
@@ -2050,6 +2614,10 @@
             {
               "key": "c",
               "text": "to send"
+            },
+            {
+              "key": "d",
+              "text": "make calls"
             }
           ],
           "note": ""
@@ -2070,6 +2638,10 @@
             {
               "key": "c",
               "text": "to run"
+            },
+            {
+              "key": "d",
+              "text": "make calls"
             }
           ],
           "note": ""
@@ -2090,6 +2662,10 @@
             {
               "key": "c",
               "text": "to read"
+            },
+            {
+              "key": "d",
+              "text": "access the database"
             }
           ],
           "note": ""
@@ -2110,6 +2686,10 @@
             {
               "key": "c",
               "text": "for to learn"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
             }
           ],
           "note": ""
@@ -2130,6 +2710,10 @@
             {
               "key": "c",
               "text": "to learn"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
             }
           ],
           "note": ""
@@ -2150,9 +2734,15 @@
             {
               "key": "c",
               "text": "to do"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "c",
+          "answer_text": "to do"
         },
         {
           "type": "mcq",
@@ -2166,9 +2756,19 @@
             {
               "key": "b",
               "text": "touchingc. to touch"
+            },
+            {
+              "key": "c",
+              "text": "CPU"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "d",
+          "answer_text": "peripherals"
         },
         {
           "type": "mcq",
@@ -2186,6 +2786,10 @@
             {
               "key": "c",
               "text": "to come"
+            },
+            {
+              "key": "d",
+              "text": "output devices"
             }
           ],
           "note": ""
@@ -2206,9 +2810,15 @@
             {
               "key": "c",
               "text": "to perform"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
             }
           ],
-          "note": ""
+          "note": "",
+          "answer": "d",
+          "answer_text": "peripherals"
         },
         {
           "type": "mcq",
@@ -2226,6 +2836,10 @@
             {
               "key": "c",
               "text": "for doing"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
             }
           ],
           "note": ""
@@ -2252,7 +2866,8 @@
         },
         {
           "type": "fill_blank",
-          "text": "1.      Thanks to Wi-Fi, it’s now easy to ……access the internet  ………from cafes, hotels, parks and many other public places."
+          "text": "1.      Thanks to Wi-Fi, it’s now easy to ……access the internet  ………from cafes, hotels, parks and many other public places.",
+          "answer": "access the internet"
         },
         {
           "type": "fill_blank",
@@ -2260,15 +2875,18 @@
         },
         {
           "type": "fill_blank",
-          "text": "3.      Skype is a technology that enable users to ………Make calls……... over the Internet for free."
+          "text": "3.      Skype is a technology that enable users to ………Make calls……... over the Internet for free.",
+          "answer": "Make calls"
         },
         {
           "type": "fill_blank",
-          "text": "4.      In many universities, students are encouraged to …… give presentation.. using PowerPoint in order to make their talks more visually attractive."
+          "text": "4.      In many universities, students are encouraged to …… give presentation.. using PowerPoint in order to make their talks more visually attractive.",
+          "answer": "give presentation"
         },
         {
           "type": "fill_blank",
-          "text": "5.      The Web has revolutionized the way people ……do research ….. – with sites such as Google and Wikipedia, you can find the information you need in seconds."
+          "text": "5.      The Web has revolutionized the way people ……do research ….. – with sites such as Google and Wikipedia, you can find the information you need in seconds.",
+          "answer": "do research"
         },
         {
           "type": "fill_blank",
@@ -2276,7 +2894,8 @@
         },
         {
           "type": "fill_blank",
-          "text": "7.      With the latest mobile phones, you can ……send  text   ...… with multimedia attachments – pictures, audio, even video."
+          "text": "7.      With the latest mobile phones, you can ……send  text   ...… with multimedia attachments – pictures, audio, even video.",
+          "answer": "send  text"
         },
         {
           "type": "part_header",
@@ -2288,7 +2907,8 @@
         },
         {
           "type": "fill_blank",
-          "text": "Ok, everyone. Let’s begin with the basics. A spreadsheet program is normally used in business for financial(1)……………………– to keep a record of accounts, to analyze budgets or to (2) ……………… specific calculations. It’s like a large piece of paper divided into columns and rows. Each column is labelled with a letter and each(3)…………….. is labelled with a number. The point where a column and a row intersect is called a (4)………….. For example, you can have cells A1, B6, C5 and so on."
+          "text": "Ok, everyone. Let’s begin with the basics. A spreadsheet program is normally used in business for financial(1)……………………– to keep a record of accounts, to analyze budgets or to (2) ……………… specific calculations. It’s like a large piece of paper divided into columns and rows. Each column is labelled with a letter and each(3)…………….. is labelled with a number. The point where a column and a row intersect is called a (4)………….. For example, you can have cells A1, B6, C5 and so on.",
+          "answer": "– to keep a record of accounts, to analyze budgets or to (2)"
         },
         {
           "type": "passage",
@@ -2324,7 +2944,8 @@
         },
         {
           "type": "fill_blank",
-          "text": "You can send almost any file as an attachment._________ through the folders on your computer until you find the file you want to attach. Click on _______. The file will appear in the attachments ________. Then click _________ , and wait while the file uploads. Add move files if you wish. When you have finished adding files, click ___________ ."
+          "text": "You can send almost any file as an attachment._________ through the folders on your computer until you find the file you want to attach. Click on _______. The file will appear in the attachments ________. Then click _________ , and wait while the file uploads. Add move files if you wish. When you have finished adding files, click ___________ .",
+          "answer": "."
         },
         {
           "type": "fill_blank",
@@ -2352,27 +2973,33 @@
         },
         {
           "type": "fill_blank",
-          "text": "3.      Sound cards offer two capabilities: a built-in stereo synthesizer and a system called ………MIDI………..which allows electronic musical instruments to communicate with computers"
+          "text": "3.      Sound cards offer two capabilities: a built-in stereo synthesizer and a system called ………MIDI………..which allows electronic musical instruments to communicate with computers",
+          "answer": "MIDI"
         },
         {
           "type": "fill_blank",
-          "text": "4.      A………………DAW…………………………(DAW)lets you mix and record several tracks of digital audio."
+          "text": "4.      A………………DAW…………………………(DAW)lets you mix and record several tracks of digital audio.",
+          "answer": "DAW"
         },
         {
           "type": "fill_blank",
-          "text": "5.      ………CD ripper….………is a program that extracts music tracks and saves them on  disks as MP3s"
+          "text": "5.      ………CD ripper….………is a program that extracts music tracks and saves them on  disks as MP3s",
+          "answer": "CD ripper"
         },
         {
           "type": "fill_blank",
-          "text": "6.      …………streaming audio..…………………………….lets you listen to the audio in a continuous streams while it is being transmitted."
+          "text": "6.      …………streaming audio..…………………………….lets you listen to the audio in a continuous streams while it is being transmitted.",
+          "answer": "streaming audio"
         },
         {
           "type": "fill_blank",
-          "text": "7.      The broadcast of an event over the web is called a………webcast…………."
+          "text": "7.      The broadcast of an event over the web is called a………webcast………….",
+          "answer": "webcast"
         },
         {
           "type": "fill_blank",
-          "text": "8.      ……..…video coputing……………refers to recording, manipulating and storing video in digital format."
+          "text": "8.      ……..…video coputing……………refers to recording, manipulating and storing video in digital format.",
+          "answer": "video coputing"
         },
         {
           "type": "part_header",
@@ -2392,15 +3019,18 @@
         },
         {
           "type": "fill_blank",
-          "text": "I am writing to apply (1)_____a job of graphic designer, which was advertised (2)____ your company website. I have a bachelor’s degree (3)________graphic design from Koln Technical College, Germany. I started to work in the DTP field six years (4)_____, when I attended an in-company training course in Helsinki as part of the Leonardo Da Vinci Program. The project was coordinated by Heltech College, and I did practical training in Lonberg P.O, a Finnish company specializing (5)_____ printing advertising material."
+          "text": "I am writing to apply (1)_____a job of graphic designer, which was advertised (2)____ your company website. I have a bachelor’s degree (3)________graphic design from Koln Technical College, Germany. I started to work in the DTP field six years (4)_____, when I attended an in-company training course in Helsinki as part of the Leonardo Da Vinci Program. The project was coordinated by Heltech College, and I did practical training in Lonberg P.O, a Finnish company specializing (5)_____ printing advertising material.",
+          "answer": "a"
         },
         {
           "type": "fill_blank",
-          "text": "Before taking my present job, I worked for two years with KBI, a German publishing company,(6)________I used Adobe Illustrator, Photoshop and Quark Express to layout books and magazines. I stayed in this job (7)_____ June 2004."
+          "text": "Before taking my present job, I worked for two years with KBI, a German publishing company,(6)________I used Adobe Illustrator, Photoshop and Quark Express to layout books and magazines. I stayed in this job (7)_____ June 2004.",
+          "answer": "I"
         },
         {
           "type": "fill_blank",
-          "text": "(8) _______ the last three years I have been working part-time at VEM Verlag, where I’ve been responsible(9)_______graphic design and digital imaging. (10)_____ February this year I have (11)_____using Adobe InDesign, the new standard in professional page layout. I have knowledge of mainstream computer platforms, including Macintosh and Windows."
+          "text": "(8) _______ the last three years I have been working part-time at VEM Verlag, where I’ve been responsible(9)_______graphic design and digital imaging. (10)_____ February this year I have (11)_____using Adobe InDesign, the new standard in professional page layout. I have knowledge of mainstream computer platforms, including Macintosh and Windows.",
+          "answer": "graphic"
         },
         {
           "type": "passage",
@@ -2424,7 +3054,8 @@
         },
         {
           "type": "fill_blank",
-          "text": "Magnetic tapes (manufacture)_______________by German audio engineers at AEG and Bash in the 1930s, and the first compact disc (design)___________ by Philips and Sony in 1980. Three years later, CDs reached the market in Asia and the US. In the near future, CDs, (probably replace) ___________________ by new technologies such as DVD-Audio, HD-DVD and Blu-ray discs."
+          "text": "Magnetic tapes (manufacture)_______________by German audio engineers at AEG and Bash in the 1930s, and the first compact disc (design)___________ by Philips and Sony in 1980. Three years later, CDs reached the market in Asia and the US. In the near future, CDs, (probably replace) ___________________ by new technologies such as DVD-Audio, HD-DVD and Blu-ray discs.",
+          "answer": "by"
         },
         {
           "type": "fill_blank",
@@ -2440,7 +3071,8 @@
         },
         {
           "type": "fill_blank",
-          "text": "The first fully automatic mobile phone (introduce) _____________ by Motorola in 1981. Nowadays, new mobile phones (develop)_________________, with emphasis on multimedia, radio and real-time TV. Some models (call)__________ smartphones."
+          "text": "The first fully automatic mobile phone (introduce) _____________ by Motorola in 1981. Nowadays, new mobile phones (develop)_________________, with emphasis on multimedia, radio and real-time TV. Some models (call)__________ smartphones.",
+          "answer": ","
         },
         {
           "type": "part_header",
@@ -2448,7 +3080,8 @@
         },
         {
           "type": "fill_blank",
-          "text": "The first computers built using silicon chips went on sale in 1965. Microsoft (found) ____________by Bill Gates and Paul Allen in 1975 to sell a version of the BASIC language for the Altair computer. The first IBM-PC (sell) ____________ in 1981, becoming a standard for personal computers."
+          "text": "The first computers built using silicon chips went on sale in 1965. Microsoft (found) ____________by Bill Gates and Paul Allen in 1975 to sell a version of the BASIC language for the Altair computer. The first IBM-PC (sell) ____________ in 1981, becoming a standard for personal computers.",
+          "answer": "by"
         },
         {
           "type": "fill_blank",
@@ -2466,20 +3099,40 @@
           "type": "mcq",
           "num": "2",
           "question": "Bitmaps, or __Raster graphics__, are stored as a series of tiny dots called pixels.",
-          "options": [],
+          "options": [
+            {
+              "key": "a",
+              "text": "downloading"
+            },
+            {
+              "key": "b",
+              "text": "downsizing"
+            },
+            {
+              "key": "c",
+              "text": "uploading"
+            },
+            {
+              "key": "d",
+              "text": "upsizing"
+            }
+          ],
           "note": ""
         },
         {
           "type": "fill_blank",
-          "text": "3.  __Vector graphics____ are created using mathematical formulas describing shapes, lines and curves. They are used by drawing programs to create images that can be scaled without loss of quality."
+          "text": "3.  __Vector graphics____ are created using mathematical formulas describing shapes, lines and curves. They are used by drawing programs to create images that can be scaled without loss of quality.",
+          "answer": "Vector"
         },
         {
           "type": "fill_blank",
-          "text": "4.  The basic elements used to construct graphical objects are called______; they include lines, circles, polygons and text."
+          "text": "4.  The basic elements used to construct graphical objects are called______; they include lines, circles, polygons and text.",
+          "answer": ";"
         },
         {
           "type": "fill_blank",
-          "text": "5.  CAD designers often start a project by making a _Wireframe___, a drawing showing the edges and vertices of a 3-D model."
+          "text": "5.  CAD designers often start a project by making a _Wireframe___, a drawing showing the edges and vertices of a 3-D model.",
+          "answer": "Wireframe"
         },
         {
           "type": "fill_blank",
@@ -2541,7 +3194,24 @@
           "type": "mcq",
           "num": "3",
           "question": ".",
-          "options": [],
+          "options": [
+            {
+              "key": "a",
+              "text": "transfer money"
+            },
+            {
+              "key": "b",
+              "text": "do research"
+            },
+            {
+              "key": "c",
+              "text": "give presentations"
+            },
+            {
+              "key": "d",
+              "text": "make calls"
+            }
+          ],
           "note": ""
         },
         {
@@ -2588,7 +3258,24 @@
           "type": "mcq",
           "num": "5",
           "question": ".",
-          "options": [],
+          "options": [
+            {
+              "key": "a",
+              "text": "transfer money"
+            },
+            {
+              "key": "b",
+              "text": "store information"
+            },
+            {
+              "key": "c",
+              "text": "give presentations"
+            },
+            {
+              "key": "d",
+              "text": "make calls"
+            }
+          ],
           "note": ""
         },
         {
@@ -2615,14 +3302,48 @@
           "type": "mcq",
           "num": "6",
           "question": ".",
-          "options": [],
+          "options": [
+            {
+              "key": "a",
+              "text": "transfer money"
+            },
+            {
+              "key": "b",
+              "text": "store information"
+            },
+            {
+              "key": "c",
+              "text": "send texts"
+            },
+            {
+              "key": "d",
+              "text": "access the database"
+            }
+          ],
           "note": ""
         },
         {
           "type": "mcq",
           "num": "7",
           "question": ".",
-          "options": [],
+          "options": [
+            {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
+            {
+              "key": "c",
+              "text": "CPU"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
+            }
+          ],
           "note": ""
         },
         {
@@ -2694,7 +3415,24 @@
           "type": "mcq",
           "num": "8",
           "question": ".",
-          "options": [],
+          "options": [
+            {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
+            {
+              "key": "c",
+              "text": "CPU"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
+            }
+          ],
           "note": ""
         },
         {
@@ -2726,8 +3464,27 @@
           "type": "mcq",
           "num": "9",
           "question": ".",
-          "options": [],
-          "note": ""
+          "options": [
+            {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
+            {
+              "key": "c",
+              "text": "CPU"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
+            }
+          ],
+          "note": "",
+          "answer": "c",
+          "answer_text": "CPU"
         },
         {
           "type": "true_false",
@@ -2773,8 +3530,27 @@
           "type": "mcq",
           "num": "10",
           "question": ".",
-          "options": [],
-          "note": ""
+          "options": [
+            {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
+            {
+              "key": "c",
+              "text": "CPU"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
+            }
+          ],
+          "note": "",
+          "answer": "d",
+          "answer_text": "peripherals"
         },
         {
           "type": "true_false",
@@ -2800,7 +3576,24 @@
           "type": "mcq",
           "num": "11",
           "question": ".",
-          "options": [],
+          "options": [
+            {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
+            {
+              "key": "c",
+              "text": "input devices"
+            },
+            {
+              "key": "d",
+              "text": "output devices"
+            }
+          ],
           "note": ""
         },
         {
@@ -2852,8 +3645,27 @@
           "type": "mcq",
           "num": "12",
           "question": ".",
-          "options": [],
-          "note": ""
+          "options": [
+            {
+              "key": "a",
+              "text": "hardware"
+            },
+            {
+              "key": "b",
+              "text": "software"
+            },
+            {
+              "key": "c",
+              "text": "CPU"
+            },
+            {
+              "key": "d",
+              "text": "peripherals"
+            }
+          ],
+          "note": "",
+          "answer": "d",
+          "answer_text": "peripherals"
         },
         {
           "type": "true_false",
@@ -3039,52 +3851,52 @@
         {
           "type": "true_false",
           "statement": "A worm is disguised as a useful program; it may affect data security.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "Programming languages are used to describe the structure of web documents.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Rendering is a technique that generates realistic reflections, shadows and highlights.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "XML enables us to define our own tags; it is not limited by a fixed set of tags like in HTML.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "VoIP is a service which allows users to make phone calls over the traditional phone line.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "Encryption converts encrypted data back into its original form.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "Nanotechnology is the science of making small devices from single atoms and molecules.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Digital TV is a system for broadcasting and receiving moving pictures and sound by means of digital signals.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Biometrics is biological identification of people.",
-          "answer": ""
+          "answer": "T"
         }
       ]
     },
@@ -3107,12 +3919,12 @@
         {
           "type": "true_false",
           "statement": "A computer security specialist is responsible for designing and developing the electronic and mechanical parts of computers.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "RFID is the science of making small devices from single atoms and molecules",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
@@ -3122,27 +3934,27 @@
         {
           "type": "true_false",
           "statement": "Markup languages use instructions, known as markup tags, to format and link text files.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Debugging is the techniques of detecting and correcting errors which may occur in programs.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Machine code is the program instructions written in a particular programming language.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "Resolution is the number of pixels in an image.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Source code is the basic instructions understood by computers; it consists of 1s and 0s (binary code).",
-          "answer": ""
+          "answer": "F"
         }
       ]
     },
@@ -3155,52 +3967,52 @@
         {
           "type": "true_false",
           "statement": "Biometrics is biological identification of people.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "VoIP is a service which allows users to make phone calls over the traditional phone line.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "A worm is a self-copying program that spreads through email attachments; it replicates its self and send a copy to everyone in an address book.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Bitmaps, or vector graphics, are stored as a series of tiny dots called pixels.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "A CD ripper converts CDs to live streams.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "Digital TV is the use of radio waves and chip-equipped tags to automatically identify people or things.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "Streaming is a technique for playing sound and video files while they’re downloading.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "With smart phones, you can send texts with multimedia attachments such as pictures, audio, video.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Digital TV is a system for broadcasting and receiving moving pictures and sound by means of digital signals.",
-          "answer": ""
+          "answer": "T"
         }
       ]
     },
@@ -3213,52 +4025,52 @@
         {
           "type": "true_false",
           "statement": "Concerts and other events are broadcast over the Web in a process called webcast.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Digital TV is the term that refers to the transmission of audio signals (radio) or audiovisual signals (television).",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "In Windows, if you delete the application icon, the application will still be on your computer.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Function keys appear at the bottom of the keyboard and can be programmed to do special tasks.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "Fixed phone is the device that deliver email and phone services to users on the move.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "The GPS is a navigation and location system formed by various satellites and their corresponding receivers on Earth.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "The interpreter translates the source code line by line in the runtime while the compiler converts the entire program into machine code in one go.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Flowchart is a diagram representing the successive logical steps of the program.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "A help desk technician provides phone or email support on technical issues, including operation of equipment, setup problems, troubleshooting, etc.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Private networks use a software and hardware mechanism called a firewall to block unauthorized traffic from the Internet.",
-          "answer": ""
+          "answer": "T"
         }
       ]
     },
@@ -3497,6 +4309,10 @@
           "question": "I don’t think this printer is _________ with my computer.",
           "options": [
             {
+              "key": "a",
+              "text": "compatible"
+            },
+            {
               "key": "b",
               "text": "connectable"
             },
@@ -3513,8 +4329,16 @@
           "question": "A laptop computer with a screen you can write on is called a ________.",
           "options": [
             {
+              "key": "a",
+              "text": "tablet PC"
+            },
+            {
               "key": "b",
               "text": "table PCC. flat screen PC"
+            },
+            {
+              "key": "c",
+              "text": "flat screen PC"
             }
           ],
           "note": ""
@@ -3524,6 +4348,10 @@
           "num": "3",
           "question": "Software which is easy to use is ________",
           "options": [
+            {
+              "key": "a",
+              "text": "user-easy"
+            },
             {
               "key": "b",
               "text": "user-friendly"
@@ -3541,6 +4369,10 @@
           "question": "My new computer has a very ________ processor.",
           "options": [
             {
+              "key": "a",
+              "text": "quick"
+            },
+            {
               "key": "b",
               "text": "high speed"
             },
@@ -3557,6 +4389,14 @@
           "question": "Looking at the web pages can be commonly called _________.",
           "options": [
             {
+              "key": "a",
+              "text": "surfing the net"
+            },
+            {
+              "key": "b",
+              "text": "skiing the net"
+            },
+            {
               "key": "c",
               "text": "swimming the net"
             }
@@ -3568,6 +4408,10 @@
           "num": "6",
           "question": "The computer is connected to the telephone line via a ________.",
           "options": [
+            {
+              "key": "a",
+              "text": "module"
+            },
             {
               "key": "b",
               "text": "modem"
@@ -3585,6 +4429,10 @@
           "question": "You can draw directly onto a computer screen with a _________.",
           "options": [
             {
+              "key": "a",
+              "text": "bright pen"
+            },
+            {
               "key": "b",
               "text": "light pen"
             },
@@ -3600,6 +4448,10 @@
           "num": "8",
           "question": "A camera connected directly to the internet is called _______.",
           "options": [
+            {
+              "key": "a",
+              "text": "an internet camera"
+            },
             {
               "key": "b",
               "text": "a web watcher"
@@ -3617,6 +4469,10 @@
           "question": "A file which is copied from the internet onto your computer is called_______.",
           "options": [
             {
+              "key": "a",
+              "text": "an upload"
+            },
+            {
               "key": "b",
               "text": "a download"
             },
@@ -3632,6 +4488,10 @@
           "num": "10",
           "question": "Mobile phones and PDAs can communicate with computers via _______.",
           "options": [
+            {
+              "key": "a",
+              "text": "Bluebeard"
+            },
             {
               "key": "b",
               "text": "Blueberry"
@@ -3649,6 +4509,10 @@
           "question": "You can often find the answer to a question by_________ on the internet.",
           "options": [
             {
+              "key": "a",
+              "text": "looking at it"
+            },
+            {
               "key": "b",
               "text": "looking for it"
             },
@@ -3664,6 +4528,10 @@
           "num": "2",
           "question": "My new PDA is the ________ model.",
           "options": [
+            {
+              "key": "a",
+              "text": "latest"
+            },
             {
               "key": "b",
               "text": "newest"
@@ -3681,6 +4549,10 @@
           "question": "In our office, we’ve set up a ________ network.",
           "options": [
             {
+              "key": "a",
+              "text": "wire-free"
+            },
+            {
               "key": "b",
               "text": "no wires"
             },
@@ -3696,6 +4568,10 @@
           "num": "4",
           "question": "The screen on my laptop isn’t very ________.",
           "options": [
+            {
+              "key": "a",
+              "text": "light"
+            },
             {
               "key": "b",
               "text": "white"
@@ -3713,6 +4589,10 @@
           "question": "When your computer is not connected to the internet, it is _________.",
           "options": [
             {
+              "key": "a",
+              "text": "out of line"
+            },
+            {
               "key": "b",
               "text": "offline"
             },
@@ -3728,6 +4608,10 @@
           "num": "6",
           "question": "Scanners, printers and webcams are ________.",
           "options": [
+            {
+              "key": "a",
+              "text": "extras"
+            },
             {
               "key": "b",
               "text": "peripherals"
@@ -3745,6 +4629,10 @@
           "question": "ADSL is also known as _________.",
           "options": [
             {
+              "key": "a",
+              "text": "wideband"
+            },
+            {
               "key": "b",
               "text": "broadband"
             },
@@ -3760,6 +4648,10 @@
           "num": "8",
           "question": "To run a program on the computer, double-click on the _______.",
           "options": [
+            {
+              "key": "a",
+              "text": "picture"
+            },
             {
               "key": "b",
               "text": "symbol"
@@ -3777,6 +4669,10 @@
           "question": "Deleted documents stay in the recycle bin until you _______ it.",
           "options": [
             {
+              "key": "a",
+              "text": "erase"
+            },
+            {
               "key": "b",
               "text": "empty"
             },
@@ -3792,6 +4688,10 @@
           "num": "10",
           "question": "A space in a website where you enter information (address, password, etc) is called a _______.",
           "options": [
+            {
+              "key": "a",
+              "text": "box"
+            },
             {
               "key": "b",
               "text": "strip"
@@ -3809,6 +4709,10 @@
           "question": "The World Wide Web is the billions of web pages that are stored on large computers called web _______.",
           "options": [
             {
+              "key": "a",
+              "text": "servers"
+            },
+            {
               "key": "b",
               "text": "services"
             },
@@ -3824,6 +4728,10 @@
           "num": "12",
           "question": "To access the Internet, you need an account with an Internet Service _______ company.",
           "options": [
+            {
+              "key": "a",
+              "text": "Provide"
+            },
             {
               "key": "b",
               "text": "Provider"
@@ -4123,7 +5031,8 @@
       "items": [
         {
           "type": "fill_blank",
-          "text": "1. In Windows, the icon is just a ________to the application. If you delete the icon, the application will still be on your computer."
+          "text": "1. In Windows, the icon is just a ________to the application. If you delete the icon, the application will still be on your computer.",
+          "answer": "to"
         },
         {
           "type": "fill_blank",
@@ -4204,52 +5113,52 @@
         {
           "type": "true_false",
           "statement": "Concerts and other events are broadcast over the Web in a process called webcast.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Debugging is the technADSLiques of detecting and correcting errors which may occur in programs.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "XML enables us to define our own tags; it is not limited by a fixed set of tags like in HTML.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Fractals is the drawing of a model by using features like edges or contour lines.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "Hypermedia is a form of enriched multimedia which allows an interactive and dynamic linking of visual and audio elements.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "The interpreter translates the source code line by line in the runtime while the compiler convertsthe entire program into machine code in one go.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "A webmaster must be proficient in HTML, XML and JavaScript.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "Bitmaps, or vector graphics, are stored as a series of tiny dots called pixels.",
-          "answer": ""
+          "answer": "F"
         },
         {
           "type": "true_false",
           "statement": "Resolution is the number of pixels in an image.",
-          "answer": ""
+          "answer": "T"
         },
         {
           "type": "true_false",
           "statement": "High-level languages are more difficult to write than low-level languages.",
-          "answer": ""
+          "answer": "F"
         }
       ]
     },
@@ -4269,52 +5178,62 @@
         {
           "type": "collocation_word",
           "num": "1",
-          "word": "word"
+          "word": "word",
+          "answer": "c"
         },
         {
           "type": "collocation_word",
           "num": "2",
-          "word": "anti-virus"
+          "word": "anti-virus",
+          "answer": "a"
         },
         {
           "type": "collocation_word",
           "num": "3",
-          "word": "up-to-date"
+          "word": "up-to-date",
+          "answer": "j"
         },
         {
           "type": "collocation_word",
           "num": "4",
-          "word": "markup"
+          "word": "markup",
+          "answer": "e"
         },
         {
           "type": "collocation_word",
           "num": "5",
-          "word": "distance"
+          "word": "distance",
+          "answer": "h"
         },
         {
           "type": "collocation_word",
           "num": "6",
-          "word": "network"
+          "word": "network",
+          "answer": "g"
         },
         {
           "type": "collocation_word",
           "num": "7",
-          "word": "portable"
+          "word": "portable",
+          "answer": "f"
         },
         {
           "type": "collocation_word",
           "num": "8",
-          "word": "official"
+          "word": "official",
+          "answer": "d"
         },
         {
           "type": "collocation_word",
           "num": "9",
-          "word": "sound"
+          "word": "sound",
+          "answer": "b"
         },
         {
           "type": "collocation_word",
           "num": "10",
-          "word": "instant"
+          "word": "instant",
+          "answer": "i"
         },
         {
           "type": "collocation_opt",
@@ -4368,93 +5287,113 @@
         },
         {
           "type": "fill_blank",
-          "text": "1 ….c"
+          "text": "1 ….c",
+          "answer": "c"
         },
         {
           "type": "fill_blank",
-          "text": "2 ….a"
+          "text": "2 ….a",
+          "answer": "a"
         },
         {
           "type": "fill_blank",
-          "text": "3 ….j"
+          "text": "3 ….j",
+          "answer": "j"
         },
         {
           "type": "fill_blank",
-          "text": "4 ….e"
+          "text": "4 ….e",
+          "answer": "e"
         },
         {
           "type": "fill_blank",
-          "text": "5 ….h"
+          "text": "5 ….h",
+          "answer": "h"
         },
         {
           "type": "fill_blank",
-          "text": "6 ….g"
+          "text": "6 ….g",
+          "answer": "g"
         },
         {
           "type": "fill_blank",
-          "text": "7 ….f"
+          "text": "7 ….f",
+          "answer": "f"
         },
         {
           "type": "fill_blank",
-          "text": "8 ….d"
+          "text": "8 ….d",
+          "answer": "d"
         },
         {
           "type": "fill_blank",
-          "text": "9 ….b"
+          "text": "9 ….b",
+          "answer": "b"
         },
         {
           "type": "fill_blank",
-          "text": "10 ….i"
+          "text": "10 ….i",
+          "answer": "i"
         },
         {
           "type": "collocation_word",
           "num": "11",
-          "word": "hardware"
+          "word": "hardware",
+          "answer": "d"
         },
         {
           "type": "collocation_word",
           "num": "12",
-          "word": "speech"
+          "word": "speech",
+          "answer": "c"
         },
         {
           "type": "collocation_word",
           "num": "13",
-          "word": "machine"
+          "word": "machine",
+          "answer": "f"
         },
         {
           "type": "collocation_word",
           "num": "14",
-          "word": "digital"
+          "word": "digital",
+          "answer": "h"
         },
         {
           "type": "collocation_word",
           "num": "15",
-          "word": "up-to-date"
+          "word": "up-to-date",
+          "answer": "e"
         },
         {
           "type": "collocation_word",
           "num": "16",
-          "word": "vector"
+          "word": "vector",
+          "answer": "a"
         },
         {
           "type": "collocation_word",
           "num": "17",
-          "word": "mobile"
+          "word": "mobile",
+          "answer": "i"
         },
         {
           "type": "collocation_word",
           "num": "18",
-          "word": "relational"
+          "word": "relational",
+          "answer": "g"
         },
         {
           "type": "collocation_word",
           "num": "19",
-          "word": "network"
+          "word": "network",
+          "answer": "j"
         },
         {
           "type": "collocation_word",
           "num": "20",
-          "word": "real"
+          "word": "real",
+          "answer": "b"
         },
         {
           "type": "collocation_opt",
@@ -4513,89 +5452,108 @@
         },
         {
           "type": "fill_blank",
-          "text": "12 ….c"
+          "text": "12 ….c",
+          "answer": "c"
         },
         {
           "type": "fill_blank",
-          "text": "13 ….f"
+          "text": "13 ….f",
+          "answer": "f"
         },
         {
           "type": "fill_blank",
-          "text": "14 ….h"
+          "text": "14 ….h",
+          "answer": "h"
         },
         {
           "type": "fill_blank",
-          "text": "15 ….e"
+          "text": "15 ….e",
+          "answer": "e"
         },
         {
           "type": "fill_blank",
-          "text": "16 ….a"
+          "text": "16 ….a",
+          "answer": "a"
         },
         {
           "type": "fill_blank",
-          "text": "17 ….i"
+          "text": "17 ….i",
+          "answer": "i"
         },
         {
           "type": "fill_blank",
-          "text": "18 ….g"
+          "text": "18 ….g",
+          "answer": "g"
         },
         {
           "type": "fill_blank",
-          "text": "19 ….j"
+          "text": "19 ….j",
+          "answer": "j"
         },
         {
           "type": "fill_blank",
-          "text": "20 ….b"
+          "text": "20 ….b",
+          "answer": "b"
         },
         {
           "type": "collocation_word",
           "num": "21",
-          "word": "real"
+          "word": "real",
+          "answer": "j"
         },
         {
           "type": "collocation_word",
           "num": "22",
-          "word": "senior"
+          "word": "senior",
+          "answer": "d"
         },
         {
           "type": "collocation_word",
           "num": "23",
-          "word": "mathematical"
+          "word": "mathematical",
+          "answer": "h"
         },
         {
           "type": "collocation_word",
           "num": "24",
-          "word": "anti-virus"
+          "word": "anti-virus",
+          "answer": "c"
         },
         {
           "type": "collocation_word",
           "num": "25",
-          "word": "speech"
+          "word": "speech",
+          "answer": "b"
         },
         {
           "type": "collocation_word",
           "num": "26",
-          "word": "internet"
+          "word": "internet",
+          "answer": "a"
         },
         {
           "type": "collocation_word",
           "num": "27",
-          "word": "assembly"
+          "word": "assembly",
+          "answer": "g"
         },
         {
           "type": "collocation_word",
           "num": "28",
-          "word": "virtual"
+          "word": "virtual",
+          "answer": "e"
         },
         {
           "type": "collocation_word",
           "num": "29",
-          "word": "up-to-date"
+          "word": "up-to-date",
+          "answer": "i"
         },
         {
           "type": "collocation_word",
           "num": "30",
-          "word": "interactive"
+          "word": "interactive",
+          "answer": "f"
         },
         {
           "type": "collocation_opt",
@@ -4644,93 +5602,113 @@
         },
         {
           "type": "fill_blank",
-          "text": "21 ….j"
+          "text": "21 ….j",
+          "answer": "j"
         },
         {
           "type": "fill_blank",
-          "text": "22 ….d"
+          "text": "22 ….d",
+          "answer": "d"
         },
         {
           "type": "fill_blank",
-          "text": "23 ….h"
+          "text": "23 ….h",
+          "answer": "h"
         },
         {
           "type": "fill_blank",
-          "text": "24 ….c"
+          "text": "24 ….c",
+          "answer": "c"
         },
         {
           "type": "fill_blank",
-          "text": "25 ….b"
+          "text": "25 ….b",
+          "answer": "b"
         },
         {
           "type": "fill_blank",
-          "text": "26 ….a"
+          "text": "26 ….a",
+          "answer": "a"
         },
         {
           "type": "fill_blank",
-          "text": "27 ….g"
+          "text": "27 ….g",
+          "answer": "g"
         },
         {
           "type": "fill_blank",
-          "text": "28 ….e"
+          "text": "28 ….e",
+          "answer": "e"
         },
         {
           "type": "fill_blank",
-          "text": "29 ….i"
+          "text": "29 ….i",
+          "answer": "i"
         },
         {
           "type": "fill_blank",
-          "text": "30 ….f"
+          "text": "30 ….f",
+          "answer": "f"
         },
         {
           "type": "collocation_word",
           "num": "31",
-          "word": "markup"
+          "word": "markup",
+          "answer": "d"
         },
         {
           "type": "collocation_word",
           "num": "32",
-          "word": "device"
+          "word": "device",
+          "answer": "i"
         },
         {
           "type": "collocation_word",
           "num": "33",
-          "word": "anti-virus"
+          "word": "anti-virus",
+          "answer": "e"
         },
         {
           "type": "collocation_word",
           "num": "34",
-          "word": "speech"
+          "word": "speech",
+          "answer": "h"
         },
         {
           "type": "collocation_word",
           "num": "35",
-          "word": "word"
+          "word": "word",
+          "answer": "j"
         },
         {
           "type": "collocation_word",
           "num": "36",
-          "word": "assembly"
+          "word": "assembly",
+          "answer": "g"
         },
         {
           "type": "collocation_word",
           "num": "37",
-          "word": "digital"
+          "word": "digital",
+          "answer": "f"
         },
         {
           "type": "collocation_word",
           "num": "38",
-          "word": "mathematical"
+          "word": "mathematical",
+          "answer": "a"
         },
         {
           "type": "collocation_word",
           "num": "39",
-          "word": "relational"
+          "word": "relational",
+          "answer": "c"
         },
         {
           "type": "collocation_word",
           "num": "40",
-          "word": "vector"
+          "word": "vector",
+          "answer": "b"
         },
         {
           "type": "collocation_opt",
@@ -4784,43 +5762,53 @@
         },
         {
           "type": "fill_blank",
-          "text": "31 ….d"
+          "text": "31 ….d",
+          "answer": "d"
         },
         {
           "type": "fill_blank",
-          "text": "32 ….i"
+          "text": "32 ….i",
+          "answer": "i"
         },
         {
           "type": "fill_blank",
-          "text": "33 ….e"
+          "text": "33 ….e",
+          "answer": "e"
         },
         {
           "type": "fill_blank",
-          "text": "34 ….h"
+          "text": "34 ….h",
+          "answer": "h"
         },
         {
           "type": "fill_blank",
-          "text": "35 ….j"
+          "text": "35 ….j",
+          "answer": "j"
         },
         {
           "type": "fill_blank",
-          "text": "36 ….g"
+          "text": "36 ….g",
+          "answer": "g"
         },
         {
           "type": "fill_blank",
-          "text": "37 ….f"
+          "text": "37 ….f",
+          "answer": "f"
         },
         {
           "type": "fill_blank",
-          "text": "38 ….a"
+          "text": "38 ….a",
+          "answer": "a"
         },
         {
           "type": "fill_blank",
-          "text": "39 ….c"
+          "text": "39 ….c",
+          "answer": "c"
         },
         {
           "type": "fill_blank",
-          "text": "40 ….b"
+          "text": "40 ….b",
+          "answer": "b"
         }
       ]
     }
